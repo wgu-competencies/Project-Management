@@ -1,0 +1,3893 @@
+{
+  "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
+  "id": "https://osmt.wgu.edu/api/collections/project-management",
+  "type": "Collection",
+  "name": "Project Management Skills",
+  "description": "Program Management skills as structured, versioned rich skill descriptors (RSDs).",
+  "author": "Western Governors University",
+  "skills": [
+    {
+      "id": "https://osmt.wgu.edu/api/skills/02691b93-7d37-49b5-acff-472dc1d114eb",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Design Motivational Team Activities",
+      "skillStatement": "Design activities to increase team motivation.",
+      "keywords": [
+        "Team Leadership",
+        "Social Emotional Learning (SEL): General",
+        "Social Emotional Learning (SEL): Interpersonal Communication",
+        "Motivation",
+        "design, activities",
+        "team",
+        "WGUSID: 12696"
+      ],
+      "category": "Team Leadership",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT",
+          "name": "Team Leadership"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/03adb380-bda7-47ad-9313-9cb6b31ef8cc",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Present Research Findings",
+      "skillStatement": "Present research findings to stakeholders that highlight financial implications to the business.",
+      "category": "Financial Reporting",
+      "alignments": [
+        {
+          "id": "https://www.netsuite.com/portal/resource/articles/accounting/financial-reporting.shtml",
+          "name": "Financial Reporting"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/05f5c03b-dee6-480c-9892-118e464e10af",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Workflow Diagram Creation",
+      "skillStatement": "Create a workflow diagram to visualize process steps.",
+      "keywords": [
+        "Workflows",
+        "Smartsheet",
+        "Monday.com",
+        "LucidCharts"
+      ],
+      "category": "Process Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS683TD6K9QRLNY1PHN1/process-management",
+          "name": "Process Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/08631954-b17b-4674-ab3a-a5a8a5aa2c96",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Value-Driven Delivery Analysis",
+      "skillStatement": "Assess project delivery options to determine the most economical and beneficial solutions for the organization.",
+      "category": "Project Management",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/0932acdd-a361-43a8-a10b-07cdb48b586d",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Business Operations Performance Methods Establishment",
+      "skillStatement": "Establish methods to perform specific business operations.",
+      "keywords": [
+        "MS Office",
+        "Standard Operating Procedure"
+      ],
+      "category": "Process Design",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1281Z6YSCYDNCG1D8T/process-design",
+          "name": "Process Design"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/0a553cc4-86f0-429e-87b4-0ed9c1329f9a",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Progress Monitoring",
+      "skillStatement": "Monitor project progress to keep stakeholders informed.",
+      "keywords": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Project Management",
+        "Primavera P6",
+        "Microsoft Project Microsoft Office",
+        "WGUSID: 7633"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/0d311109-0ed0-4d53-9c66-94019a4fe2da",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Business Process Optimization",
+      "skillStatement": "Optimize business processes to minimize costs and maximize efficiency.",
+      "keywords": [
+        "SAP",
+        "Tableau",
+        "MicroStrategy",
+        "Enterprise Resource Planning software",
+        "Microsoft Dynamics",
+        "Oracle E-Business Suite",
+        "Oracle JD Edwards EnterpriseOne",
+        "Business Intelligence and Data Analysis software IBM Cognos Impromptu",
+        "Qlick Tech QlickView",
+        "Business Process Management"
+      ],
+      "category": "Business Process",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1218Y74WJ6YV4KH0DM/business-process",
+          "name": "Business Process"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/0f479ce9-7fe9-400c-b07d-4245792d6264",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Problem Definition Establishment",
+      "skillStatement": "Establish a clear definition for a problem being solved.",
+      "keywords": [
+        "GeneralEducation2019",
+        "Problem Solving",
+        "Troubleshooting (Problem Solving)",
+        "Pareto chart",
+        "Fishbone Diagram",
+        "Root cause corrective analysis (RCCA)",
+        "WGUSID: 7602"
+      ],
+      "category": "Problem Solving",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS125F678LV2KB3Z5XW0",
+          "name": "Problem Solving"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/0f894630-ba66-4eea-851f-e469fb301ae0",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Stakeholders List Development",
+      "skillStatement": "Develop a list of stakeholders for a project plan.",
+      "keywords": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft Project",
+        "Confluence",
+        "Oracle Primavera Enterprise Project Portfolio Management",
+        "Trello",
+        "Jira",
+        "Project Planning",
+        "WGUSID: 8562"
+      ],
+      "category": "Project Planning",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS122W26SKGLZJ2KLF5M",
+          "name": "Project Planning"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9111"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/0ff6a3d3-8a79-4dc1-8adf-8d63fa642cf7",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Management Information System Project Plan Creation",
+      "skillStatement": "Create a project plan by using a project management information system.",
+      "keywords": [
+        "Management",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft Project",
+        "Confluence",
+        "Oracle Primavera Enterprise Project Portfolio Management",
+        "Trello",
+        "Jira",
+        "Project Management Information Systems",
+        "Project Management (PM)",
+        "PM"
+      ],
+      "category": "Project Planning",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS122W26SKGLZJ2KLF5M/project-planning",
+          "name": "Project Planning"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/10f0db51-a9ac-4fe0-9ea9-ff5a4bece975",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Outcome Impact Assessment",
+      "skillStatement": "Analyze project outcomes to determine their impact on the organization and necessary actions for improvement.",
+      "category": "Project Management",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/11bdb202-9149-4f81-917b-d23769e4a228",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Data Trend Analysis",
+      "skillStatement": "Analyze business data to identify trends.",
+      "keywords": [
+        "Tableau",
+        "Business Intelligence",
+        "IBM Cognos Impromptu",
+        "MicroStrategy",
+        "Qlik Tech QlikView",
+        "WGUSID: 7120"
+      ],
+      "category": "Business Intelligence",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS120ZX7019J4V8DHBTM",
+          "name": "Business Intelligence"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/13d1eddb-00f1-404a-b7e3-ac3ab267abd3",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Operations Gap Analysis",
+      "skillStatement": "Analyze gaps in operations to drive continuous improvement.",
+      "keywords": [
+        "Continuous Improvement Process"
+      ],
+      "category": "Continuous Improvement Process",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS122C06Z8NDM5G6NYNT",
+          "name": "Continuous Improvement Process"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/15d2220a-6f61-44ff-9ecd-9bdf14db6e69",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Contract Agreement Negotiation",
+      "skillStatement": "Negotiate contract agreements.",
+      "keywords": [
+        "Negotiation",
+        "WGUSID: 5179"
+      ],
+      "category": "Negotiation",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS126X663B21NB77ZHSP",
+          "name": "Negotiation"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3131"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/180d00cb-abed-4b7f-95cf-8c2564b0ee2e",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Schedule Modification",
+      "skillStatement": "Modify schedules for deliverables based on project change.",
+      "keywords": [
+        "Project",
+        "Project Management",
+        "schedule",
+        "deliverables",
+        "WGUSID: 5084"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/21527836-3ab3-47cd-9548-ee41515a9b15",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Team Strengths and Weaknesses Identification",
+      "skillStatement": "Identify a team's strengths and weaknesses to assign responsibilities to team members.",
+      "keywords": [
+        "Team Leadership",
+        "SAP",
+        "Leading Teams",
+        "Enterprise Resource Planning software",
+        "Microsoft Dynamics",
+        "Oracle E-Business Suite",
+        "Oracle JD Edwards EnterpriseOne",
+        "Project Management software",
+        "Microsoft Project",
+        "Atlassian JIRA",
+        "Confluence",
+        "Oracle Primavera Enterprise Project Portfolio Management",
+        "WGUSID: 7448"
+      ],
+      "category": "Team Leadership",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT",
+          "name": "Team Leadership"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "13-2061"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/21b97c31-4168-4561-b4ce-685a2b04df2b",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Product Improvement Plan",
+      "skillStatement": "Design a plan to improve a product or service.",
+      "keywords": [
+        "Planning",
+        "Continuous Improvement Process",
+        "WGUSID: 7187"
+      ],
+      "category": "Continuous Improvement Process",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS122C06Z8NDM5G6NYNT",
+          "name": "Continuous Improvement Process"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-9033"
+        },
+        {
+          "codedNotation": "11-9039"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/21c24f59-7465-4feb-80de-3e9ea9f134fb",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Resources Management",
+      "skillStatement": "Manage project resources.",
+      "keywords": [
+        "Project Management",
+        "WGUSID: 4961"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "15-1211"
+        },
+        {
+          "codedNotation": "15-1259"
+        },
+        {
+          "codedNotation": "15-2031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/2338878f-901a-4829-9286-98c106a91e3e",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Apply Team Collaboration Principles",
+      "skillStatement": "Apply principles of positive collaboration and motivation to a variety of team environments.",
+      "keywords": [
+        "Team Leadership",
+        "Leading Teams",
+        "Social Emotional Learning (SEL): General",
+        "Social Emotional Learning (SEL): Interpersonal Communication",
+        "WGUSID: 526"
+      ],
+      "category": "Team Leadership",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT",
+          "name": "Team Leadership"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9011"
+        },
+        {
+          "codedNotation": "25-9031"
+        },
+        {
+          "codedNotation": "25-9099"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/24879a40-158b-45b6-bc94-3bf832c208e5",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Key Performance Indicator Analysis",
+      "skillStatement": "Analyze key performance indicator (KPI) data for business performance measurement.",
+      "keywords": [
+        "SAP",
+        "Tableau",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "IBM Cognos Impromptu",
+        "MicroStrategy",
+        "Google Docs",
+        "Google Sheets",
+        "Business Analysis",
+        "Microsoft Dynamics",
+        "Qlik Tech QlikView",
+        "Google Analytics",
+        "Delphi Technology",
+        "Oracle E-Business Suite Financials",
+        "NetSuite ERP",
+        "Python",
+        "Oracle Hyperion",
+        "WGUSID: 7106"
+      ],
+      "category": "Business Analysis",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1218C6C8TX2Y1KRN37",
+          "name": "Business Analysis"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-9033"
+        },
+        {
+          "codedNotation": "11-9039"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/268aedaf-3c04-4d54-b83e-c8372e18c4cf",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Benefit Realization Ownership Agreements",
+      "skillStatement": "Document agreements on ownership in business projects.",
+      "category": "Project Management",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/268f680b-b55c-4719-9ecd-1b64621c524c",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Perform Analysis",
+      "skillStatement": "Perform analyses to draw conclusions from data.",
+      "keywords": [
+        "GeneralEducation2019",
+        "Curriculum & Instruction",
+        "Critical Thinking",
+        "Operations"
+      ],
+      "category": "Data Analysis",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS120GV6C72JMSZKMTD7",
+          "name": "Data Analysis"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/29f97d1e-2a3e-4ed4-b493-3ad28d84ec2a",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Company Financial Data Analysis",
+      "skillStatement": "Analyze company financial data to identify opportunities for cost savings.",
+      "keywords": [
+        "Data Analysis",
+        "Ripjar Data Intelligence Platform",
+        "HRIS systems",
+        "compensation planning tools",
+        "ERP systems",
+        "HR Analytics software"
+      ],
+      "category": "Financial Analysis",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS123Y66DNRSJ1QGK9NW",
+          "name": "Financial Analysis"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/2b754cc5-c2b8-4e68-9cfb-76a5356b2dee",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Communication Protocol Development",
+      "skillStatement": "Develop a communication protocol for reporting project progress.",
+      "keywords": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft Project",
+        "Confluence",
+        "Oracle Primavera Enterprise Project Portfolio Management",
+        "Trello",
+        "Jira",
+        "Project Planning"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9111"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/2c791df2-fb85-4f86-99c6-eb4e5683f53a",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Activity Tracking",
+      "skillStatement": "Track project activities against milestones and timelines.",
+      "keywords": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Google Docs",
+        "Google Sheets",
+        "Project Management",
+        "Trello",
+        "Monday.com",
+        "GanttPro",
+        "Celoxis",
+        "Jira",
+        "SCRUM",
+        "PMP",
+        "WGUSID: 6496"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/2f27b9e4-40f3-4a14-9b71-24af98fe6b26",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Technical Training Needs Identification",
+      "skillStatement": "Identify technical training needs for an organization.",
+      "keywords": [
+        "Research",
+        "Technical Training",
+        "Acquisition",
+        "& Development Center (SORDAC) software applications.",
+        "WGUSID: 7822"
+      ],
+      "category": "Technical Training",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS4418P67WQQGGD3YBY5",
+          "name": "Technical Training"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/34ec0709-56e9-4379-a367-2c5c3e288e5b",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Terms Negotiation",
+      "skillStatement": "Negotiate favorable terms for procuring goods and services.",
+      "keywords": [
+        "Procurement",
+        "Agile Project Management tools such as Jira/Greenhopper",
+        "Rally",
+        "VersionOne",
+        "WGUSID: 7606"
+      ],
+      "category": "Procurement",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS122626T550SLQ7QZ1C",
+          "name": "Procurement"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/36a3a374-c0d3-47ee-9895-a0a0c217a5c8",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Management Information Systems Evaluation",
+      "skillStatement": "Evaluate project management information systems.",
+      "keywords": [
+        "Management",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft Project",
+        "Confluence",
+        "Oracle Primavera Enterprise Project Portfolio Management",
+        "Evaluation",
+        "Trello",
+        "Jira",
+        "Project Management Information Systems",
+        "Project Management (PM)",
+        "PM"
+      ],
+      "category": "Information Systems",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1227D60Q7225FTK55V/information-systems",
+          "name": "Information Systems"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/3b1b410f-1576-4c1c-ba03-cb708caf3b3c",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Develop Compliance Processes",
+      "skillStatement": "Develop processes for compliance with quality standards, regulations, and requirements.",
+      "keywords": [
+        "Quality Management",
+        "Electronic quality management system (eQMS)",
+        "WGUSID: 2575"
+      ],
+      "category": "Quality Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1289C6QS0TSSB4PNGG",
+          "name": "Quality Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "17-2081"
+        },
+        {
+          "codedNotation": "17-2111"
+        },
+        {
+          "codedNotation": "17-2112"
+        },
+        {
+          "codedNotation": "17-2199"
+        },
+        {
+          "codedNotation": "17-3021"
+        },
+        {
+          "codedNotation": "17-3022"
+        },
+        {
+          "codedNotation": "17-3023"
+        },
+        {
+          "codedNotation": "17-3024"
+        },
+        {
+          "codedNotation": "17-3025"
+        },
+        {
+          "codedNotation": "17-3026"
+        },
+        {
+          "codedNotation": "17-3027"
+        },
+        {
+          "codedNotation": "17-3028"
+        },
+        {
+          "codedNotation": "17-3029"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/41c23081-d9a2-4e65-b697-51fc71062c35",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Scope Adjustment Analysis",
+      "skillStatement": "Adjust project scope based on a response to shifts in the external business environment.",
+      "category": "Project Scoping",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping",
+          "name": "Project Scoping"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/44141e4b-d629-49b6-b2cd-f30ffd086da4",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Target Audience Message Communication",
+      "skillStatement": "Communicate messages using the most appropriate manner for the intended audience.",
+      "keywords": [
+        "Communications",
+        "GeneralEducation2019"
+      ],
+      "category": "Communication",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS122556LMQ829GZCCRV/communication",
+          "name": "Communication"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "13-2061"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/45714180-3038-4b91-a9b9-f41c7efe6e7b",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Performance Monitoring",
+      "skillStatement": "Monitor project performance to scope.",
+      "keywords": [
+        "Budgeting",
+        "Project Management",
+        "project resources"
+      ],
+      "category": "Project Scoping",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping",
+          "name": "Project Scoping"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-1011"
+        },
+        {
+          "codedNotation": "11-1021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3071"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9151"
+        },
+        {
+          "codedNotation": "11-9198"
+        },
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/459381e0-6af7-4a8d-9a1e-d3ed65dc097c",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Servant Leadership Skills",
+      "skillStatement": "Demonstrate servant leadership skills.",
+      "keywords": [
+        "Character",
+        "21st_Century_Skills",
+        "Character Education",
+        "Educational Leadership",
+        "Character Formation"
+      ],
+      "category": "Leadership",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS124JB619VXG6RQ810C/leadership",
+          "name": "Leadership"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/497d0be5-d661-4ae1-a65f-62a74bbf38e1",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Needs of Others Identification",
+      "skillStatement": "Identify the needs of others to coach, mentor, or help improve their knowledge or skills.",
+      "keywords": [
+        "Educational Leadership",
+        "Management",
+        "Supervisory Skills",
+        "WGUSID: 3949",
+        "NGT"
+      ],
+      "category": "Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1218W78FGVPVP2KXPX",
+          "name": "Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-9033"
+        },
+        {
+          "codedNotation": "11-9039"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/4b700f63-d0c4-494c-877f-1aed99926ecf",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Budget Estimation",
+      "skillStatement": "Estimate the budget for a project.",
+      "keywords": [
+        "Project Planning",
+        "budget",
+        "WGUSID: 3050"
+      ],
+      "category": "Project Planning",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS122W26SKGLZJ2KLF5M",
+          "name": "Project Planning"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/524f6163-ef6e-41d8-9cfb-1903f21a33f5",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Milestone Readiness Assessment",
+      "skillStatement": "Assess project deliverables and milestones to ensure readiness for the next phase transition.",
+      "category": "Project Management",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/53d70073-7e4a-441d-9744-f77cc9285bb0",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Perform Project Reviews and Analysis",
+      "skillStatement": "Perform quality reviews and performance analysis of the project.",
+      "keywords": [
+        "Project Management",
+        "quality reviews",
+        "performance analysis",
+        "WGUSID: 5429"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/56000744-29ad-44bc-bed3-605fb1bdd6ab",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Management Life Cycle Identification",
+      "skillStatement": "Identify elements of the project management life cycle.",
+      "keywords": [
+        "Project Management",
+        "WGUSID: 8812"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-9111"
+        },
+        {
+          "codedNotation": "29-1141"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/5a37d400-54e3-432c-93cf-ec74ce393446",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Engaging and Reliable Message Communication",
+      "skillStatement": "Communicate messages in an engaging and reliable manner.",
+      "keywords": [
+        "Communications",
+        "GeneralEducation2019"
+      ],
+      "category": "Communication",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS122556LMQ829GZCCRV/communication",
+          "name": "Communication"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "13-2061"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/5c1e45ab-c6f1-4ae5-9bbc-687345d8d2b8",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Risk Areas Analysis",
+      "skillStatement": "Analyze areas of potential risk to a project.",
+      "keywords": [
+        "Risk",
+        "Analysis",
+        "Analytical Techniques",
+        "Risk Analysis",
+        "Risk Assessment",
+        "Vendor Risk Assessment",
+        "Qlik Tech QlikView",
+        "MicroStrategy Hot technology",
+        "Oracle Business Intelligence Enterprise Edition Hot technology",
+        "probability"
+      ],
+      "category": "Risk Analysis",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS4403G6XNX5KJSD906W",
+          "name": "Risk Analysis"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3031"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3061"
+        },
+        {
+          "codedNotation": "11-3121"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9111"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/5d8b01df-496e-4430-8a60-bc1f81560003",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Team Members Relationship Building",
+      "skillStatement": "Build relationships with colleagues through support and communication.",
+      "keywords": [
+        "Communications",
+        "Teamwork",
+        "Relationship Management",
+        "Team Building",
+        "Establishing Trust",
+        "Trustworthy",
+        "Human Resources",
+        "HR",
+        "SHRM",
+        "interpersonal"
+      ],
+      "category": "Relationship Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/ES70CD6E89F6DAD8F319",
+          "name": "Relationship Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3111"
+        },
+        {
+          "codedNotation": "11-3121"
+        },
+        {
+          "codedNotation": "11-3131"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/651d8338-e433-4fab-84fb-45f12e1f337a",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Business Operations Analysis",
+      "skillStatement": "Analyze business operations to identify opportunities for improvement.",
+      "keywords": [
+        "Continuous Improvement Process",
+        "Adobe Systems Adobe Captivate",
+        "Articulate Rapid E-Learning Studio",
+        "Halogen eLMS",
+        "SumTotal Systems ToolBook"
+      ],
+      "category": "Business Operations",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/ES84406857CBEEFACE95/business-operations",
+          "name": "Business Operations"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/68e668d5-f820-4d08-aa93-66b2a6f2e39c",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Duration Estimate",
+      "skillStatement": "Estimate the time needed to complete a project.",
+      "keywords": [
+        "GeneralEducation2019",
+        "Project Management",
+        "WGUSID: 3057"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/6c6c5511-efbd-4f8f-a99c-6fb3e8b409e6",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Bids Comparison",
+      "skillStatement": "Compare bids from suppliers to obtain the best price for a product or service.",
+      "keywords": [
+        "Procurement",
+        "Agile Project Management tools such as Jira/Greenhopper",
+        "Rally",
+        "VersionOne",
+        "WGUSID: 7604"
+      ],
+      "category": "Procurement",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS122626T550SLQ7QZ1C",
+          "name": "Procurement"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/6d395187-b0dc-4f53-83aa-40da4cfe33b7",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Solutions Evaluation",
+      "skillStatement": "Evaluate solutions for a problem to determine the best solution.",
+      "keywords": [
+        "Problem Solving",
+        "Troubleshooting (Problem Solving)",
+        "Pareto chart",
+        "Fishbone Diagram",
+        "Root cause corrective analysis (RCCA)",
+        "WGUSID: 7603"
+      ],
+      "category": "Problem Solving",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS125F678LV2KB3Z5XW0",
+          "name": "Problem Solving"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/6d3d08a2-5039-4a04-8c13-f951050c7769",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Request for Proposal Evaluation Criteria Provision",
+      "skillStatement": "Provide proposal evaluation criteria in the request for proposal.",
+      "keywords": [
+        "MS Office",
+        "MS Project",
+        "Visio",
+        "Request For Proposal",
+        "Request For Proposal (RFP)",
+        "WGUSID: 7673"
+      ],
+      "category": "Request For Proposal",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS4402T6094D6F35MTXR",
+          "name": "Request For Proposal"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/6eb6701e-01f1-47eb-8ef0-b63e3fb9b382",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Determine Project Stakeholders",
+      "skillStatement": "Identify project stakeholders.",
+      "keywords": [
+        "Stakeholder Management",
+        "Project"
+      ],
+      "category": "Stakeholder Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS440XG6F9DTD3VG7JTV",
+          "name": "Stakeholder Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/6f9f9b98-74a2-4999-a866-4a20afb65263",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Timely Deliverables",
+      "skillStatement": "Provide project deliverables on time and in scope.",
+      "keywords": [
+        "Project Management"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "15-1211"
+        },
+        {
+          "codedNotation": "15-1231"
+        },
+        {
+          "codedNotation": "15-1232"
+        },
+        {
+          "codedNotation": "15-1241"
+        },
+        {
+          "codedNotation": "15-1244"
+        },
+        {
+          "codedNotation": "15-1245"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/7428b5f2-6dff-4bca-a234-24d0603d4133",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Performance Measurement Implementation",
+      "skillStatement": "Deploy systems to assess business project performance.",
+      "category": "Project Management",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/761eef5d-33f4-4418-8b98-b8f1bddd8818",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Compliance Analysis",
+      "skillStatement": "Analyze compliance with regulatory entities and laws that impact practice across an organization.",
+      "keywords": [
+        "Regulatory Compliance"
+      ],
+      "category": "Regulatory Compliance",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1226L6XYT1N27WRYJM",
+          "name": "Regulatory Compliance"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-9199"
+        },
+        {
+          "codedNotation": "15-1212"
+        },
+        {
+          "codedNotation": "21-1094"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/76c3fbfb-7301-499d-8c59-8380903cb3cb",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Identification of Business Operations Opportunities",
+      "skillStatement": "Identify opportunities for business operations improvement.",
+      "keywords": [
+        "Continuous Improvement Process",
+        "Adobe Systems Adobe Captivate",
+        "Articulate Rapid E-Learning Studio",
+        "Halogen eLMS",
+        "SumTotal Systems ToolBook"
+      ],
+      "category": "Business Operations",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/ES84406857CBEEFACE95/business-operations",
+          "name": "Business Operations"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/78705aa6-1417-422c-ab48-9adf2c7d1501",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Stakeholder Collaboration",
+      "skillStatement": "Collaborate with internal and external stakeholders.",
+      "keywords": [
+        "Project Management"
+      ],
+      "category": "Collaboration",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS7AASDV6UOE7VFBGF4D/collaboration",
+          "name": "Collaboration"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/7aa8eede-8dd8-44a0-a9ba-0ee6608fbb13",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Communication Facilitation",
+      "skillStatement": "Facilitate communication between multiple project parties.",
+      "keywords": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Google Docs",
+        "Google Sheets",
+        "Project Management",
+        "Trello",
+        "Monday.com",
+        "GanttPro",
+        "Celoxis",
+        "Jira",
+        "SCRUM",
+        "PMP",
+        "WGUSID: 3418"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/810cb6b4-8922-4709-a835-b799373627e0",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Artifact Management Evaluation",
+      "skillStatement": "Assess project artifact management.",
+      "category": "Project Management",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/86799868-f3a5-4e16-af3c-d868ebbf026a",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Roadblocks Resolution",
+      "skillStatement": "Resolve project roadblocks as they are reported.",
+      "keywords": [
+        "Microsoft PowerPoint",
+        "Program Management",
+        "Educational Program Management",
+        "Microsoft Word",
+        "Google Docs",
+        "Google Slides",
+        "Microsoft Teams"
+      ],
+      "category": "Program Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1283V6XDFZSK6YP0HF",
+          "name": "Program Management"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/878241b9-8616-4953-9974-5421f290ab16",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Determine Effective Change Management Techniques",
+      "skillStatement": "Determine the most effective change management techniques for implementation in a given situation.",
+      "keywords": [
+        "Change Management"
+      ],
+      "category": "Change Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS121T569X502KJPS0F3",
+          "name": "Change Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "15-1212"
+        },
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9011"
+        },
+        {
+          "codedNotation": "25-9031"
+        },
+        {
+          "codedNotation": "25-9099"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/8d3b5828-128c-4e42-b59b-087efc507ad9",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Key Performance Indicator Variance Calculation",
+      "skillStatement": "Calculate the variance of business key performance indicators from goals.",
+      "category": "Business Analytics",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1218C6C8TX2Y1KRN37",
+          "name": "Business Analysis"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/8e403954-3f07-44b9-abbf-a615456e80e4",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Tasks Management",
+      "skillStatement": "Manage project tasks to ensure delivery within project scope.",
+      "keywords": [
+        "Project Management",
+        "project tasks",
+        "project scope"
+      ],
+      "category": "Project Scoping",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping",
+          "name": "Project Scoping"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-1011"
+        },
+        {
+          "codedNotation": "11-1021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3071"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9151"
+        },
+        {
+          "codedNotation": "11-9198"
+        },
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/901170f6-735a-4bb7-a311-2869fac45c2a",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Business Requirements Task Prioritization",
+      "skillStatement": "Prioritize tasks in alignment with business requirements.",
+      "keywords": [
+        "Business Requirements",
+        "prioritize",
+        "WGUSID: 12164"
+      ],
+      "category": "Business Requirements",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1219863VWXPRZL5LG2",
+          "name": "Business Requirements"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "15-1251"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/92d679dc-4e3a-48ef-b75f-f986ec3d0cb5",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Progress Tracking",
+      "skillStatement": "Track the progress of a project by using a project management information system.",
+      "keywords": [
+        "Management",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Microsoft Project",
+        "Confluence",
+        "Oracle Primavera Enterprise Project Portfolio Management",
+        "Trello",
+        "Jira",
+        "Project Management Information Systems",
+        "Project Management (PM)",
+        "PM"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/972c162b-6e6d-496c-9490-71e3a946585f",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Problem Mitigation Planning",
+      "skillStatement": "Develop a plan to mitigate or eliminate a problem.",
+      "keywords": [
+        "Problem Solving",
+        "Troubleshooting (Problem Solving)",
+        "Pareto chart",
+        "Fishbone Diagram",
+        "Root cause corrective analysis (RCCA)",
+        "WGUSID: 7601"
+      ],
+      "category": "Problem Solving",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS125F678LV2KB3Z5XW0",
+          "name": "Problem Solving"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/973c5e04-16a4-402e-99b1-2ee65427fb86",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Conflict Resolution Strategies Design",
+      "skillStatement": "Apply conflict resolution strategies.",
+      "category": "Conflict Resolution",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1228S6YKWXMH4M4DL7/conflict-resolution",
+          "name": "Conflict Resolution"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3111"
+        },
+        {
+          "codedNotation": "11-3121"
+        },
+        {
+          "codedNotation": "11-3131"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/9a7e4d0f-d586-4bac-814d-b7b8dad9100c",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Resource Allocation Determination",
+      "skillStatement": "Determine resource allocations for organizational initiatives according to organizational leadership's priorities.",
+      "keywords": [
+        "SAP",
+        "Organizational Leadership",
+        "Sage 50 Accounting",
+        "Intuit QuickBooks",
+        "Oracle E-Business Suite",
+        "Microsoft Project",
+        "Oracle Peoplesoft",
+        "Microsoft Dynamics GP",
+        "Halogen e360",
+        "Halogen ePraisal",
+        "Human resource information system HRIS",
+        "Infor SSA Human Capital Management",
+        "Microsoft SharePoint",
+        "WGUSID: 7570"
+      ],
+      "category": "Organizational Leadership",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/ESB812BB8B0FCA695F64",
+          "name": "Organizational Leadership"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/a3955033-cb30-407e-8659-0f39f15570ad",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Ongoing Project Monitoring",
+      "skillStatement": "Monitor ongoing projects to ensure that the business value continues to justify the costs incurred.",
+      "keywords": [
+        "Cost Benefit Analysis",
+        "Microsoft Dynamics GP Hot technology",
+        "NetSuite NetERP",
+        "Oracle Hyperion Hot technology",
+        "Sage Active Planner"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/a622d59c-55d7-4371-b0d5-79c33ba2b2b7",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Requirements Changes Adaptability",
+      "skillStatement": "Demonstrate agility and adaptability when project requirements, goals, or constraints change.",
+      "keywords": [
+        "Leadership",
+        "Goal Oriented",
+        "Goal Setting",
+        "goals",
+        "Human Resources",
+        "Leadership and Navigation",
+        "Leadership & Navigation",
+        "Navigation",
+        "Managing HR Initiatives",
+        "HR",
+        "SHRM",
+        "Human Resources (HR)"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3131"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/a6fc89e2-268e-4784-944a-710c4d841a78",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Benefit Alignment",
+      "skillStatement": "Align project benefits with organizational goals and objectives.",
+      "category": "Project Management",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/a731128d-8735-4eaf-9bcd-5a7ddc8112d8",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Select Social Emotional Strategies that Match the Needs of Others",
+      "skillStatement": "Select strategies to meet another person's social emotional needs.",
+      "keywords": [
+        "Emotional Intelligence",
+        "Social Emotional Learning (SEL): General",
+        "Social Emotional Learning (SEL): Self Management",
+        "WGUSID: 6214"
+      ],
+      "category": "Emotional Intelligence",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS123HL75PX38KTJXYKJ",
+          "name": "Emotional Intelligence"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/aa242493-6d0a-46ee-8dae-79de884fff96",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Address Project Risks",
+      "skillStatement": "Implement actions to resolve issues and address project risks.",
+      "keywords": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Project Management",
+        "Primavera P6",
+        "Microsoft Project Microsoft Office",
+        "WGUSID: 7632"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/ae643d85-fe50-458a-800b-4301229e1285",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Initiative Vision and Goals Articulation",
+      "skillStatement": "Articulate the shared vision and goals of a given initiative to a team.",
+      "keywords": [
+        "Leadership",
+        "Microsoft PowerPoint",
+        "Microsoft Word",
+        "Google Docs",
+        "Google Slides",
+        "WGUSID: 627"
+      ],
+      "category": "Leadership",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS124JB619VXG6RQ810C",
+          "name": "Leadership"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3131"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/b3f43e27-74c4-465c-91c0-086a8c66cfd8",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Risks Quantification",
+      "skillStatement": "Quantify risks by analyzing the likelihood, severity, and impact of each identified risk.",
+      "keywords": [
+        "Risk Management",
+        "Microsoft Outlook",
+        "Microsoft Office",
+        "Salesforce",
+        "Microsoft Dynamics",
+        "CRM",
+        "Risk Reporting"
+      ],
+      "category": "Risk Analysis",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS4403G6XNX5KJSD906W/risk-analysis",
+          "name": "Risk Analysis"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "13-2061"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/b67d1516-a6a1-4233-a90e-cd38d43f4fe9",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Monitor Team Performance",
+      "skillStatement": "Monitor the performance of team members.",
+      "keywords": [
+        "Team Leadership",
+        "Social Emotional Learning (SEL): General",
+        "Social Emotional Learning (SEL): Interpersonal Communication",
+        "WGUSID: 7813"
+      ],
+      "category": "Team Leadership",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT",
+          "name": "Team Leadership"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/b6e55f75-db06-4cc4-8cba-bd2acc6ae20f",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "New Project Management",
+      "skillStatement": "Manage a new project's scope, budget, and schedule.",
+      "keywords": [
+        "Project Management"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-2011"
+        },
+        {
+          "codedNotation": "11-2021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "15-1212"
+        },
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9011"
+        },
+        {
+          "codedNotation": "25-9031"
+        },
+        {
+          "codedNotation": "25-9099"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/b79e5aa5-13c9-494b-8f3e-7969b1a0507d",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Stakeholder Project Requirements Collaboration",
+      "skillStatement": "Collaborate with stakeholders to define project requirements, scope, and budget.",
+      "keywords": [
+        "Coordinating",
+        "Management",
+        "Collaboration",
+        "Project Management",
+        "WGUSID: 981"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-1011"
+        },
+        {
+          "codedNotation": "11-1021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3071"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9151"
+        },
+        {
+          "codedNotation": "11-9198"
+        },
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1111"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/b7b96f12-c0f9-4df2-9ffd-e9e8a53b9b22",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Negotiation Strategy Identification",
+      "skillStatement": "Identify strategies for planning and leading negotiations.",
+      "keywords": [
+        "Negotiation"
+      ],
+      "category": "Negotiation",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS126X663B21NB77ZHSP",
+          "name": "Negotiation"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-1011"
+        },
+        {
+          "codedNotation": "11-1021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "11-3012"
+        },
+        {
+          "codedNotation": "11-3031"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3071"
+        },
+        {
+          "codedNotation": "11-3131"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9151"
+        },
+        {
+          "codedNotation": "11-9199"
+        },
+        {
+          "codedNotation": "13-1021"
+        },
+        {
+          "codedNotation": "13-1022"
+        },
+        {
+          "codedNotation": "13-1023"
+        },
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "15-2041"
+        },
+        {
+          "codedNotation": "17-2081"
+        },
+        {
+          "codedNotation": "17-2111"
+        },
+        {
+          "codedNotation": "17-2112"
+        },
+        {
+          "codedNotation": "17-2199"
+        },
+        {
+          "codedNotation": "17-3021"
+        },
+        {
+          "codedNotation": "17-3022"
+        },
+        {
+          "codedNotation": "17-3023"
+        },
+        {
+          "codedNotation": "17-3024"
+        },
+        {
+          "codedNotation": "17-3025"
+        },
+        {
+          "codedNotation": "17-3026"
+        },
+        {
+          "codedNotation": "17-3027"
+        },
+        {
+          "codedNotation": "17-3029"
+        },
+        {
+          "codedNotation": "19-3011"
+        },
+        {
+          "codedNotation": "19-4061"
+        },
+        {
+          "codedNotation": "37-1011"
+        },
+        {
+          "codedNotation": "39-1011"
+        },
+        {
+          "codedNotation": "39-1022"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/bf9144f8-588e-4b37-93c5-803f1e3ac8f6",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Effectiveness Tracking",
+      "skillStatement": "Track the performance of current business processes.",
+      "keywords": [
+        "SAP",
+        "Tableau",
+        "MicroStrategy",
+        "Enterprise Resource Planning software",
+        "Microsoft Dynamics",
+        "Oracle E-Business Suite",
+        "Oracle JD Edwards EnterpriseOne",
+        "Business Intelligence and Data Analysis software IBM Cognos Impromptu",
+        "Qlick Tech QlickView",
+        "Business Process Management"
+      ],
+      "category": "Business Process",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1218Y74WJ6YV4KH0DM/business-process",
+          "name": "Business Process"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        },
+        {
+          "codedNotation": "13-2082"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/bfdafba2-abca-42cc-87a9-26839418ad22",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Make Decisions that Create Value",
+      "skillStatement": "Make decisions that create value.",
+      "keywords": [
+        "Influencer",
+        "Transferrable Skills Across Occupations",
+        "Transferrable Skills for Leaders",
+        "Entrepreneur",
+        "Professional Development and Career Management",
+        "Strategic Decision-Making"
+      ],
+      "category": "Strategic Decision-Making",
+      "alignments": [
+        {
+          "id": "https://skills.lightcast.io/skills/ES4E81D4E042F468C897",
+          "name": "Strategic Decision-Making"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/c0c49bd1-f218-4739-8e51-fa7facad3a3e",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Determine Project Resources",
+      "skillStatement": "Determine the necessary resources to execute a project.",
+      "keywords": [
+        "Project Management",
+        "WGUSID: 2293"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-9033"
+        },
+        {
+          "codedNotation": "11-9039"
+        },
+        {
+          "codedNotation": "15-1212"
+        },
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9011"
+        },
+        {
+          "codedNotation": "25-9031"
+        },
+        {
+          "codedNotation": "25-9099"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/c6f3b02c-7fe1-495f-b6e7-d6815705f61a",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Execution Assistance",
+      "skillStatement": "Assist project execution.",
+      "keywords": [
+        "Management Consulting"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3131"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/cbe3f3bf-9648-4f78-8c1e-207b93fd02ad",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Workflow Establishment",
+      "skillStatement": "Establish project work-flows and assign work tasks.",
+      "keywords": [
+        "Project Management",
+        "work tasks",
+        "project work flows"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-2011"
+        },
+        {
+          "codedNotation": "11-2021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d2572cee-1dd6-4cc5-a437-511bc2fc4450",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Feedback Delivery",
+      "skillStatement": "Deliver constructive feedback to team members.",
+      "keywords": [
+        "Team Management",
+        "WGUSID: 7815"
+      ],
+      "category": "Team Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS441846K903WT1RYDKJ",
+          "name": "Team Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d4e13982-2d63-452e-b610-22bdaf8c2eae",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Artifact Requirement Definition",
+      "skillStatement": "Document project artifact requirements.",
+      "category": "Project Management",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d4e707dd-8ae0-495c-8f0e-c7506aaefced",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Information Update",
+      "skillStatement": "Update project information to ensure accurate version control.",
+      "category": "Version Control",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1222C6WKYWRKRXQCR0/version-control",
+          "name": "Version Control"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d6948e12-9c8a-4d4d-9dcf-eb0d537ecf19",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Stakeholder Project Requirements Coordination",
+      "skillStatement": "Coordinate with external parties to achieve project objectives.",
+      "keywords": [
+        "Coordinating",
+        "Management",
+        "Collaboration",
+        "Project Management",
+        "WGUSID: 981.1"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-1011"
+        },
+        {
+          "codedNotation": "11-1021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3071"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9151"
+        },
+        {
+          "codedNotation": "11-9198"
+        },
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1111"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d748b768-4070-43fa-a417-a342059deb2c",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Training Process Implementation",
+      "skillStatement": "Support individuals in applying new skills and knowledge to their work.",
+      "keywords": [
+        "Team Management"
+      ],
+      "category": "Training And Development",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS122F96DJHT3ZXB8FCZ/training-and-development",
+          "name": "Training and Development"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d84e0536-8e79-4d86-ba5f-ac9b3cbb2a98",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Request for Proposal Specifications Documentation",
+      "skillStatement": "Document detailed specifications for a request for proposal.",
+      "keywords": [
+        "SAP",
+        "Microsoft Dynamics",
+        "Oracle E-Business Suite",
+        "Oracle JD Edwards EnterpriseOne",
+        "Project Management software",
+        "Request For Proposal",
+        "Request For Proposal (RFP)",
+        "WGUSID: 7676"
+      ],
+      "category": "Request For Proposal",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS4402T6094D6F35MTXR",
+          "name": "Request For Proposal"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d84f1570-0284-40c8-9b00-1e0be68def79",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Status Reports Provision",
+      "skillStatement": "Provide status reports for a project.",
+      "keywords": [
+        "Management",
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Google Docs",
+        "Google Sheets",
+        "Project Management",
+        "Trello",
+        "Monday.com",
+        "GanttPro",
+        "Celoxis",
+        "Jira",
+        "SCRUM",
+        "PMP"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d8a97bc2-fd63-4761-b860-23881765d030",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Distinguish Between Personality and Working Styles",
+      "skillStatement": "Distinguish between various personality types, working styles, and other diversity factors when working in teams.",
+      "keywords": [
+        "Team Oriented",
+        "Teamwork",
+        "Team Building",
+        "Team Management",
+        "Social Emotional Learning (SEL): General",
+        "Social Emotional Learning (SEL): Interpersonal Communication",
+        "WGUSID: 2754"
+      ],
+      "category": "Teamwork",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KSKJX44T33B6D4UCC8CB",
+          "name": "Teamwork"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/d9b0d15f-e481-42e4-b5db-1f16554ecb87",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Risk Mitigation Plans Evaluation",
+      "skillStatement": "Evaluate sufficiency of mitigation plans to address identified risk areas.",
+      "keywords": [
+        "Risk Analysis",
+        "Risk Assessment",
+        "Vendor Risk Assessment"
+      ],
+      "category": "Risk Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS125ZB6BWF5RY40BH1B/risk-management",
+          "name": "Risk Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1082"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1191"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2051"
+        },
+        {
+          "codedNotation": "13-2052"
+        },
+        {
+          "codedNotation": "13-2053"
+        },
+        {
+          "codedNotation": "13-2054"
+        },
+        {
+          "codedNotation": "13-2061"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/db8a9adb-cea8-47de-ad77-077de60b01ec",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "End-to-End Project Management",
+      "skillStatement": "Manage a project from idea to delivery.",
+      "keywords": [
+        "Project Management",
+        "WGUSID: 4895"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9011"
+        },
+        {
+          "codedNotation": "25-9031"
+        },
+        {
+          "codedNotation": "25-9099"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/de059be2-b242-43be-828e-4633b72b2c7a",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Plan Revision",
+      "skillStatement": "Revise project plans based on project requirement changes.",
+      "keywords": [
+        "Microsoft Excel",
+        "Microsoft Word",
+        "Google Docs",
+        "Google Sheets",
+        "Microsoft Project",
+        "Smartsheet",
+        "Monday.com",
+        "Agile Software Development",
+        "Agile Development"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-2021"
+        },
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/e08761f6-9c02-4e0a-bbf7-f5e16fc22536",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Management Approaches Application",
+      "skillStatement": "Apply project management methodologies to a range of contexts and scenarios.",
+      "keywords": [
+        "GeneralEducation2019",
+        "BCore",
+        "AppBizSkl",
+        "Project Management"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "15-1212"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/e15d05fd-da88-4e1a-96ab-30e39e536e9f",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Task Progression Definition",
+      "skillStatement": "Define the progression of tasks for a project.",
+      "keywords": [
+        "GeneralEducation2019",
+        "Management",
+        "Microsoft Project",
+        "Project Management",
+        "Trello",
+        "Asana",
+        "Smartsheet",
+        "WGUSID: 8556",
+        "Project Management (PM)",
+        "PM"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-1011"
+        },
+        {
+          "codedNotation": "11-1021"
+        },
+        {
+          "codedNotation": "11-2011"
+        },
+        {
+          "codedNotation": "11-2021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3111"
+        },
+        {
+          "codedNotation": "11-3121"
+        },
+        {
+          "codedNotation": "11-3131"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9151"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/e4a912a4-b2a4-4f4e-a56f-697f03cd995b",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Manage Agile Projects",
+      "skillStatement": "Manage projects using agile software tools and development practices.",
+      "keywords": [
+        "Excel",
+        "MS Project",
+        "Jira",
+        "MS DevOps",
+        "Project Management Information Systems"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "15-1211"
+        },
+        {
+          "codedNotation": "15-1251"
+        },
+        {
+          "codedNotation": "15-1256"
+        },
+        {
+          "codedNotation": "15-1257"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/ea0fc724-47c0-47da-8634-be3d3cacacc1",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Prioritize Objectives",
+      "skillStatement": "Prioritize multiple objectives based on evolving business needs.",
+      "keywords": [
+        "Business Acumen",
+        "Email Software",
+        "Human Capital Management (HCM) software",
+        "Enterprise Resource Planning (ERP) software"
+      ],
+      "category": "Strategic Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS121996C1P31W0YZVNF/strategic-management",
+          "name": "Strategic Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2061"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/ecd6752f-66ab-47b8-86fc-af63ef9665c8",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Stakeholder Engagement Plans Development",
+      "skillStatement": "Create stakeholder engagement plans.",
+      "keywords": [
+        "Stakeholder Management",
+        "engagement",
+        "Strategy",
+        "plans"
+      ],
+      "category": "Stakeholder Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS440XG6F9DTD3VG7JTV",
+          "name": "Stakeholder Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-1011"
+        },
+        {
+          "codedNotation": "11-1021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3071"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9151"
+        },
+        {
+          "codedNotation": "11-9198"
+        },
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "25-4022"
+        },
+        {
+          "codedNotation": "25-9031"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/f1bde5be-79d0-45fe-9d83-de3a28e4fa9b",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Project Interdependencies Management",
+      "skillStatement": "Coordinate the interdependencies of a project with other projects within an organization.",
+      "keywords": [
+        "Management",
+        "Microsoft Project",
+        "Project Management",
+        "Trello",
+        "Asana",
+        "Smartsheet",
+        "Project Management (PM)",
+        "PM"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-1011"
+        },
+        {
+          "codedNotation": "11-1021"
+        },
+        {
+          "codedNotation": "11-2011"
+        },
+        {
+          "codedNotation": "11-2021"
+        },
+        {
+          "codedNotation": "11-2022"
+        },
+        {
+          "codedNotation": "11-3021"
+        },
+        {
+          "codedNotation": "11-3051"
+        },
+        {
+          "codedNotation": "11-3111"
+        },
+        {
+          "codedNotation": "11-3121"
+        },
+        {
+          "codedNotation": "11-3131"
+        },
+        {
+          "codedNotation": "11-9021"
+        },
+        {
+          "codedNotation": "11-9151"
+        },
+        {
+          "codedNotation": "11-9198"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/f300d22f-27dc-4056-ae13-37280ff23bd6",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Efforts Prioritization",
+      "skillStatement": "Prioritize efforts to achieve project and organizational goals.",
+      "keywords": [
+        "SAP",
+        "Time Management",
+        "Microsoft Office",
+        "Taleo",
+        "WGUSID: 7828"
+      ],
+      "category": "Time Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS44175745H9Q0DPBDNT",
+          "name": "Time Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "13-1051"
+        },
+        {
+          "codedNotation": "13-1071"
+        },
+        {
+          "codedNotation": "13-1075"
+        },
+        {
+          "codedNotation": "13-1081"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1141"
+        },
+        {
+          "codedNotation": "13-1151"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-1198"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2031"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "13-2061"
+        },
+        {
+          "codedNotation": "13-2081"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/f4dfb3f1-4daf-4406-94a2-97a6a055591d",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Organizational Culture Evaluation",
+      "skillStatement": "Evaluate organizational culture for areas of improvement.",
+      "category": "Organizational Leadership",
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/f9a52f60-9670-4614-9262-ad16c7f8dcc6",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Collect Data to Make Informed Decisions",
+      "skillStatement": "Collect data to make informed decisions.",
+      "keywords": [
+        "Transferrable Skills Across Occupations",
+        "Transferrable Skills for Leaders",
+        "Data-Driven Decision-Making"
+      ],
+      "category": "Data-Driven Decision-Making",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/ESF14A354DDD69B5FBD4",
+          "name": "Data-Driven Decision Making"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/fb542350-60c0-4094-917a-1757a9547ffd",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Ensure Deadline Awareness",
+      "skillStatement": "Ensure that project resources are aware of deadlines and tasks.",
+      "keywords": [
+        "Project Coordination"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-3031"
+        },
+        {
+          "codedNotation": "13-1021"
+        },
+        {
+          "codedNotation": "13-1022"
+        },
+        {
+          "codedNotation": "13-1023"
+        },
+        {
+          "codedNotation": "13-1111"
+        },
+        {
+          "codedNotation": "13-1161"
+        },
+        {
+          "codedNotation": "13-2011"
+        },
+        {
+          "codedNotation": "13-2041"
+        },
+        {
+          "codedNotation": "15-2041"
+        },
+        {
+          "codedNotation": "19-3011"
+        },
+        {
+          "codedNotation": "19-4061"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    },
+    {
+      "id": "https://osmt.wgu.edu/api/skills/fbc16d2b-c571-457a-87f0-0d01c6241687",
+      "type": "RichSkillDescriptor",
+      "author": "Western Governors University",
+      "skillName": "Plans Project Closure",
+      "skillStatement": "Plan project closure requirements and actions.",
+      "keywords": [
+        "Project Management",
+        "WGUSID: 13249"
+      ],
+      "category": "Project Management",
+      "alignments": [
+        {
+          "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST",
+          "name": "Project Management"
+        }
+      ],
+      "occupations": [
+        {
+          "codedNotation": "11-9111"
+        },
+        {
+          "codedNotation": "29-1141"
+        }
+      ],
+      "isMemberOf": "https://osmt.wgu.edu/api/collections/project-management"
+    }
+  ]
+}
