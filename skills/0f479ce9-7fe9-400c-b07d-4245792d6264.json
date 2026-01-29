@@ -1,0 +1,83 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/0f479ce9-7fe9-400c-b07d-4245792d6264",
+  "uuid": "0f479ce9-7fe9-400c-b07d-4245792d6264",
+  "name": "Problem Definition Establishment",
+  "author": "Western Governors University",
+  "skillStatement": "Establish a clear definition for a problem being solved.",
+  "categories": [
+    "Problem Solving"
+  ],
+  "keywords": [
+    "GeneralEducation2019",
+    "Problem Solving",
+    "Troubleshooting (Problem Solving)",
+    "Pareto chart",
+    "Fishbone Diagram",
+    "Root cause corrective analysis (RCCA)",
+    "WGUSID: 7602"
+  ],
+  "standards": [
+    "ATD.Prof.EI",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ISTE.Coach.C.3a",
+    "ISTE.Coach.CA.1a",
+    "ISTE.Coach.CA.1c",
+    "ISTE.Coach.CL.2c",
+    "ISTE.Coach.PLF.5b",
+    "ATD.Org.ODC",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ISTE.Coach.PLF.5a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000",
+      "33-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000",
+      "33-1000",
+      "33-3000"
+    ],
+    "broadOccupations": [
+      "13-1070",
+      "13-1080",
+      "13-1110",
+      "13-1140",
+      "13-1150",
+      "13-1160",
+      "13-1190",
+      "13-2010",
+      "13-2050",
+      "13-2060",
+      "13-2080",
+      "33-1010",
+      "33-3020",
+      "33-3050"
+    ],
+    "detailedOccupations": [
+      "13-1071",
+      "13-1075",
+      "13-1081",
+      "13-1111",
+      "13-1141",
+      "13-1151",
+      "13-1161",
+      "13-1198",
+      "13-2011",
+      "13-2061",
+      "13-2081",
+      "13-2082"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Problem Solving",
+      "id": "https://skills.emsidata.com/skills/KS125F678LV2KB3Z5XW0"
+    }
+  ]
+}

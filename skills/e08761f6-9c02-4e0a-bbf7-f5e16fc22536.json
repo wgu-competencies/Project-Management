@@ -1,0 +1,57 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/e08761f6-9c02-4e0a-bbf7-f5e16fc22536",
+  "uuid": "e08761f6-9c02-4e0a-bbf7-f5e16fc22536",
+  "name": "Project Management Approaches Application",
+  "author": "Western Governors University",
+  "skillStatement": "Apply project management methodologies to a range of contexts and scenarios.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "GeneralEducation2019",
+    "BCore",
+    "AppBizSkl",
+    "Project Management"
+  ],
+  "standards": [
+    "NICE_SP_RSK",
+    "NICE_SP_DEV",
+    "NICE_SP_ARC",
+    "NICE_SP_TRD",
+    "NICE_SP_SRP",
+    "NICE_SP_TST",
+    "NICE_SP_SYS",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS",
+    "NICE_OV_PMA",
+    "NICE_OM_ANA"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "15-0000"
+    ],
+    "minorGroups": [
+      "15-1200"
+    ],
+    "broadOccupations": [
+      "15-1210"
+    ],
+    "detailedOccupations": [
+      "15-1212"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/cbe3f3bf-9648-4f78-8c1e-207b93fd02ad",
+  "uuid": "cbe3f3bf-9648-4f78-8c1e-207b93fd02ad",
+  "name": "Project Workflow Establishment",
+  "author": "Western Governors University",
+  "skillStatement": "Establish project work-flows and assign work tasks.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Project Management",
+    "work tasks",
+    "project work flows"
+  ],
+  "standards": [
+    "InTASC_3a",
+    "InTASC_3i",
+    "InTASC_4g",
+    "InTASC_8n",
+    "ATD.Prof.ID",
+    "ATD.Prof.TA",
+    "ATD.Prof.TDF",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3f",
+    "InTASC_3h",
+    "InTASC_3l",
+    "InTASC_3o",
+    "InTASC_5d",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "InTASC_3q",
+    "InTASC_6o",
+    "InTASC_6s",
+    "ISTE_EdLeaders_4a",
+    "ATD.Prof.TDFISTE_EdLeaders_3a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000",
+      "25-0000"
+    ],
+    "minorGroups": [
+      "11-2000",
+      "13-1000",
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "11-2010",
+      "11-2020",
+      "13-1160",
+      "25-4020",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "11-2011",
+      "11-2021",
+      "11-2022",
+      "13-1161",
+      "25-4022",
+      "25-9031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

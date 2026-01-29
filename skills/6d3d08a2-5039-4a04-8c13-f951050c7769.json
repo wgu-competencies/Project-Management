@@ -1,0 +1,48 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/6d3d08a2-5039-4a04-8c13-f951050c7769",
+  "uuid": "6d3d08a2-5039-4a04-8c13-f951050c7769",
+  "name": "Request for Proposal Evaluation Criteria Provision",
+  "author": "Western Governors University",
+  "skillStatement": "Provide proposal evaluation criteria in the request for proposal.",
+  "categories": [
+    "Request For Proposal"
+  ],
+  "keywords": [
+    "MS Office",
+    "MS Project",
+    "Visio",
+    "Request For Proposal",
+    "Request For Proposal (RFP)",
+    "WGUSID: 7673"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1070",
+      "13-1110",
+      "13-1140",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1071",
+      "13-1111",
+      "13-1141",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Request For Proposal",
+      "id": "https://skills.emsidata.com/skills/KS4402T6094D6F35MTXR"
+    }
+  ]
+}

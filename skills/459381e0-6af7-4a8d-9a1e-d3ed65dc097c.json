@@ -1,0 +1,25 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/459381e0-6af7-4a8d-9a1e-d3ed65dc097c",
+  "uuid": "459381e0-6af7-4a8d-9a1e-d3ed65dc097c",
+  "name": "Servant Leadership Skills",
+  "author": "Western Governors University",
+  "skillStatement": "Demonstrate servant leadership skills.",
+  "categories": [
+    "Leadership"
+  ],
+  "keywords": [
+    "Character",
+    "21st_Century_Skills",
+    "Character Education",
+    "Educational Leadership",
+    "Character Formation"
+  ],
+  "alignments": [
+    {
+      "skillName": "Leadership",
+      "id": "https://lightcast.io/open-skills/skills/KS124JB619VXG6RQ810C/leadership"
+    }
+  ]
+}

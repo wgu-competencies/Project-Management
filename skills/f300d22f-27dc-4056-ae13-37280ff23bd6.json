@@ -1,0 +1,79 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/f300d22f-27dc-4056-ae13-37280ff23bd6",
+  "uuid": "f300d22f-27dc-4056-ae13-37280ff23bd6",
+  "name": "Efforts Prioritization",
+  "author": "Western Governors University",
+  "skillStatement": "Prioritize efforts to achieve project and organizational goals.",
+  "categories": [
+    "Time Management"
+  ],
+  "keywords": [
+    "SAP",
+    "Time Management",
+    "Microsoft Office",
+    "Taleo",
+    "WGUSID: 7828"
+  ],
+  "standards": [
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000",
+      "19-0000",
+      "33-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000",
+      "19-4000",
+      "33-3000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1070",
+      "13-1080",
+      "13-1110",
+      "13-1140",
+      "13-1150",
+      "13-1160",
+      "13-1190",
+      "13-2010",
+      "13-2030",
+      "13-2040",
+      "13-2050",
+      "13-2060",
+      "13-2080",
+      "19-4090",
+      "33-3020"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1071",
+      "13-1075",
+      "13-1081",
+      "13-1111",
+      "13-1141",
+      "13-1151",
+      "13-1161",
+      "13-1198",
+      "13-2011",
+      "13-2031",
+      "13-2041",
+      "13-2061",
+      "13-2081"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Time Management",
+      "id": "https://skills.emsidata.com/skills/KS44175745H9Q0DPBDNT"
+    }
+  ]
+}

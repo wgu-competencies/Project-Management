@@ -1,0 +1,18 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/d4e707dd-8ae0-495c-8f0e-c7506aaefced",
+  "uuid": "d4e707dd-8ae0-495c-8f0e-c7506aaefced",
+  "name": "Project Information Update",
+  "author": "Western Governors University",
+  "skillStatement": "Update project information to ensure accurate version control.",
+  "categories": [
+    "Version Control"
+  ],
+  "alignments": [
+    {
+      "skillName": "Version Control",
+      "id": "https://lightcast.io/open-skills/skills/KS1222C6WKYWRKRXQCR0/version-control"
+    }
+  ]
+}

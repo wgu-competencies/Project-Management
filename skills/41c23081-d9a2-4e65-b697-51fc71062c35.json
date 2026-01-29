@@ -1,0 +1,18 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/41c23081-d9a2-4e65-b697-51fc71062c35",
+  "uuid": "41c23081-d9a2-4e65-b697-51fc71062c35",
+  "name": "Scope Adjustment Analysis",
+  "author": "Western Governors University",
+  "skillStatement": "Adjust project scope based on a response to shifts in the external business environment.",
+  "categories": [
+    "Project Scoping"
+  ],
+  "alignments": [
+    {
+      "skillName": "Project Scoping",
+      "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping"
+    }
+  ]
+}

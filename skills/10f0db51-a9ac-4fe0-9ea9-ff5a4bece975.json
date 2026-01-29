@@ -1,0 +1,12 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/10f0db51-a9ac-4fe0-9ea9-ff5a4bece975",
+  "uuid": "10f0db51-a9ac-4fe0-9ea9-ff5a4bece975",
+  "name": "Outcome Impact Assessment",
+  "author": "Western Governors University",
+  "skillStatement": "Analyze project outcomes to determine their impact on the organization and necessary actions for improvement.",
+  "categories": [
+    "Project Management"
+  ]
+}

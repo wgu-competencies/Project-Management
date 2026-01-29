@@ -1,0 +1,64 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/d8a97bc2-fd63-4761-b860-23881765d030",
+  "uuid": "d8a97bc2-fd63-4761-b860-23881765d030",
+  "name": "Distinguish Between Personality and Working Styles",
+  "author": "Western Governors University",
+  "skillStatement": "Distinguish between various personality types, working styles, and other diversity factors when working in teams.",
+  "categories": [
+    "Teamwork"
+  ],
+  "keywords": [
+    "Team Oriented",
+    "Teamwork",
+    "Team Building",
+    "Team Management",
+    "Social Emotional Learning (SEL): General",
+    "Social Emotional Learning (SEL): Interpersonal Communication",
+    "WGUSID: 2754"
+  ],
+  "standards": [
+    "ISTE_Educators_4d",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "InTASC_3l",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "ISTE_EdLeaders_3a",
+    "ISTE_EdLeaders_3d",
+    "ISTE_Educators_4a",
+    "ATD.Prof.TDFISTE_Educators_2a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "25-0000",
+      "33-0000"
+    ],
+    "minorGroups": [
+      "25-4000",
+      "25-9000",
+      "33-1000",
+      "33-3000"
+    ],
+    "broadOccupations": [
+      "25-4020",
+      "25-9030",
+      "25-9090",
+      "33-1010",
+      "33-3020",
+      "33-3050"
+    ],
+    "detailedOccupations": [
+      "25-4022",
+      "25-9031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Teamwork",
+      "id": "https://skills.emsidata.com/skills/KSKJX44T33B6D4UCC8CB"
+    }
+  ]
+}

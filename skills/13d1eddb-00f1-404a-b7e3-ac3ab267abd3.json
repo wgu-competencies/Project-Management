@@ -1,0 +1,49 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/13d1eddb-00f1-404a-b7e3-ac3ab267abd3",
+  "uuid": "13d1eddb-00f1-404a-b7e3-ac3ab267abd3",
+  "name": "Operations Gap Analysis",
+  "author": "Western Governors University",
+  "skillStatement": "Analyze gaps in operations to drive continuous improvement.",
+  "categories": [
+    "Continuous Improvement Process"
+  ],
+  "keywords": [
+    "Continuous Improvement Process"
+  ],
+  "standards": [
+    "ATD.Org.DA",
+    "ATD.Prof.EI",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ATD.Org.ODC",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "13-1080",
+      "13-1150",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "13-1081",
+      "13-1151",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Continuous Improvement Process",
+      "id": "https://skills.emsidata.com/skills/KS122C06Z8NDM5G6NYNT"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/f9a52f60-9670-4614-9262-ad16c7f8dcc6",
+  "uuid": "f9a52f60-9670-4614-9262-ad16c7f8dcc6",
+  "name": "Collect Data to Make Informed Decisions",
+  "author": "Western Governors University",
+  "skillStatement": "Collect data to make informed decisions.",
+  "categories": [
+    "Data-Driven Decision-Making"
+  ],
+  "keywords": [
+    "Transferrable Skills Across Occupations",
+    "Transferrable Skills for Leaders",
+    "Data-Driven Decision-Making"
+  ],
+  "alignments": [
+    {
+      "skillName": "Data-Driven Decision Making",
+      "id": "https://skills.emsidata.com/skills/ESF14A354DDD69B5FBD4"
+    }
+  ]
+}

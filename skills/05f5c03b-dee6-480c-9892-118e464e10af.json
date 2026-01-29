@@ -1,0 +1,40 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/05f5c03b-dee6-480c-9892-118e464e10af",
+  "uuid": "05f5c03b-dee6-480c-9892-118e464e10af",
+  "name": "Workflow Diagram Creation",
+  "author": "Western Governors University",
+  "skillStatement": "Create a workflow diagram to visualize process steps.",
+  "categories": [
+    "Process Management"
+  ],
+  "keywords": [
+    "Workflows",
+    "Smartsheet",
+    "Monday.com",
+    "LucidCharts"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "13-1110",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "13-1111",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Process Management",
+      "id": "https://lightcast.io/open-skills/skills/KS683TD6K9QRLNY1PHN1/process-management"
+    }
+  ]
+}

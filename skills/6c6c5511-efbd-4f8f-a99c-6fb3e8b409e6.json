@@ -1,0 +1,46 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/6c6c5511-efbd-4f8f-a99c-6fb3e8b409e6",
+  "uuid": "6c6c5511-efbd-4f8f-a99c-6fb3e8b409e6",
+  "name": "Bids Comparison",
+  "author": "Western Governors University",
+  "skillStatement": "Compare bids from suppliers to obtain the best price for a product or service.",
+  "categories": [
+    "Procurement"
+  ],
+  "keywords": [
+    "Procurement",
+    "Agile Project Management tools such as Jira/Greenhopper",
+    "Rally",
+    "VersionOne",
+    "WGUSID: 7604"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1080",
+      "13-1190",
+      "13-2030"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1081",
+      "13-1198",
+      "13-2031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Procurement",
+      "id": "https://skills.emsidata.com/skills/KS122626T550SLQ7QZ1C"
+    }
+  ]
+}

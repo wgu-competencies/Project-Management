@@ -1,0 +1,43 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/86799868-f3a5-4e16-af3c-d868ebbf026a",
+  "uuid": "86799868-f3a5-4e16-af3c-d868ebbf026a",
+  "name": "Project Roadblocks Resolution",
+  "author": "Western Governors University",
+  "skillStatement": "Resolve project roadblocks as they are reported.",
+  "categories": [
+    "Program Management"
+  ],
+  "keywords": [
+    "Microsoft PowerPoint",
+    "Program Management",
+    "Educational Program Management",
+    "Microsoft Word",
+    "Google Docs",
+    "Google Slides",
+    "Microsoft Teams"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "17-0000",
+      "33-0000"
+    ],
+    "minorGroups": [
+      "17-2000",
+      "33-3000"
+    ],
+    "broadOccupations": [
+      "17-2080",
+      "17-2110",
+      "17-2190",
+      "33-3020"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Program Management",
+      "id": "https://skills.emsidata.com/skills/KS1283V6XDFZSK6YP0HF"
+    }
+  ]
+}

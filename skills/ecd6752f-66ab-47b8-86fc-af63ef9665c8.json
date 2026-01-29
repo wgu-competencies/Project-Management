@@ -1,0 +1,95 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/ecd6752f-66ab-47b8-86fc-af63ef9665c8",
+  "uuid": "ecd6752f-66ab-47b8-86fc-af63ef9665c8",
+  "name": "Stakeholder Engagement Plans Development",
+  "author": "Western Governors University",
+  "skillStatement": "Create stakeholder engagement plans.",
+  "categories": [
+    "Stakeholder Management"
+  ],
+  "keywords": [
+    "Stakeholder Management",
+    "engagement",
+    "Strategy",
+    "plans"
+  ],
+  "standards": [
+    "InTASC_3i",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ISTE.Coach.C.3a",
+    "ISTE.Coach.CA.1a",
+    "ISTE.Coach.CA.1c",
+    "ISTE.Coach.CL.2c",
+    "ISTE.Coach.PLF.5b",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3l",
+    "InTASC_5d",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "ISTE.Coach.CL.2a",
+    "ISTE.Coach.CL.2b",
+    "ISTE.Coach.PLF.5a",
+    "InTASC_6o",
+    "InTASC_6d",
+    "ISTE.Coach.PLF.5bISTE_EdLeaders_3a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000",
+      "25-0000",
+      "37-0000",
+      "39-0000"
+    ],
+    "minorGroups": [
+      "11-1000",
+      "11-2000",
+      "11-3000",
+      "11-9000",
+      "13-1000",
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "11-1010",
+      "11-1020",
+      "11-2020",
+      "11-3010",
+      "11-3050",
+      "11-3070",
+      "11-9020",
+      "11-9150",
+      "11-9190",
+      "13-1050",
+      "13-1110",
+      "25-4020",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "11-1011",
+      "11-1021",
+      "11-2022",
+      "11-3051",
+      "11-3071",
+      "11-9021",
+      "11-9151",
+      "11-9198",
+      "13-1051",
+      "13-1111",
+      "25-4022",
+      "25-9031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Stakeholder Management",
+      "id": "https://skills.emsidata.com/skills/KS440XG6F9DTD3VG7JTV"
+    }
+  ]
+}

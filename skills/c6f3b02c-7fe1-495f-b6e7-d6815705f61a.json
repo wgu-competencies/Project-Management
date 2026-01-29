@@ -1,0 +1,49 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/c6f3b02c-7fe1-495f-b6e7-d6815705f61a",
+  "uuid": "c6f3b02c-7fe1-495f-b6e7-d6815705f61a",
+  "name": "Project Execution Assistance",
+  "author": "Western Governors University",
+  "skillStatement": "Assist project execution.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Management Consulting"
+  ],
+  "standards": [
+    "ATD.Prof.EI",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ATD.Org.ODC",
+    "ATD.Org.FR",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "ATD.Prof.KM"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000",
+      "37-0000",
+      "39-0000"
+    ],
+    "minorGroups": [
+      "11-3000"
+    ],
+    "broadOccupations": [
+      "11-3130"
+    ],
+    "detailedOccupations": [
+      "11-3131"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
+    }
+  ]
+}

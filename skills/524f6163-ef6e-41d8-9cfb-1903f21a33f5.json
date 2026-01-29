@@ -1,0 +1,12 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/524f6163-ef6e-41d8-9cfb-1903f21a33f5",
+  "uuid": "524f6163-ef6e-41d8-9cfb-1903f21a33f5",
+  "name": "Milestone Readiness Assessment",
+  "author": "Western Governors University",
+  "skillStatement": "Assess project deliverables and milestones to ensure readiness for the next phase transition.",
+  "categories": [
+    "Project Management"
+  ]
+}

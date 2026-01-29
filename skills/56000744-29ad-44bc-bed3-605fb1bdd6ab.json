@@ -1,0 +1,48 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/56000744-29ad-44bc-bed3-605fb1bdd6ab",
+  "uuid": "56000744-29ad-44bc-bed3-605fb1bdd6ab",
+  "name": "Project Management Life Cycle Identification",
+  "author": "Western Governors University",
+  "skillStatement": "Identify elements of the project management life cycle.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Project Management",
+    "WGUSID: 8812"
+  ],
+  "standards": [
+    "CAHIMS_HISM_A2",
+    "AHIMA_AHIC_K144",
+    "ANCC_Informatics_Certification_II.A.6",
+    "NAHQ_HQ_PPI2",
+    "AHIMA_AHIC_T512",
+    "ACHE_5A1"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "29-0000"
+    ],
+    "minorGroups": [
+      "11-9000",
+      "29-1000"
+    ],
+    "broadOccupations": [
+      "11-9110",
+      "29-1140"
+    ],
+    "detailedOccupations": [
+      "11-9111",
+      "29-1141"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

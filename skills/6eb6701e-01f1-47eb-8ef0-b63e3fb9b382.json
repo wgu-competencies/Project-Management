@@ -1,0 +1,60 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/6eb6701e-01f1-47eb-8ef0-b63e3fb9b382",
+  "uuid": "6eb6701e-01f1-47eb-8ef0-b63e3fb9b382",
+  "name": "Determine Project Stakeholders",
+  "author": "Western Governors University",
+  "skillStatement": "Identify project stakeholders.",
+  "categories": [
+    "Stakeholder Management"
+  ],
+  "keywords": [
+    "Stakeholder Management",
+    "Project"
+  ],
+  "standards": [
+    "InTASC_3i",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ISTE.Coach.C.3a",
+    "ISTE.Coach.CA.1a",
+    "ISTE.Coach.CA.1c",
+    "ISTE.Coach.CL.2c",
+    "ISTE.Coach.PLF.5b",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3l",
+    "InTASC_5d",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "InTASC_6o",
+    "InTASC_6d",
+    "ISTE.Coach.PLF.5bISTE_EdLeaders_2c"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "25-0000"
+    ],
+    "minorGroups": [
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "25-4020",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "25-4022",
+      "25-9031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Stakeholder Management",
+      "id": "https://skills.emsidata.com/skills/KS440XG6F9DTD3VG7JTV"
+    }
+  ]
+}

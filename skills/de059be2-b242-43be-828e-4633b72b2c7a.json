@@ -1,0 +1,51 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/de059be2-b242-43be-828e-4633b72b2c7a",
+  "uuid": "de059be2-b242-43be-828e-4633b72b2c7a",
+  "name": "Project Plan Revision",
+  "author": "Western Governors University",
+  "skillStatement": "Revise project plans based on project requirement changes.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Google Docs",
+    "Google Sheets",
+    "Microsoft Project",
+    "Smartsheet",
+    "Monday.com",
+    "Agile Software Development",
+    "Agile Development"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000"
+    ],
+    "minorGroups": [
+      "11-2000",
+      "11-3000",
+      "11-9000"
+    ],
+    "broadOccupations": [
+      "11-2020",
+      "11-3020",
+      "11-3050",
+      "11-9190"
+    ],
+    "detailedOccupations": [
+      "11-2021",
+      "11-3021",
+      "11-3051",
+      "11-9198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
+    }
+  ]
+}

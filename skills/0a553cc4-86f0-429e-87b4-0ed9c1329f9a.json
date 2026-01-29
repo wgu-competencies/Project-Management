@@ -1,0 +1,60 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/0a553cc4-86f0-429e-87b4-0ed9c1329f9a",
+  "uuid": "0a553cc4-86f0-429e-87b4-0ed9c1329f9a",
+  "name": "Project Progress Monitoring",
+  "author": "Western Governors University",
+  "skillStatement": "Monitor project progress to keep stakeholders informed.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Project Management",
+    "Primavera P6",
+    "Microsoft Project Microsoft Office",
+    "WGUSID: 7633"
+  ],
+  "standards": [
+    "ATD.Prof.EI",
+    "ATD.Prof.ID",
+    "ATD.Prof.TA",
+    "ATD.Prof.TDF",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1080",
+      "13-1110",
+      "13-1140",
+      "13-1150",
+      "13-1160",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1081",
+      "13-1111",
+      "13-1141",
+      "13-1151",
+      "13-1161"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

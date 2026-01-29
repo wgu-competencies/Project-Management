@@ -1,0 +1,53 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/3b1b410f-1576-4c1c-ba03-cb708caf3b3c",
+  "uuid": "3b1b410f-1576-4c1c-ba03-cb708caf3b3c",
+  "name": "Develop Compliance Processes",
+  "author": "Western Governors University",
+  "skillStatement": "Develop processes for compliance with quality standards, regulations, and requirements.",
+  "categories": [
+    "Quality Management"
+  ],
+  "keywords": [
+    "Quality Management",
+    "Electronic quality management system (eQMS)",
+    "WGUSID: 2575"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "17-0000"
+    ],
+    "minorGroups": [
+      "17-2000",
+      "17-3000"
+    ],
+    "broadOccupations": [
+      "17-2080",
+      "17-2110",
+      "17-2190",
+      "17-3020"
+    ],
+    "detailedOccupations": [
+      "17-2081",
+      "17-2111",
+      "17-2112",
+      "17-2199",
+      "17-3021",
+      "17-3022",
+      "17-3023",
+      "17-3024",
+      "17-3025",
+      "17-3026",
+      "17-3027",
+      "17-3028",
+      "17-3029"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Quality Management",
+      "id": "https://skills.emsidata.com/skills/KS1289C6QS0TSSB4PNGG"
+    }
+  ]
+}

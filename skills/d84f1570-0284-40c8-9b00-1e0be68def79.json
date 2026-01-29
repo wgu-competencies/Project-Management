@@ -1,0 +1,48 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/d84f1570-0284-40c8-9b00-1e0be68def79",
+  "uuid": "d84f1570-0284-40c8-9b00-1e0be68def79",
+  "name": "Status Reports Provision",
+  "author": "Western Governors University",
+  "skillStatement": "Provide status reports for a project.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Management",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Google Docs",
+    "Google Sheets",
+    "Project Management",
+    "Trello",
+    "Monday.com",
+    "GanttPro",
+    "Celoxis",
+    "Jira",
+    "SCRUM",
+    "PMP"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "17-0000"
+    ],
+    "minorGroups": [
+      "17-2000",
+      "17-3000"
+    ],
+    "broadOccupations": [
+      "17-2080",
+      "17-2110",
+      "17-2190",
+      "17-3020"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

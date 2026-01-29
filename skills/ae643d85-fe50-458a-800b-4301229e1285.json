@@ -1,0 +1,42 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/ae643d85-fe50-458a-800b-4301229e1285",
+  "uuid": "ae643d85-fe50-458a-800b-4301229e1285",
+  "name": "Initiative Vision and Goals Articulation",
+  "author": "Western Governors University",
+  "skillStatement": "Articulate the shared vision and goals of a given initiative to a team.",
+  "categories": [
+    "Leadership"
+  ],
+  "keywords": [
+    "Leadership",
+    "Microsoft PowerPoint",
+    "Microsoft Word",
+    "Google Docs",
+    "Google Slides",
+    "WGUSID: 627"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "17-0000",
+      "33-0000"
+    ],
+    "minorGroups": [
+      "11-3000"
+    ],
+    "broadOccupations": [
+      "11-3130"
+    ],
+    "detailedOccupations": [
+      "11-3131"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Leadership",
+      "id": "https://skills.emsidata.com/skills/KS124JB619VXG6RQ810C"
+    }
+  ]
+}

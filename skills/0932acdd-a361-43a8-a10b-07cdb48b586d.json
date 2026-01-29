@@ -1,0 +1,43 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/0932acdd-a361-43a8-a10b-07cdb48b586d",
+  "uuid": "0932acdd-a361-43a8-a10b-07cdb48b586d",
+  "name": "Business Operations Performance Methods Establishment",
+  "author": "Western Governors University",
+  "skillStatement": "Establish methods to perform specific business operations.",
+  "categories": [
+    "Process Design"
+  ],
+  "keywords": [
+    "MS Office",
+    "Standard Operating Procedure"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000",
+      "19-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "19-4000"
+    ],
+    "broadOccupations": [
+      "13-1080",
+      "13-1110",
+      "13-1190",
+      "19-4090"
+    ],
+    "detailedOccupations": [
+      "13-1081",
+      "13-1111",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Process Design",
+      "id": "https://lightcast.io/open-skills/skills/KS1281Z6YSCYDNCG1D8T/process-design"
+    }
+  ]
+}

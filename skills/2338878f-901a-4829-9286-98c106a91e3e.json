@@ -1,0 +1,69 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/2338878f-901a-4829-9286-98c106a91e3e",
+  "uuid": "2338878f-901a-4829-9286-98c106a91e3e",
+  "name": "Apply Team Collaboration Principles",
+  "author": "Western Governors University",
+  "skillStatement": "Apply principles of positive collaboration and motivation to a variety of team environments.",
+  "categories": [
+    "Team Leadership"
+  ],
+  "keywords": [
+    "Team Leadership",
+    "Leading Teams",
+    "Social Emotional Learning (SEL): General",
+    "Social Emotional Learning (SEL): Interpersonal Communication",
+    "WGUSID: 526"
+  ],
+  "standards": [
+    "ISTE_Educators_4d",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ISTE.Coach.C.3a",
+    "ISTE.Coach.CA.1a",
+    "ISTE.Coach.CA.1c",
+    "ISTE.Coach.CL.2c",
+    "ISTE.Coach.PLF.5b",
+    "InTASC_3l",
+    "ISTE.Coach.PLF.5c",
+    "ATD.Org.ODC",
+    "ISTE.Coach.DDM.6c",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "ISTE.Coach.PLF.5a",
+    "ISTE_EdLeaders_2b",
+    "ISTE_Educators_4a",
+    "ISTE_EdLeaders_2a",
+    "ATD.Pers.C",
+    "ISTE.Coach.PLF.5cISTE_Educators_2a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "25-0000"
+    ],
+    "minorGroups": [
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "25-4020",
+      "25-9010",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "25-4022",
+      "25-9011",
+      "25-9031",
+      "25-9099"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Team Leadership",
+      "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT"
+    }
+  ]
+}

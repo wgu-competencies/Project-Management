@@ -1,0 +1,65 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/6f9f9b98-74a2-4999-a866-4a20afb65263",
+  "uuid": "6f9f9b98-74a2-4999-a866-4a20afb65263",
+  "name": "Timely Deliverables",
+  "author": "Western Governors University",
+  "skillStatement": "Provide project deliverables on time and in scope.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Project Management"
+  ],
+  "standards": [
+    "NICE_SP_RSK",
+    "NICE_SP_DEV",
+    "NICE_SP_ARC",
+    "NICE_SP_TRD",
+    "NICE_SP_SRP",
+    "NICE_SP_TST",
+    "NICE_SP_SYS",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS",
+    "NICE_OV_PMA",
+    "NICE_OM_ANA"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "15-0000"
+    ],
+    "minorGroups": [
+      "11-3000",
+      "15-1200"
+    ],
+    "broadOccupations": [
+      "11-3020",
+      "15-1210",
+      "15-1230",
+      "15-1240"
+    ],
+    "detailedOccupations": [
+      "11-3021",
+      "15-1211",
+      "15-1231",
+      "15-1232",
+      "15-1241",
+      "15-1244",
+      "15-1245"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

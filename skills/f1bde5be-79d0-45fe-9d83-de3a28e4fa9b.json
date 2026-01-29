@@ -1,0 +1,97 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/f1bde5be-79d0-45fe-9d83-de3a28e4fa9b",
+  "uuid": "f1bde5be-79d0-45fe-9d83-de3a28e4fa9b",
+  "name": "Project Interdependencies Management",
+  "author": "Western Governors University",
+  "skillStatement": "Coordinate the interdependencies of a project with other projects within an organization.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Management",
+    "Microsoft Project",
+    "Project Management",
+    "Trello",
+    "Asana",
+    "Smartsheet",
+    "Project Management (PM)",
+    "PM"
+  ],
+  "standards": [
+    "NICE_SP_RSK",
+    "NICE_SP_DEV",
+    "NICE_SP_ARC",
+    "NICE_SP_TRD",
+    "NICE_SP_SRP",
+    "NICE_SP_TST",
+    "NICE_SP_SYS",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS",
+    "NICE_OV_PMA",
+    "NICE_OM_ANA",
+    "ATD.Prof.ID",
+    "ATD.Prof.TA",
+    "ATD.Prof.TDF",
+    "ATD.Org.ODC",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "ATD.Pers.C"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000"
+    ],
+    "minorGroups": [
+      "11-1000",
+      "11-2000",
+      "11-3000",
+      "11-9000"
+    ],
+    "broadOccupations": [
+      "11-1010",
+      "11-1020",
+      "11-2010",
+      "11-2020",
+      "11-2030",
+      "11-3010",
+      "11-3020",
+      "11-3050",
+      "11-3110",
+      "11-3120",
+      "11-3130",
+      "11-9020",
+      "11-9150",
+      "11-9190"
+    ],
+    "detailedOccupations": [
+      "11-1011",
+      "11-1021",
+      "11-2011",
+      "11-2021",
+      "11-2022",
+      "11-3021",
+      "11-3051",
+      "11-3111",
+      "11-3121",
+      "11-3131",
+      "11-9021",
+      "11-9151",
+      "11-9198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

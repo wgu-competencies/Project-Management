@@ -1,0 +1,87 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/21527836-3ab3-47cd-9548-ee41515a9b15",
+  "uuid": "21527836-3ab3-47cd-9548-ee41515a9b15",
+  "name": "Team Strengths and Weaknesses Identification",
+  "author": "Western Governors University",
+  "skillStatement": "Identify a team's strengths and weaknesses to assign responsibilities to team members.",
+  "categories": [
+    "Team Leadership"
+  ],
+  "keywords": [
+    "Team Leadership",
+    "SAP",
+    "Leading Teams",
+    "Enterprise Resource Planning software",
+    "Microsoft Dynamics",
+    "Oracle E-Business Suite",
+    "Oracle JD Edwards EnterpriseOne",
+    "Project Management software",
+    "Microsoft Project",
+    "Atlassian JIRA",
+    "Confluence",
+    "Oracle Primavera Enterprise Project Portfolio Management",
+    "WGUSID: 7448"
+  ],
+  "standards": [
+    "ATD.Prof.EI",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ISTE.Coach.CA.1a",
+    "ISTE.Coach.PLF.5b",
+    "ISTE.Coach.PLF.5c",
+    "ATD.Org.ODC",
+    "ISTE.Coach.DDM.6c",
+    "ATD.Pers.CL",
+    "ATD.Org.CBP",
+    "ATD.Prof.KM",
+    "ISTE.Coach.PLF.5a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1070",
+      "13-1080",
+      "13-1110",
+      "13-1140",
+      "13-1150",
+      "13-1160",
+      "13-1190",
+      "13-2010",
+      "13-2030",
+      "13-2040",
+      "13-2050",
+      "13-2060",
+      "13-2080"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1071",
+      "13-1075",
+      "13-1081",
+      "13-1111",
+      "13-1141",
+      "13-1151",
+      "13-1161",
+      "13-1198",
+      "13-2011",
+      "13-2031",
+      "13-2041",
+      "13-2061"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Team Leadership",
+      "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT"
+    }
+  ]
+}

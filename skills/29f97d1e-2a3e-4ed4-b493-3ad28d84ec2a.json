@@ -1,0 +1,62 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/29f97d1e-2a3e-4ed4-b493-3ad28d84ec2a",
+  "uuid": "29f97d1e-2a3e-4ed4-b493-3ad28d84ec2a",
+  "name": "Company Financial Data Analysis",
+  "author": "Western Governors University",
+  "skillStatement": "Analyze company financial data to identify opportunities for cost savings.",
+  "categories": [
+    "Financial Analysis"
+  ],
+  "keywords": [
+    "Data Analysis",
+    "Ripjar Data Intelligence Platform",
+    "HRIS systems",
+    "compensation planning tools",
+    "ERP systems",
+    "HR Analytics software"
+  ],
+  "standards": [
+    "ATD.Org.DA",
+    "ATD.Prof.EI",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1070",
+      "13-1080",
+      "13-1110",
+      "13-1140",
+      "13-1150",
+      "13-1190",
+      "13-2010"
+    ],
+    "detailedOccupations": [
+      "13-1071",
+      "13-1075",
+      "13-1081",
+      "13-1111",
+      "13-1141",
+      "13-1151",
+      "13-1198",
+      "13-2011"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Financial Analysis",
+      "id": "https://lightcast.io/open-skills/skills/KS123Y66DNRSJ1QGK9NW"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/7428b5f2-6dff-4bca-a234-24d0603d4133",
+  "uuid": "7428b5f2-6dff-4bca-a234-24d0603d4133",
+  "name": "Performance Measurement Implementation",
+  "author": "Western Governors University",
+  "skillStatement": "Deploy systems to assess business project performance.",
+  "categories": [
+    "Project Management"
+  ]
+}

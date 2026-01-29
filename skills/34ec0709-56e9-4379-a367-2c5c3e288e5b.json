@@ -1,0 +1,46 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/34ec0709-56e9-4379-a367-2c5c3e288e5b",
+  "uuid": "34ec0709-56e9-4379-a367-2c5c3e288e5b",
+  "name": "Terms Negotiation",
+  "author": "Western Governors University",
+  "skillStatement": "Negotiate favorable terms for procuring goods and services.",
+  "categories": [
+    "Procurement"
+  ],
+  "keywords": [
+    "Procurement",
+    "Agile Project Management tools such as Jira/Greenhopper",
+    "Rally",
+    "VersionOne",
+    "WGUSID: 7606"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1080",
+      "13-1190",
+      "13-2030"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1081",
+      "13-1198",
+      "13-2031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Procurement",
+      "id": "https://skills.emsidata.com/skills/KS122626T550SLQ7QZ1C"
+    }
+  ]
+}

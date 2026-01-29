@@ -1,0 +1,95 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/45714180-3038-4b91-a9b9-f41c7efe6e7b",
+  "uuid": "45714180-3038-4b91-a9b9-f41c7efe6e7b",
+  "name": "Project Performance Monitoring",
+  "author": "Western Governors University",
+  "skillStatement": "Monitor project performance to scope.",
+  "categories": [
+    "Project Scoping"
+  ],
+  "keywords": [
+    "Budgeting",
+    "Project Management",
+    "project resources"
+  ],
+  "standards": [
+    "InTASC_3a",
+    "InTASC_3i",
+    "InTASC_4g",
+    "InTASC_8n",
+    "ATD.Prof.ID",
+    "ATD.Prof.TA",
+    "ATD.Prof.TDF",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3f",
+    "InTASC_3h",
+    "InTASC_3l",
+    "InTASC_3o",
+    "InTASC_5d",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "ATD.Prof.KM",
+    "InTASC_3q",
+    "InTASC_6o",
+    "InTASC_6s",
+    "ISTE_EdLeaders_4a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000",
+      "25-0000",
+      "37-0000",
+      "39-0000"
+    ],
+    "minorGroups": [
+      "11-1000",
+      "11-2000",
+      "11-3000",
+      "11-9000",
+      "13-1000",
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "11-1010",
+      "11-1020",
+      "11-2020",
+      "11-3010",
+      "11-3050",
+      "11-3070",
+      "11-9020",
+      "11-9150",
+      "11-9190",
+      "13-1050",
+      "13-1110",
+      "25-4020",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "11-1011",
+      "11-1021",
+      "11-2022",
+      "11-3051",
+      "11-3071",
+      "11-9021",
+      "11-9151",
+      "11-9198",
+      "13-1051",
+      "13-1111",
+      "25-4022",
+      "25-9031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Scoping",
+      "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping"
+    }
+  ]
+}

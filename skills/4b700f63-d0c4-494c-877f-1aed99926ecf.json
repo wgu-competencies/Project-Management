@@ -1,0 +1,65 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/4b700f63-d0c4-494c-877f-1aed99926ecf",
+  "uuid": "4b700f63-d0c4-494c-877f-1aed99926ecf",
+  "name": "Project Budget Estimation",
+  "author": "Western Governors University",
+  "skillStatement": "Estimate the budget for a project.",
+  "categories": [
+    "Project Planning"
+  ],
+  "keywords": [
+    "Project Planning",
+    "budget",
+    "WGUSID: 3050"
+  ],
+  "standards": [
+    "InTASC_3a",
+    "InTASC_3i",
+    "InTASC_4g",
+    "InTASC_8n",
+    "ATD.Prof.ID",
+    "ATD.Prof.TA",
+    "ATD.Prof.TDF",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3f",
+    "InTASC_3h",
+    "InTASC_3l",
+    "InTASC_3o",
+    "InTASC_5d",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "InTASC_3q",
+    "InTASC_6o",
+    "InTASC_6s",
+    "ISTE_EdLeaders_4a",
+    "ATD.Prof.TDFISTE_EdLeaders_3a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "25-0000"
+    ],
+    "minorGroups": [
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "25-4020",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "25-4022",
+      "25-9031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Planning",
+      "id": "https://skills.emsidata.com/skills/KS122W26SKGLZJ2KLF5M"
+    }
+  ]
+}

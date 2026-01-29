@@ -1,0 +1,80 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/fb542350-60c0-4094-917a-1757a9547ffd",
+  "uuid": "fb542350-60c0-4094-917a-1757a9547ffd",
+  "name": "Ensure Deadline Awareness",
+  "author": "Western Governors University",
+  "skillStatement": "Ensure that project resources are aware of deadlines and tasks.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Project Coordination"
+  ],
+  "standards": [
+    "NICE_SP_RSK",
+    "NICE_SP_DEV",
+    "NICE_SP_ARC",
+    "NICE_SP_TRD",
+    "NICE_SP_SRP",
+    "NICE_SP_TST",
+    "NICE_SP_SYS",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS",
+    "NICE_OV_PMA",
+    "NICE_OM_ANA"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000",
+      "15-0000",
+      "19-0000"
+    ],
+    "minorGroups": [
+      "11-3000",
+      "13-1000",
+      "13-2000",
+      "15-2000",
+      "19-3000",
+      "19-4000"
+    ],
+    "broadOccupations": [
+      "11-3030",
+      "13-1020",
+      "13-1110",
+      "13-1160",
+      "13-2010",
+      "13-2040",
+      "15-2040",
+      "19-3010",
+      "19-4060"
+    ],
+    "detailedOccupations": [
+      "11-3031",
+      "13-1021",
+      "13-1022",
+      "13-1023",
+      "13-1111",
+      "13-1161",
+      "13-2011",
+      "13-2041",
+      "15-2041",
+      "19-3011",
+      "19-4061"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
+    }
+  ]
+}

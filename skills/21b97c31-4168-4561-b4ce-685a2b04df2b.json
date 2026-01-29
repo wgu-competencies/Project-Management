@@ -1,0 +1,54 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/21b97c31-4168-4561-b4ce-685a2b04df2b",
+  "uuid": "21b97c31-4168-4561-b4ce-685a2b04df2b",
+  "name": "Product Improvement Plan",
+  "author": "Western Governors University",
+  "skillStatement": "Design a plan to improve a product or service.",
+  "categories": [
+    "Continuous Improvement Process"
+  ],
+  "keywords": [
+    "Planning",
+    "Continuous Improvement Process",
+    "WGUSID: 7187"
+  ],
+  "standards": [
+    "ATD.Prof.EI",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000"
+    ],
+    "minorGroups": [
+      "11-9000",
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "11-9030",
+      "13-1080",
+      "13-1150",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "11-9033",
+      "11-9039",
+      "13-1081",
+      "13-1151",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Continuous Improvement Process",
+      "id": "https://skills.emsidata.com/skills/KS122C06Z8NDM5G6NYNT"
+    }
+  ]
+}

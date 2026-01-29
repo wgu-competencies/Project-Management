@@ -1,0 +1,66 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/180d00cb-abed-4b7f-95cf-8c2564b0ee2e",
+  "uuid": "180d00cb-abed-4b7f-95cf-8c2564b0ee2e",
+  "name": "Project Schedule Modification",
+  "author": "Western Governors University",
+  "skillStatement": "Modify schedules for deliverables based on project change.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Project",
+    "Project Management",
+    "schedule",
+    "deliverables",
+    "WGUSID: 5084"
+  ],
+  "standards": [
+    "InTASC_3a",
+    "InTASC_3i",
+    "InTASC_4g",
+    "InTASC_8n",
+    "ATD.Prof.ID",
+    "ATD.Prof.TA",
+    "ATD.Prof.TDF",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3f",
+    "InTASC_3h",
+    "InTASC_3l",
+    "InTASC_3o",
+    "InTASC_5d",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "InTASC_3q",
+    "InTASC_6o",
+    "InTASC_6s",
+    "ATD.Prof.TDFISTE_EdLeaders_4b"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "25-0000"
+    ],
+    "minorGroups": [
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "25-4020",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "25-4022",
+      "25-9031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/08631954-b17b-4674-ab3a-a5a8a5aa2c96",
+  "uuid": "08631954-b17b-4674-ab3a-a5a8a5aa2c96",
+  "name": "Value-Driven Delivery Analysis",
+  "author": "Western Governors University",
+  "skillStatement": "Assess project delivery options to determine the most economical and beneficial solutions for the organization.",
+  "categories": [
+    "Project Management"
+  ]
+}

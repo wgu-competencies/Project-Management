@@ -1,0 +1,85 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/a731128d-8735-4eaf-9bcd-5a7ddc8112d8",
+  "uuid": "a731128d-8735-4eaf-9bcd-5a7ddc8112d8",
+  "name": "Select Social Emotional Strategies that Match the Needs of Others",
+  "author": "Western Governors University",
+  "skillStatement": "Select strategies to meet another person's social emotional needs.",
+  "categories": [
+    "Emotional Intelligence"
+  ],
+  "keywords": [
+    "Emotional Intelligence",
+    "Social Emotional Learning (SEL): General",
+    "Social Emotional Learning (SEL): Self Management",
+    "WGUSID: 6214"
+  ],
+  "standards": [
+    "ISTE_Educators_4d",
+    "InTASC_3a",
+    "InTASC_3i",
+    "InTASC_3n",
+    "InTASC_4g",
+    "InTASC_8n",
+    "ISTE.Coach.C.3a",
+    "ISTE.Coach.CA.1a",
+    "ISTE.Coach.CA.1c",
+    "ISTE.Coach.CL.2c",
+    "ISTE.Coach.DDM.6a",
+    "ISTE.Coach.LD.4a",
+    "ISTE.Coach.LD.4b",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3f",
+    "InTASC_3h",
+    "InTASC_3l",
+    "InTASC_3o",
+    "InTASC_4f",
+    "InTASC_5d",
+    "ISTE.Coach.PLF.5c",
+    "ISTE.Coach.CL.2a",
+    "ISTE.Coach.CL.2b",
+    "ISTE.Coach.PLF.5a",
+    "InTASC_6o",
+    "ISTE_Educators_3b",
+    "ISTE_EdLeaders_3a",
+    "ISTE_EdLeaders_3b",
+    "ISTE_EdLeaders_3d",
+    "ISTE_EdLeaders_3c",
+    "ISTE.Coach.PLF.5cISTE_Educators_3a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "25-0000"
+    ],
+    "minorGroups": [
+      "25-1000",
+      "25-2000",
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "25-1020",
+      "25-1040",
+      "25-1050",
+      "25-1080",
+      "25-2020",
+      "25-2030",
+      "25-2050",
+      "25-4020",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "25-4022",
+      "25-9031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Emotional Intelligence",
+      "id": "https://skills.emsidata.com/skills/KS123HL75PX38KTJXYKJ"
+    }
+  ]
+}

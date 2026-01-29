@@ -1,0 +1,58 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/761eef5d-33f4-4418-8b98-b8f1bddd8818",
+  "uuid": "761eef5d-33f4-4418-8b98-b8f1bddd8818",
+  "name": "Compliance Analysis",
+  "author": "Western Governors University",
+  "skillStatement": "Analyze compliance with regulatory entities and laws that impact practice across an organization.",
+  "categories": [
+    "Regulatory Compliance"
+  ],
+  "keywords": [
+    "Regulatory Compliance"
+  ],
+  "standards": [
+    "NICE_SP_RSK",
+    "NICE_OV_MGT",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS",
+    "NICE_OM_ANA",
+    "NICE_PR_VAM",
+    "NICE_OV_LGA"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "15-0000",
+      "21-0000"
+    ],
+    "minorGroups": [
+      "11-9000",
+      "15-1200",
+      "21-1000"
+    ],
+    "broadOccupations": [
+      "11-9190",
+      "15-1210",
+      "21-1090"
+    ],
+    "detailedOccupations": [
+      "11-9199",
+      "15-1212",
+      "21-1094"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Regulatory Compliance",
+      "id": "https://skills.emsidata.com/skills/KS1226L6XYT1N27WRYJM"
+    }
+  ]
+}

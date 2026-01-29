@@ -1,0 +1,58 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/2c791df2-fb85-4f86-99c6-eb4e5683f53a",
+  "uuid": "2c791df2-fb85-4f86-99c6-eb4e5683f53a",
+  "name": "Project Activity Tracking",
+  "author": "Western Governors University",
+  "skillStatement": "Track project activities against milestones and timelines.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Google Docs",
+    "Google Sheets",
+    "Project Management",
+    "Trello",
+    "Monday.com",
+    "GanttPro",
+    "Celoxis",
+    "Jira",
+    "SCRUM",
+    "PMP",
+    "WGUSID: 6496"
+  ],
+  "standards": [
+    "NICE_SP_RSK",
+    "NICE_SP_DEV",
+    "NICE_SP_ARC",
+    "NICE_SP_TRD",
+    "NICE_SP_SRP",
+    "NICE_SP_TST",
+    "NICE_SP_SYS",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS",
+    "NICE_OV_PMA",
+    "NICE_OM_ANA"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "15-0000",
+      "17-0000"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

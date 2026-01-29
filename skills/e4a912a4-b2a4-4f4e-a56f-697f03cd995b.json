@@ -1,0 +1,62 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/e4a912a4-b2a4-4f4e-a56f-697f03cd995b",
+  "uuid": "e4a912a4-b2a4-4f4e-a56f-697f03cd995b",
+  "name": "Manage Agile Projects",
+  "author": "Western Governors University",
+  "skillStatement": "Manage projects using agile software tools and development practices.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Excel",
+    "MS Project",
+    "Jira",
+    "MS DevOps",
+    "Project Management Information Systems"
+  ],
+  "standards": [
+    "NICE_SP_RSK",
+    "NICE_SP_DEV",
+    "NICE_SP_ARC",
+    "NICE_SP_TRD",
+    "NICE_SP_SRP",
+    "NICE_SP_TST",
+    "NICE_SP_SYS",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS",
+    "NICE_OV_PMA",
+    "NICE_OM_ANA"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "15-0000"
+    ],
+    "minorGroups": [
+      "15-1200"
+    ],
+    "broadOccupations": [
+      "15-1210",
+      "15-1250"
+    ],
+    "detailedOccupations": [
+      "15-1211",
+      "15-1251",
+      "15-1256",
+      "15-1257"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
+    }
+  ]
+}

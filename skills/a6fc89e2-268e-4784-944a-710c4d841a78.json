@@ -1,0 +1,12 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/a6fc89e2-268e-4784-944a-710c4d841a78",
+  "uuid": "a6fc89e2-268e-4784-944a-710c4d841a78",
+  "name": "Project Benefit Alignment",
+  "author": "Western Governors University",
+  "skillStatement": "Align project benefits with organizational goals and objectives.",
+  "categories": [
+    "Project Management"
+  ]
+}

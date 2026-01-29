@@ -1,0 +1,79 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/5a37d400-54e3-432c-93cf-ec74ce393446",
+  "uuid": "5a37d400-54e3-432c-93cf-ec74ce393446",
+  "name": "Engaging and Reliable Message Communication",
+  "author": "Western Governors University",
+  "skillStatement": "Communicate messages in an engaging and reliable manner.",
+  "categories": [
+    "Communication"
+  ],
+  "keywords": [
+    "Communications",
+    "GeneralEducation2019"
+  ],
+  "standards": [
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "ISTE.Coach.DCA.7a",
+    "ISTE.Coach.DCA.7b",
+    "ATD.Pers.C"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000",
+      "33-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000",
+      "33-1000",
+      "33-3000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1070",
+      "13-1080",
+      "13-1110",
+      "13-1140",
+      "13-1150",
+      "13-1160",
+      "13-1190",
+      "13-2010",
+      "13-2030",
+      "13-2040",
+      "13-2050",
+      "13-2060",
+      "13-2080",
+      "33-1010",
+      "33-3010",
+      "33-3020",
+      "33-3050"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1071",
+      "13-1075",
+      "13-1081",
+      "13-1111",
+      "13-1141",
+      "13-1151",
+      "13-1161",
+      "13-1198",
+      "13-2011",
+      "13-2031",
+      "13-2041",
+      "13-2061"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Communication",
+      "id": "https://lightcast.io/open-skills/skills/KS122556LMQ829GZCCRV/communication"
+    }
+  ]
+}

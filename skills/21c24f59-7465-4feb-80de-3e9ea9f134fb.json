@@ -1,0 +1,62 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/21c24f59-7465-4feb-80de-3e9ea9f134fb",
+  "uuid": "21c24f59-7465-4feb-80de-3e9ea9f134fb",
+  "name": "Project Resources Management",
+  "author": "Western Governors University",
+  "skillStatement": "Manage project resources.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Project Management",
+    "WGUSID: 4961"
+  ],
+  "standards": [
+    "NICE_SP_RSK",
+    "NICE_SP_DEV",
+    "NICE_SP_ARC",
+    "NICE_SP_TRD",
+    "NICE_SP_SRP",
+    "NICE_SP_TST",
+    "NICE_SP_SYS",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS",
+    "NICE_OV_PMA",
+    "NICE_OM_ANA"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "15-0000"
+    ],
+    "minorGroups": [
+      "15-1200",
+      "15-2000"
+    ],
+    "broadOccupations": [
+      "15-1210",
+      "15-1230",
+      "15-1250",
+      "15-1290",
+      "15-2030"
+    ],
+    "detailedOccupations": [
+      "15-1211",
+      "15-1259",
+      "15-2031"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

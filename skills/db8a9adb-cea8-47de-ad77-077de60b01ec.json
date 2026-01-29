@@ -1,0 +1,67 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/db8a9adb-cea8-47de-ad77-077de60b01ec",
+  "uuid": "db8a9adb-cea8-47de-ad77-077de60b01ec",
+  "name": "End-to-End Project Management",
+  "author": "Western Governors University",
+  "skillStatement": "Manage a project from idea to delivery.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Project Management",
+    "WGUSID: 4895"
+  ],
+  "standards": [
+    "InTASC_3a",
+    "InTASC_3i",
+    "InTASC_4g",
+    "InTASC_8n",
+    "ATD.Prof.ID",
+    "ATD.Prof.TA",
+    "ATD.Prof.TDF",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3f",
+    "InTASC_3h",
+    "InTASC_3l",
+    "InTASC_3o",
+    "InTASC_5d",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "InTASC_3q",
+    "InTASC_6o",
+    "InTASC_6s",
+    "ATD.Pers.C",
+    "ATD.Prof.TDFISTE_EdLeaders_3a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "25-0000"
+    ],
+    "minorGroups": [
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "25-4020",
+      "25-9010",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "25-4022",
+      "25-9011",
+      "25-9031",
+      "25-9099"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

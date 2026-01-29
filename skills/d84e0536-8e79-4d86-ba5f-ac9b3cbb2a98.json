@@ -1,0 +1,46 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/d84e0536-8e79-4d86-ba5f-ac9b3cbb2a98",
+  "uuid": "d84e0536-8e79-4d86-ba5f-ac9b3cbb2a98",
+  "name": "Request for Proposal Specifications Documentation",
+  "author": "Western Governors University",
+  "skillStatement": "Document detailed specifications for a request for proposal.",
+  "categories": [
+    "Request For Proposal"
+  ],
+  "keywords": [
+    "SAP",
+    "Microsoft Dynamics",
+    "Oracle E-Business Suite",
+    "Oracle JD Edwards EnterpriseOne",
+    "Project Management software",
+    "Request For Proposal",
+    "Request For Proposal (RFP)",
+    "WGUSID: 7676"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1140",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1141",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Request For Proposal",
+      "id": "https://skills.emsidata.com/skills/KS4402T6094D6F35MTXR"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/268aedaf-3c04-4d54-b83e-c8372e18c4cf",
+  "uuid": "268aedaf-3c04-4d54-b83e-c8372e18c4cf",
+  "name": "Benefit Realization Ownership Agreements",
+  "author": "Western Governors University",
+  "skillStatement": "Document agreements on ownership in business projects.",
+  "categories": [
+    "Project Management"
+  ]
+}

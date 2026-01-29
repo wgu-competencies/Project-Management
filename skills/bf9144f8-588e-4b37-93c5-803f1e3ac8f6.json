@@ -1,0 +1,64 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/bf9144f8-588e-4b37-93c5-803f1e3ac8f6",
+  "uuid": "bf9144f8-588e-4b37-93c5-803f1e3ac8f6",
+  "name": "Effectiveness Tracking",
+  "author": "Western Governors University",
+  "skillStatement": "Track the performance of current business processes.",
+  "categories": [
+    "Business Process"
+  ],
+  "keywords": [
+    "SAP",
+    "Tableau",
+    "MicroStrategy",
+    "Enterprise Resource Planning software",
+    "Microsoft Dynamics",
+    "Oracle E-Business Suite",
+    "Oracle JD Edwards EnterpriseOne",
+    "Business Intelligence and Data Analysis software IBM Cognos Impromptu",
+    "Qlick Tech QlickView",
+    "Business Process Management"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1070",
+      "13-1080",
+      "13-1110",
+      "13-1140",
+      "13-1150",
+      "13-1190",
+      "13-2010",
+      "13-2050",
+      "13-2060",
+      "13-2080"
+    ],
+    "detailedOccupations": [
+      "13-1071",
+      "13-1075",
+      "13-1081",
+      "13-1111",
+      "13-1141",
+      "13-1151",
+      "13-1198",
+      "13-2011",
+      "13-2061",
+      "13-2081",
+      "13-2082"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Business Process",
+      "id": "https://lightcast.io/open-skills/skills/KS1218Y74WJ6YV4KH0DM/business-process"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/d9b0d15f-e481-42e4-b5db-1f16554ecb87",
+  "uuid": "d9b0d15f-e481-42e4-b5db-1f16554ecb87",
+  "name": "Risk Mitigation Plans Evaluation",
+  "author": "Western Governors University",
+  "skillStatement": "Evaluate sufficiency of mitigation plans to address identified risk areas.",
+  "categories": [
+    "Risk Management"
+  ],
+  "keywords": [
+    "Risk Analysis",
+    "Risk Assessment",
+    "Vendor Risk Assessment"
+  ],
+  "certifications": [
+    "CPA",
+    "CMA_BU",
+    "CIA",
+    "CFE"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1080",
+      "13-1110",
+      "13-1190",
+      "13-2010",
+      "13-2030",
+      "13-2040",
+      "13-2050",
+      "13-2060",
+      "13-2080"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1081",
+      "13-1082",
+      "13-1111",
+      "13-1191",
+      "13-2011",
+      "13-2031",
+      "13-2051",
+      "13-2052",
+      "13-2053",
+      "13-2054",
+      "13-2061"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Risk Management",
+      "id": "https://lightcast.io/open-skills/skills/KS125ZB6BWF5RY40BH1B/risk-management"
+    }
+  ]
+}

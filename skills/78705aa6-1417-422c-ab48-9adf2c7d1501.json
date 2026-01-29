@@ -1,0 +1,21 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/78705aa6-1417-422c-ab48-9adf2c7d1501",
+  "uuid": "78705aa6-1417-422c-ab48-9adf2c7d1501",
+  "name": "Stakeholder Collaboration",
+  "author": "Western Governors University",
+  "skillStatement": "Collaborate with internal and external stakeholders.",
+  "categories": [
+    "Collaboration"
+  ],
+  "keywords": [
+    "Project Management"
+  ],
+  "alignments": [
+    {
+      "skillName": "Collaboration",
+      "id": "https://lightcast.io/open-skills/skills/KS7AASDV6UOE7VFBGF4D/collaboration"
+    }
+  ]
+}

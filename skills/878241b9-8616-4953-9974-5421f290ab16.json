@@ -1,0 +1,73 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/878241b9-8616-4953-9974-5421f290ab16",
+  "uuid": "878241b9-8616-4953-9974-5421f290ab16",
+  "name": "Determine Effective Change Management Techniques",
+  "author": "Western Governors University",
+  "skillStatement": "Determine the most effective change management techniques for implementation in a given situation.",
+  "categories": [
+    "Change Management"
+  ],
+  "keywords": [
+    "Change Management"
+  ],
+  "standards": [
+    "InTASC_3a",
+    "InTASC_3d",
+    "InTASC_3g",
+    "InTASC_3i",
+    "InTASC_3m",
+    "InTASC_3n",
+    "InTASC_4g",
+    "InTASC_5i",
+    "InTASC_6p",
+    "InTASC_8n",
+    "ISTE_EdLeaders_2c",
+    "ATD.Prof.EI",
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ISTE.Coach.C.3a",
+    "ISTE.Coach.CA.1a",
+    "ISTE.Coach.CA.1c",
+    "ISTE.Coach.CL.2c",
+    "ISTE.Coach.PLF.5b",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ISTE_Educators_5b",
+    "ISTE_Educators_5c",
+    "ISTE.Coach.C.3c",
+    "ISTE.Coach.PLF.5bISTE_Educators_5a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "15-0000",
+      "25-0000"
+    ],
+    "minorGroups": [
+      "15-1200",
+      "25-4000",
+      "25-9000"
+    ],
+    "broadOccupations": [
+      "15-1210",
+      "25-4020",
+      "25-9010",
+      "25-9030",
+      "25-9090"
+    ],
+    "detailedOccupations": [
+      "15-1212",
+      "25-4022",
+      "25-9011",
+      "25-9031",
+      "25-9099"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Change Management",
+      "id": "https://skills.emsidata.com/skills/KS121T569X502KJPS0F3"
+    }
+  ]
+}

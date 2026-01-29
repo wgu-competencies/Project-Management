@@ -1,0 +1,26 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/bfdafba2-abca-42cc-87a9-26839418ad22",
+  "uuid": "bfdafba2-abca-42cc-87a9-26839418ad22",
+  "name": "Make Decisions that Create Value",
+  "author": "Western Governors University",
+  "skillStatement": "Make decisions that create value.",
+  "categories": [
+    "Strategic Decision-Making"
+  ],
+  "keywords": [
+    "Influencer",
+    "Transferrable Skills Across Occupations",
+    "Transferrable Skills for Leaders",
+    "Entrepreneur",
+    "Professional Development and Career Management",
+    "Strategic Decision-Making"
+  ],
+  "alignments": [
+    {
+      "skillName": "Strategic Decision-Making",
+      "id": "https://skills.lightcast.io/skills/ES4E81D4E042F468C897"
+    }
+  ]
+}

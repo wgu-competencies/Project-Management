@@ -1,0 +1,50 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/a622d59c-55d7-4371-b0d5-79c33ba2b2b7",
+  "uuid": "a622d59c-55d7-4371-b0d5-79c33ba2b2b7",
+  "name": "Project Requirements Changes Adaptability",
+  "author": "Western Governors University",
+  "skillStatement": "Demonstrate agility and adaptability when project requirements, goals, or constraints change.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Leadership",
+    "Goal Oriented",
+    "Goal Setting",
+    "goals",
+    "Human Resources",
+    "Leadership and Navigation",
+    "Leadership & Navigation",
+    "Navigation",
+    "Managing HR Initiatives",
+    "HR",
+    "SHRM",
+    "Human Resources (HR)"
+  ],
+  "standards": [
+    "SHRM"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000"
+    ],
+    "minorGroups": [
+      "11-3000"
+    ],
+    "broadOccupations": [
+      "11-3130"
+    ],
+    "detailedOccupations": [
+      "11-3131"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/497d0be5-d661-4ae1-a65f-62a74bbf38e1",
+  "uuid": "497d0be5-d661-4ae1-a65f-62a74bbf38e1",
+  "name": "Needs of Others Identification",
+  "author": "Western Governors University",
+  "skillStatement": "Identify the needs of others to coach, mentor, or help improve their knowledge or skills.",
+  "categories": [
+    "Management"
+  ],
+  "keywords": [
+    "Educational Leadership",
+    "Management",
+    "Supervisory Skills",
+    "WGUSID: 3949",
+    "NGT"
+  ],
+  "standards": [
+    "InTASC_3a",
+    "InTASC_3i",
+    "InTASC_3n",
+    "InTASC_4g",
+    "InTASC_8n",
+    "ISTE_EdLeaders_2c",
+    "InTASC_3b",
+    "InTASC_3e",
+    "InTASC_3f",
+    "InTASC_3h",
+    "InTASC_3l",
+    "InTASC_3o",
+    "InTASC_5d",
+    "InTASC_6o",
+    "InTASC_6s",
+    "ISTE_Educators_1c",
+    "ISTE_Educators_2b",
+    "InTASC_3c",
+    "ISTE_Educators_1a",
+    "ISTE_Educators_1b",
+    "ISTE_Educators_2a",
+    "AAQEP_3e",
+    "ISTE_Educators_2c"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "25-0000",
+      "33-0000",
+      "449919-0000"
+    ],
+    "minorGroups": [
+      "11-3000",
+      "11-9000"
+    ],
+    "broadOccupations": [
+      "11-3130",
+      "11-9030"
+    ],
+    "detailedOccupations": [
+      "11-9033",
+      "11-9039"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Management",
+      "id": "https://skills.emsidata.com/skills/KS1218W78FGVPVP2KXPX"
+    }
+  ]
+}

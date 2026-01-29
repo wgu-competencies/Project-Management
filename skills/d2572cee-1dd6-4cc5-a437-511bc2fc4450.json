@@ -1,0 +1,46 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/d2572cee-1dd6-4cc5-a437-511bc2fc4450",
+  "uuid": "d2572cee-1dd6-4cc5-a437-511bc2fc4450",
+  "name": "Feedback Delivery",
+  "author": "Western Governors University",
+  "skillStatement": "Deliver constructive feedback to team members.",
+  "categories": [
+    "Team Management"
+  ],
+  "keywords": [
+    "Team Management",
+    "WGUSID: 7815"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1110",
+      "13-1160",
+      "13-1190",
+      "13-2050",
+      "13-2060",
+      "13-2080"
+    ],
+    "detailedOccupations": [
+      "13-1111",
+      "13-1161",
+      "13-1198",
+      "13-2061",
+      "13-2081"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Team Management",
+      "id": "https://skills.emsidata.com/skills/KS441846K903WT1RYDKJ"
+    }
+  ]
+}

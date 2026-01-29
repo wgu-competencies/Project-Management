@@ -1,0 +1,50 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/15d2220a-6f61-44ff-9ecd-9bdf14db6e69",
+  "uuid": "15d2220a-6f61-44ff-9ecd-9bdf14db6e69",
+  "name": "Contract Agreement Negotiation",
+  "author": "Western Governors University",
+  "skillStatement": "Negotiate contract agreements.",
+  "categories": [
+    "Negotiation"
+  ],
+  "keywords": [
+    "Negotiation",
+    "WGUSID: 5179"
+  ],
+  "standards": [
+    "NICE_SP_SRP",
+    "NICE_OV_MGT",
+    "NICE_AN_TWA",
+    "NICE_AN_EXP",
+    "NICE_AN_ASA",
+    "NICE_AN_TGT",
+    "NICE_AN_LNG",
+    "NICE_CO_CLO",
+    "NICE_CO_OPL",
+    "NICE_CO_OPS"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "15-0000",
+      "33-0000"
+    ],
+    "minorGroups": [
+      "11-3000"
+    ],
+    "broadOccupations": [
+      "11-3130"
+    ],
+    "detailedOccupations": [
+      "11-3131"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Negotiation",
+      "id": "https://skills.emsidata.com/skills/KS126X663B21NB77ZHSP"
+    }
+  ]
+}

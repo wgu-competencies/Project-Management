@@ -1,0 +1,63 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/24879a40-158b-45b6-bc94-3bf832c208e5",
+  "uuid": "24879a40-158b-45b6-bc94-3bf832c208e5",
+  "name": "Key Performance Indicator Analysis",
+  "author": "Western Governors University",
+  "skillStatement": "Analyze key performance indicator (KPI) data for business performance measurement.",
+  "categories": [
+    "Business Analysis"
+  ],
+  "keywords": [
+    "SAP",
+    "Tableau",
+    "Microsoft Excel",
+    "Microsoft Word",
+    "IBM Cognos Impromptu",
+    "MicroStrategy",
+    "Google Docs",
+    "Google Sheets",
+    "Business Analysis",
+    "Microsoft Dynamics",
+    "Qlik Tech QlikView",
+    "Google Analytics",
+    "Delphi Technology",
+    "Oracle E-Business Suite Financials",
+    "NetSuite ERP",
+    "Python",
+    "Oracle Hyperion",
+    "WGUSID: 7106"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000"
+    ],
+    "minorGroups": [
+      "11-9000",
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "11-9030",
+      "13-1110",
+      "13-1160",
+      "13-1190",
+      "13-2050"
+    ],
+    "detailedOccupations": [
+      "11-9033",
+      "11-9039",
+      "13-1111",
+      "13-1161",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Business Analysis",
+      "id": "https://skills.emsidata.com/skills/KS1218C6C8TX2Y1KRN37"
+    }
+  ]
+}

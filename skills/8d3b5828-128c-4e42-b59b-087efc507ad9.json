@@ -1,0 +1,38 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/8d3b5828-128c-4e42-b59b-087efc507ad9",
+  "uuid": "8d3b5828-128c-4e42-b59b-087efc507ad9",
+  "name": "Key Performance Indicator Variance Calculation",
+  "author": "Western Governors University",
+  "skillStatement": "Calculate the variance of business key performance indicators from goals.",
+  "categories": [
+    "Business Analytics"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1110",
+      "13-1160",
+      "13-1190",
+      "13-2050"
+    ],
+    "detailedOccupations": [
+      "13-1111",
+      "13-1161",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Business Analysis",
+      "id": "https://skills.emsidata.com/skills/KS1218C6C8TX2Y1KRN37"
+    }
+  ]
+}

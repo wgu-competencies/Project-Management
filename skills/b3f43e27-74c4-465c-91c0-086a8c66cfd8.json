@@ -1,0 +1,63 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/b3f43e27-74c4-465c-91c0-086a8c66cfd8",
+  "uuid": "b3f43e27-74c4-465c-91c0-086a8c66cfd8",
+  "name": "Risks Quantification",
+  "author": "Western Governors University",
+  "skillStatement": "Quantify risks by analyzing the likelihood, severity, and impact of each identified risk.",
+  "categories": [
+    "Risk Analysis"
+  ],
+  "keywords": [
+    "Risk Management",
+    "Microsoft Outlook",
+    "Microsoft Office",
+    "Salesforce",
+    "Microsoft Dynamics",
+    "CRM",
+    "Risk Reporting"
+  ],
+  "certifications": [
+    "CPA",
+    "CMA_BU",
+    "CIA",
+    "CFE"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1080",
+      "13-1110",
+      "13-1190",
+      "13-2010",
+      "13-2030",
+      "13-2040",
+      "13-2050",
+      "13-2060"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1081",
+      "13-1111",
+      "13-1198",
+      "13-2011",
+      "13-2031",
+      "13-2041",
+      "13-2061"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Risk Analysis",
+      "id": "https://lightcast.io/open-skills/skills/KS4403G6XNX5KJSD906W/risk-analysis"
+    }
+  ]
+}

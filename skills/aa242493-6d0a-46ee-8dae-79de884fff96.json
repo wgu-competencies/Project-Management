@@ -1,0 +1,59 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/aa242493-6d0a-46ee-8dae-79de884fff96",
+  "uuid": "aa242493-6d0a-46ee-8dae-79de884fff96",
+  "name": "Address Project Risks",
+  "author": "Western Governors University",
+  "skillStatement": "Implement actions to resolve issues and address project risks.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Project Management",
+    "Primavera P6",
+    "Microsoft Project Microsoft Office",
+    "WGUSID: 7632"
+  ],
+  "standards": [
+    "ATD.Prof.ID",
+    "ATD.Prof.TDF",
+    "ATD.Pers.CL",
+    "ATD.Pers.PM",
+    "ATD.Org.CBP",
+    "ATD.Pers.C"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "13-1050",
+      "13-1080",
+      "13-1110",
+      "13-1140",
+      "13-1150",
+      "13-1160",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "13-1051",
+      "13-1081",
+      "13-1111",
+      "13-1141",
+      "13-1151",
+      "13-1161"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

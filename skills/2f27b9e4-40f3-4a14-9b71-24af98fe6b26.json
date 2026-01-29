@@ -1,0 +1,57 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/2f27b9e4-40f3-4a14-9b71-24af98fe6b26",
+  "uuid": "2f27b9e4-40f3-4a14-9b71-24af98fe6b26",
+  "name": "Technical Training Needs Identification",
+  "author": "Western Governors University",
+  "skillStatement": "Identify technical training needs for an organization.",
+  "categories": [
+    "Technical Training"
+  ],
+  "keywords": [
+    "Research",
+    "Technical Training",
+    "Acquisition",
+    "& Development Center (SORDAC) software applications.",
+    "WGUSID: 7822"
+  ],
+  "standards": [
+    "ATD.Prof.ID",
+    "ATD.Prof.TA",
+    "ATD.Prof.TDF",
+    "ISTE.Coach.C.3a",
+    "ISTE.Coach.CA.1a",
+    "ISTE.Coach.CA.1c",
+    "ISTE.Coach.CL.2c",
+    "ISTE.Coach.PLF.5b",
+    "ATD.Prof.LS",
+    "ATD.Pers.CL",
+    "ATD.Org.CBP",
+    "ISTE.Coach.PLF.5a"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "13-1110",
+      "13-1150",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "13-1111",
+      "13-1151",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Technical Training",
+      "id": "https://skills.emsidata.com/skills/KS4418P67WQQGGD3YBY5"
+    }
+  ]
+}

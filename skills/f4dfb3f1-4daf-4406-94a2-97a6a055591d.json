@@ -1,0 +1,12 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/f4dfb3f1-4daf-4406-94a2-97a6a055591d",
+  "uuid": "f4dfb3f1-4daf-4406-94a2-97a6a055591d",
+  "name": "Organizational Culture Evaluation",
+  "author": "Western Governors University",
+  "skillStatement": "Evaluate organizational culture for areas of improvement.",
+  "categories": [
+    "Organizational Leadership"
+  ]
+}

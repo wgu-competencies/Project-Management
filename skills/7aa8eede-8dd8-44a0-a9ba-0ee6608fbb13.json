@@ -1,0 +1,48 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/7aa8eede-8dd8-44a0-a9ba-0ee6608fbb13",
+  "uuid": "7aa8eede-8dd8-44a0-a9ba-0ee6608fbb13",
+  "name": "Project Communication Facilitation",
+  "author": "Western Governors University",
+  "skillStatement": "Facilitate communication between multiple project parties.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Microsoft Excel",
+    "Microsoft Word",
+    "Google Docs",
+    "Google Sheets",
+    "Project Management",
+    "Trello",
+    "Monday.com",
+    "GanttPro",
+    "Celoxis",
+    "Jira",
+    "SCRUM",
+    "PMP",
+    "WGUSID: 3418"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "17-0000"
+    ],
+    "minorGroups": [
+      "17-2000",
+      "17-3000"
+    ],
+    "broadOccupations": [
+      "17-2080",
+      "17-2110",
+      "17-2190",
+      "17-3020"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

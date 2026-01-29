@@ -1,0 +1,47 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/fbc16d2b-c571-457a-87f0-0d01c6241687",
+  "uuid": "fbc16d2b-c571-457a-87f0-0d01c6241687",
+  "name": "Plans Project Closure",
+  "author": "Western Governors University",
+  "skillStatement": "Plan project closure requirements and actions.",
+  "categories": [
+    "Project Management"
+  ],
+  "keywords": [
+    "Project Management",
+    "WGUSID: 13249"
+  ],
+  "standards": [
+    "CAHIMS_HISM_A2",
+    "AHIMA_AHIC_K144",
+    "ANCC_Informatics_Certification_II.A.6",
+    "NAHQ_HQ_PPI2",
+    "AHIMA_AHIC_T512"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "29-0000"
+    ],
+    "minorGroups": [
+      "11-9000",
+      "29-1000"
+    ],
+    "broadOccupations": [
+      "11-9110",
+      "29-1140"
+    ],
+    "detailedOccupations": [
+      "11-9111",
+      "29-1141"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Project Management",
+      "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
+    }
+  ]
+}

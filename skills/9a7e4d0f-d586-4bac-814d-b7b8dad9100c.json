@@ -1,0 +1,52 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/9a7e4d0f-d586-4bac-814d-b7b8dad9100c",
+  "uuid": "9a7e4d0f-d586-4bac-814d-b7b8dad9100c",
+  "name": "Resource Allocation Determination",
+  "author": "Western Governors University",
+  "skillStatement": "Determine resource allocations for organizational initiatives according to organizational leadership's priorities.",
+  "categories": [
+    "Organizational Leadership"
+  ],
+  "keywords": [
+    "SAP",
+    "Organizational Leadership",
+    "Sage 50 Accounting",
+    "Intuit QuickBooks",
+    "Oracle E-Business Suite",
+    "Microsoft Project",
+    "Oracle Peoplesoft",
+    "Microsoft Dynamics GP",
+    "Halogen e360",
+    "Halogen ePraisal",
+    "Human resource information system HRIS",
+    "Infor SSA Human Capital Management",
+    "Microsoft SharePoint",
+    "WGUSID: 7570"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "13-1070",
+      "13-1110",
+      "13-1190"
+    ],
+    "detailedOccupations": [
+      "13-1071",
+      "13-1111",
+      "13-1198"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Organizational Leadership",
+      "id": "https://skills.emsidata.com/skills/ESB812BB8B0FCA695F64"
+    }
+  ]
+}

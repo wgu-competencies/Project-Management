@@ -1,0 +1,45 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/d748b768-4070-43fa-a417-a342059deb2c",
+  "uuid": "d748b768-4070-43fa-a417-a342059deb2c",
+  "name": "Training Process Implementation",
+  "author": "Western Governors University",
+  "skillStatement": "Support individuals in applying new skills and knowledge to their work.",
+  "categories": [
+    "Training And Development"
+  ],
+  "keywords": [
+    "Team Management"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1110",
+      "13-1160",
+      "13-1190",
+      "13-2050",
+      "13-2060",
+      "13-2080"
+    ],
+    "detailedOccupations": [
+      "13-1111",
+      "13-1161",
+      "13-1198",
+      "13-2061",
+      "13-2081"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Training and Development",
+      "id": "https://lightcast.io/open-skills/skills/KS122F96DJHT3ZXB8FCZ/training-and-development"
+    }
+  ]
+}

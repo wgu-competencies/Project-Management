@@ -1,0 +1,60 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/5d8b01df-496e-4430-8a60-bc1f81560003",
+  "uuid": "5d8b01df-496e-4430-8a60-bc1f81560003",
+  "name": "Team Members Relationship Building",
+  "author": "Western Governors University",
+  "skillStatement": "Build relationships with colleagues through support and communication.",
+  "categories": [
+    "Relationship Management"
+  ],
+  "keywords": [
+    "Communications",
+    "Teamwork",
+    "Relationship Management",
+    "Team Building",
+    "Establishing Trust",
+    "Trustworthy",
+    "Human Resources",
+    "HR",
+    "SHRM",
+    "interpersonal"
+  ],
+  "standards": [
+    "SHRM"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000"
+    ],
+    "minorGroups": [
+      "11-3000",
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "11-3110",
+      "11-3120",
+      "11-3130",
+      "13-1070",
+      "13-1140",
+      "13-1150"
+    ],
+    "detailedOccupations": [
+      "11-3111",
+      "11-3121",
+      "11-3131",
+      "13-1071",
+      "13-1075",
+      "13-1141",
+      "13-1151"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Relationship Management",
+      "id": "https://skills.emsidata.com/skills/ES70CD6E89F6DAD8F319"
+    }
+  ]
+}

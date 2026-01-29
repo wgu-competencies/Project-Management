@@ -1,0 +1,60 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/76c3fbfb-7301-499d-8c59-8380903cb3cb",
+  "uuid": "76c3fbfb-7301-499d-8c59-8380903cb3cb",
+  "name": "Identification of Business Operations Opportunities",
+  "author": "Western Governors University",
+  "skillStatement": "Identify opportunities for business operations improvement.",
+  "categories": [
+    "Business Operations"
+  ],
+  "keywords": [
+    "Continuous Improvement Process",
+    "Adobe Systems Adobe Captivate",
+    "Articulate Rapid E-Learning Studio",
+    "Halogen eLMS",
+    "SumTotal Systems ToolBook"
+  ],
+  "certifications": [
+    "AZ-304"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "13-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1070",
+      "13-1110",
+      "13-1140",
+      "13-1190",
+      "13-2010"
+    ],
+    "detailedOccupations": [
+      "13-1071",
+      "13-1075",
+      "13-1111",
+      "13-1141",
+      "13-1198",
+      "13-2011"
+    ],
+    "onetJobCodes": [
+      "13-1071.00",
+      "13-1075.00",
+      "13-1111.00",
+      "13-1141.00",
+      "13-2011.00"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Business Operations",
+      "id": "https://lightcast.io/open-skills/skills/ES84406857CBEEFACE95/business-operations",
+      "framework": "Lightcast Open Skills Library"
+    }
+  ]
+}
