@@ -1,0 +1,141 @@
+---
+title: API Documentation
+description: How to access and consume skills from this registry
+---
+
+## Base URL
+
+```
+https://wgu-competencies.github.io/Project-Management/
+```
+
+## Endpoints
+
+### Get Individual Skill
+
+```http
+GET /skills/{uuid}.json
+```
+
+**Example:**
+```bash
+curl https://wgu-competencies.github.io/Project-Management/skills/0d311109-0ed0-4d53-9c66-94019a4fe2da.json
+```
+
+**Response:** JSON-LD Rich Skill Descriptor
+
+### Get Complete Collection
+
+```http
+GET /collection.json
+```
+
+**Returns:** All 101 skills in a single JSON array with collection metadata.
+
+```json
+{
+  "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
+  "id": "https://wgu-competencies.github.io/Project-Management/collection.json",
+  "type": "Collection",
+  "name": "Project Management Skills",
+  "skills": [...]
+}
+```
+
+## Response Format
+
+All skills follow the [Rich Skill Descriptor (RSD)](https://rsd.openskillsnetwork.org/) format.
+
+### Core Fields
+
+```json
+{
+  "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://wgu-competencies.github.io/Project-Management/skills/{uuid}",
+  "uuid": "{uuid}",
+  "name": "Skill Name",
+  "author": "Western Governors University",
+  "skillStatement": "Description of what the skill enables",
+  "categories": ["Category"],
+  "keywords": ["keyword1", "keyword2"],
+  "occupations": { /* O*NET codes */ },
+  "alignments": [{ /* External skill alignments */ }]
+}
+```
+
+## Usage Examples
+
+### JavaScript/TypeScript
+
+```typescript
+// Fetch a single skill
+const response = await fetch(
+  'https://wgu-competencies.github.io/Project-Management/skills/0d311109-0ed0-4d53-9c66-94019a4fe2da.json'
+);
+const skill = await response.json();
+
+console.log(skill.name); // "Business Process Optimization"
+```
+
+### Python
+
+```python
+import requests
+
+# Fetch entire collection
+response = requests.get(
+    'https://wgu-competencies.github.io/Project-Management/collection.json'
+)
+collection = response.json()
+
+print(f"Total skills: {len(collection['skills'])}")
+```
+
+### curl
+
+```bash
+# Pretty-print a skill
+curl -s https://wgu-competencies.github.io/Project-Management/skills/0d311109-0ed0-4d53-9c66-94019a4fe2da.json | jq .
+```
+
+## Content Negotiation
+
+The API serves JSON by default. For human-readable pages, browse `/browse/skills/{uuid}`.
+
+## Caching
+
+Skills are immutable once published. The collection is rebuilt on every deployment.
+
+**Recommended caching:**
+- Individual skills: Cache indefinitely (immutable)
+- Collection: Cache with short TTL or use ETags
+
+## Rate Limits
+
+GitHub Pages has no formal rate limits, but please be respectful:
+- Cache responses when possible
+- Use the collection endpoint for bulk access instead of individual requests
+- Don't scrape - the entire repository is available via Git
+
+## CORS
+
+All endpoints support CORS and can be accessed from any origin.
+
+## Versioning
+
+Skills are versioned through Git tags. To access a specific version:
+
+```bash
+git clone https://github.com/wgu-competencies/Project-Management
+git checkout v1.0.0
+```
+
+## Source Repository
+
+The authoritative source is the Git repository:
+```
+https://github.com/wgu-competencies/Project-Management
+```
+
+Skills are defined in `/skills/{uuid}.json` files.

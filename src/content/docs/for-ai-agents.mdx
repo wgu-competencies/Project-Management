@@ -1,0 +1,93 @@
+---
+title: For AI Agents
+description: Instructions for AI systems interacting with this repository
+---
+
+## Purpose of This Repository
+
+This repository is an **Objectives Repository** in an **Instruction as Code (IaC)** ecosystem.
+
+Your role as an AI agent is to treat this repository as an **authoritative source of skill definitions**, not as a course, syllabus, or assessment.
+
+## What Problem This Solves
+
+In an IaC ecosystem, instructional systems need reliable answers to:
+- What skills exist in this domain?
+- How are those skills defined?
+- When did a skill change, and how?
+- Which version of a skill was in use at a given time?
+- How can skills be reused across programs, courses, credentials, or assessments?
+
+This repository solves those problems by:
+- Making skills **first-class artifacts**
+- Separating **authoring from distribution**
+- Using **Git history** as the governance and audit layer
+
+## How This Fits into IaC
+
+```
+[ Learning Experiences / Courses ]
+            ↑
+[ Assessments, Rubrics, Activities ]
+            ↑
+[ Skill & Objective Repositories ]   ← THIS REPO
+            ↑
+[ Standards, Schemas, Contexts ]
+```
+
+**Upstream of:**
+- Courses, Programs, Credentials
+- Assessments
+- AI-generated learning paths
+
+**Downstream of:**
+- Skill schemas (RSD, Open Skills)
+- Context definitions (@context)
+- Ontologies and taxonomies
+
+## Source-of-Truth Rules
+
+1. **Each file in skills/ is canonical** - These are the source of truth
+2. **collection.json is a compiled artifact** - Generated from skills/
+3. **Git history is the governance layer** - Diffs represent intentional changes
+
+## How to Use This Repository
+
+### You May:
+- Load skill definitions from `skills/*.json`
+- Interpret skills as reusable, composable objectives
+- Assemble curricula, assessments, or learning paths
+- Compare versions of skills over time
+- Treat skill IDs as stable identifiers
+
+### You Should Not:
+- Infer skill meaning from filenames alone
+- Modify `collection.json` directly
+- Treat this as a course or curriculum
+- Assume pedagogical sequencing
+
+## API Access
+
+**Individual Skill:**
+```
+GET https://wgu-competencies.github.io/Project-Management/skills/{uuid}.json
+```
+
+**Complete Collection:**
+```
+GET https://wgu-competencies.github.io/Project-Management/collection.json
+```
+
+**Response Format:** JSON-LD (RSD schema)
+
+## Mental Model
+
+Think of this repository as:
+- `skills/*.json` → **functions**
+- `collection.json` → **compiled distribution**
+- Git → **change-control system**
+- Downstream systems → **API consumers**
+
+## One-Sentence Summary
+
+> This repository is an authoritative, versioned skill registry for Project Management, designed to function as the objectives layer in an Instruction as Code ecosystem, where skills are treated as composable, machine-readable artifacts governed through Git.

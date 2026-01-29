@@ -1,0 +1,17 @@
+{
+  "name": "project-management",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile:write": "node tools/compile-collection.mjs --write",
+    "compile:check": "node tools/compile-collection.mjs --check",
+    "docs:dev": "astro dev",
+    "docs:build": "npm run compile:write && astro build",
+    "docs:preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/starlight": "^0.37.4",
+    "astro": "^5.17.1",
+    "sharp": "^0.34.5"
+  }
+}

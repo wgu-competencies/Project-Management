@@ -1,0 +1,8 @@
+{
+  "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
+  "id": "https://wgu-competencies.github.io/Project-Management/collection.json",
+  "type": "Collection",
+  "name": "Project Management Skills",
+  "description": "Program Management skills as structured, versioned rich skill descriptors (RSDs).",
+  "author": "Western Governors University"
+}

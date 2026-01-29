@@ -1,0 +1,17 @@
+/* Custom styles for Project Management Skills Registry */
+
+:root {
+  --sl-color-accent-low: #1e3a8a;
+  --sl-color-accent: #3b82f6;
+  --sl-color-accent-high: #60a5fa;
+}
+
+/* Code blocks for JSON */
+pre {
+  font-size: 0.875rem;
+}
+
+/* Enhance skill cards */
+.sl-card {
+  border-left: 3px solid var(--sl-color-accent);
+}
