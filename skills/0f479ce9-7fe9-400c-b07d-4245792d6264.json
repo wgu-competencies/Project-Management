@@ -1,5 +1,5 @@
 {
-  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
   "@type": "RichSkillDescriptor",
   "id": "https://osmt.wgu.edu/api/skills/0f479ce9-7fe9-400c-b07d-4245792d6264",
   "uuid": "0f479ce9-7fe9-400c-b07d-4245792d6264",
