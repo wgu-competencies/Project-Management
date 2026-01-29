@@ -1,0 +1,48 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/973c5e04-16a4-402e-99b1-2ee65427fb86",
+  "uuid": "973c5e04-16a4-402e-99b1-2ee65427fb86",
+  "name": "Conflict Resolution Strategies Design",
+  "author": "Western Governors University",
+  "skillStatement": "Apply conflict resolution strategies.",
+  "categories": [
+    "Conflict Resolution"
+  ],
+  "standards": [
+    "SHRM"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000"
+    ],
+    "minorGroups": [
+      "11-3000",
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "11-3110",
+      "11-3120",
+      "11-3130",
+      "13-1070",
+      "13-1140",
+      "13-1150"
+    ],
+    "detailedOccupations": [
+      "11-3111",
+      "11-3121",
+      "11-3131",
+      "13-1071",
+      "13-1075",
+      "13-1141",
+      "13-1151"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Conflict Resolution",
+      "id": "https://lightcast.io/open-skills/skills/KS1228S6YKWXMH4M4DL7/conflict-resolution"
+    }
+  ]
+}

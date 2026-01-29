@@ -1,0 +1,35 @@
+{
+  "@context": "https://rsd.osmt.dev/context-v1.json",
+  "@type": "RichSkillDescriptor",
+  "id": "https://osmt.wgu.edu/api/skills/02691b93-7d37-49b5-acff-472dc1d114eb",
+  "uuid": "02691b93-7d37-49b5-acff-472dc1d114eb",
+  "name": "Design Motivational Team Activities",
+  "author": "Western Governors University",
+  "skillStatement": "Design activities to increase team motivation.",
+  "categories": [
+    "Team Leadership"
+  ],
+  "keywords": [
+    "Team Leadership",
+    "Social Emotional Learning (SEL): General",
+    "Social Emotional Learning (SEL): Interpersonal Communication",
+    "Motivation",
+    "design, activities",
+    "team",
+    "WGUSID: 12696"
+  ],
+  "occupations": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000",
+      "15-0000",
+      "25-0000"
+    ]
+  },
+  "alignments": [
+    {
+      "skillName": "Team Leadership",
+      "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT"
+    }
+  ]
+}
