@@ -55,5 +55,8 @@
       "skillName": "Financial Reporting",
       "id": "https://www.netsuite.com/portal/resource/articles/accounting/financial-reporting.shtml"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
   ]
 }

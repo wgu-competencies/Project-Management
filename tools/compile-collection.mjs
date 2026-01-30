@@ -16,7 +16,7 @@ const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..
 
 const DEFAULT_META = path.join(REPO_ROOT, "collection.meta.json");
 const DEFAULT_SKILLS_DIR = path.join(REPO_ROOT, "skills");
-const DEFAULT_OUT = path.join(REPO_ROOT, "collection.json");
+const DEFAULT_OUT = path.join(REPO_ROOT, "skills-collection.json");
 
 function die(msg, code = 1) {
   console.error(msg);
@@ -155,10 +155,10 @@ Usage:
 Options:
   --meta <path>        Path to collection.meta.json (default: ${DEFAULT_META})
   --skills-dir <dir>   Directory of skill JSON files (default: ${DEFAULT_SKILLS_DIR})
-  --out <path>         Output path for compiled collection.json (default: ${DEFAULT_OUT})
+  --out <path>         Output path for compiled skills-collection.json (default: ${DEFAULT_OUT})
   --sort-by <key>      id | skillName (default: id)
-  --write              Write compiled collection.json
-  --check              Exit non-zero if collection.json is out of date
+  --write              Write compiled skills-collection.json
+  --check              Exit non-zero if skills-collection.json is out of date
 `);
       process.exit(0);
     } else {
@@ -222,12 +222,12 @@ function main() {
 
   // check
   if (oldText !== newText) {
-    console.error("ERROR: collection.json is out of date.\n");
+    console.error("ERROR: skills-collection.json is out of date.\n");
     console.error("Run:\n  node tools/compile-collection.mjs --write\n");
     process.exit(1);
   }
 
-  console.log("OK: collection.json is up to date.");
+  console.log("OK: skills-collection.json is up to date.");
 }
 
 main();

@@ -8,5 +8,8 @@
   "skillStatement": "Deploy systems to assess business project performance.",
   "categories": [
     "Project Management"
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

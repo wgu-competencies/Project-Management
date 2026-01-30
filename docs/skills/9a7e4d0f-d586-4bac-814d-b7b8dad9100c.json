@@ -48,5 +48,8 @@
       "skillName": "Organizational Leadership",
       "id": "https://skills.emsidata.com/skills/ESB812BB8B0FCA695F64"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
   ]
 }

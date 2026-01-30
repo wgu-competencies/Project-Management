@@ -49,5 +49,8 @@
       "skillName": "Quality Management",
       "id": "https://skills.emsidata.com/skills/KS1289C6QS0TSSB4PNGG"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
   ]
 }

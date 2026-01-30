@@ -8,5 +8,8 @@
   "skillStatement": "Assess project deliverables and milestones to ensure readiness for the next phase transition.",
   "categories": [
     "Project Management"
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

@@ -44,5 +44,8 @@
       "skillName": "Conflict Resolution",
       "id": "https://lightcast.io/open-skills/skills/KS1228S6YKWXMH4M4DL7/conflict-resolution"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
   ]
 }

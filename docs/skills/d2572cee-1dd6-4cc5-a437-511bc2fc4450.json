@@ -42,5 +42,8 @@
       "skillName": "Team Management",
       "id": "https://skills.emsidata.com/skills/KS441846K903WT1RYDKJ"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
   ]
 }

@@ -1,0 +1,57 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Competency",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies/procurement-contract-management",
+  "ceterms:ctid": "ce-procurement-contract-management",
+  "ceterms:name": {
+    "en-US": "Procurement & Contract Management"
+  },
+  "ceterms:description": {
+    "en-US": "Manage procurement processes, evaluate proposals, negotiate contracts, and establish favorable terms with vendors and suppliers to optimize organizational value."
+  },
+  "ceterms:competencyText": {
+    "en-US": "Manage procurement processes, evaluate proposals, negotiate contracts, and establish favorable terms with vendors and suppliers to optimize organizational value."
+  },
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:competencyCategory": {
+    "en-US": "Project Management"
+  },
+  "ceterms:keywords": {
+    "en-US": [
+      "procurement",
+      "contracts",
+      "RFP",
+      "vendor management",
+      "negotiation",
+      "supplier relationships"
+    ]
+  },
+  "ceterms:occupationType": {
+    "majorGroups": [
+      "13-0000",
+      "11-0000"
+    ],
+    "minorGroups": [
+      "13-1000"
+    ]
+  },
+  "ceterms:hasPart": [
+    "https://wgu-competencies.github.io/Project-Management/skills/34ec0709-56e9-4379-a367-2c5c3e288e5b",
+    "https://wgu-competencies.github.io/Project-Management/skills/6c6c5511-efbd-4f8f-a99c-6fb3e8b409e6",
+    "https://wgu-competencies.github.io/Project-Management/skills/6d3d08a2-5039-4a04-8c13-f951050c7769",
+    "https://wgu-competencies.github.io/Project-Management/skills/d84e0536-8e79-4d86-ba5f-ac9b3cbb2a98"
+  ],
+  "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+}

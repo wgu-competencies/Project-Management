@@ -8,5 +8,8 @@
   "skillStatement": "Assess project artifact management.",
   "categories": [
     "Project Management"
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

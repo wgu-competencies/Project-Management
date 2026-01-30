@@ -41,5 +41,8 @@
       "skillName": "Training and Development",
       "id": "https://lightcast.io/open-skills/skills/KS122F96DJHT3ZXB8FCZ/training-and-development"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
   ]
 }

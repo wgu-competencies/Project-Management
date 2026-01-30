@@ -53,5 +53,8 @@
       "skillName": "Technical Training",
       "id": "https://skills.emsidata.com/skills/KS4418P67WQQGGD3YBY5"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
   ]
 }

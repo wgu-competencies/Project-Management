@@ -45,5 +45,8 @@
       "skillName": "Continuous Improvement Process",
       "id": "https://skills.emsidata.com/skills/KS122C06Z8NDM5G6NYNT"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
   ]
 }

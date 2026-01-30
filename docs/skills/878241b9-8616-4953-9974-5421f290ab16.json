@@ -69,5 +69,8 @@
       "skillName": "Change Management",
       "id": "https://skills.emsidata.com/skills/KS121T569X502KJPS0F3"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management"
   ]
 }

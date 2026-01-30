@@ -81,5 +81,8 @@
       "skillName": "Emotional Intelligence",
       "id": "https://skills.emsidata.com/skills/KS123HL75PX38KTJXYKJ"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
   ]
 }

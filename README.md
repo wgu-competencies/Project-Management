@@ -83,7 +83,7 @@ This repository follows **Option A** in IaC design.
    • These files are the source of truth
    • All reasoning about skills should originate here
 
-2. **collection.json is a compiled artifact**
+2. **skills-collection.json is a compiled artifact**
    • It is generated from skills/
    • It exists for efficient ingestion and distribution
    • It must not be treated as authoritative if it conflicts with skill files
@@ -103,11 +103,11 @@ As an AI agent, you may:
  • Assemble curricula, assessments, or learning paths that reference these skills
  • Compare versions of skills over time using Git history
  • Treat skill IDs as stable identifiers across systems
- • Use `collection.json` as a fast index or packaged view
+ • Use `skills-collection.json` as a fast index or packaged view
 
 You should **not**:
  • Infer skill meaning from filenames alone
- • Modify `collection.json` directly
+ • Modify `skills-collection.json` directly
  • Treat this repository as a course or curriculum
  • Assume this repo contains pedagogical sequencing
 
@@ -148,7 +148,7 @@ This repository enables AI agents to:
 If you need a metaphor:
  • `skills/*.json` are **functions**
  • `collection.meta.json` is **package metadata**
- • `collection.json` is a **compiled distribution**
+ • `skills-collection.json` is a **compiled distribution**
  • **Git** is the change-control and audit system
  • Downstream systems are **consumers of the API**
 
@@ -190,17 +190,17 @@ skills/
 
 ### 2. Collection as a Build Artifact (Compiled)
 
-collection.json represents a curated bundle of skills that together define a coherent competency domain (Project Management).
+skills-collection.json represents a curated bundle of skills that together define a coherent competency domain (Project Management).
 
 Important:
-collection.json is not the authoritative source of skill definitions.
+skills-collection.json is not the authoritative source of skill definitions.
 
 Instead:
  • It is compiled from the flat skill files
  • It exists to support ingestion by external systems
  • It provides a single, consumable artifact for AI agents, LMSs, registries, and analytics pipelines
 
-Think of collection.json as a package manifest or distribution build.
+Think of skills-collection.json as a package manifest or distribution build.
 
 ⸻
 
@@ -235,7 +235,7 @@ This enables:
 │   ├── pm-skill-002.json
 │   └── ...
 │
-├── collection.json       # Compiled skill collection (build artifact)
+├── skills-collection.json       # Compiled skill collection (build artifact)
 ├── collection.meta.json  # Collection-level metadata
 ├── tools/                # Build and validation scripts
 └── README.md
@@ -248,8 +248,8 @@ This enables:
 This repository follows strict precedence rules:
 
  1. `skills/*.json` files are authoritative
- 2. `collection.json` must always be generated from skill files
- 3. Manual edits to `collection.json` should be avoided or overwritten
+ 2. `skills-collection.json` must always be generated from skill files
+ 3. Manual edits to `skills-collection.json` should be avoided or overwritten
  4. Any discrepancy must be resolved in the flat skill files
 
 ⸻
@@ -279,14 +279,14 @@ Your tasks may include:
 
 ⸻
 
-### How to Use collection.json
- • Treat `collection.json` as a compiled index, not a source
+### How to Use skills-collection.json
+ • Treat `skills-collection.json` as a compiled index, not a source
  • Use it for:
    • Discovering which skills belong to the Project Management domain
    • Rapid ingestion when individual file traversal is inefficient
    • Versioned snapshots of the competency set
 
-If inconsistencies exist between `collection.json` and any skill file:
+If inconsistencies exist between `skills-collection.json` and any skill file:
  • Trust the skill file
  • Assume the collection needs regeneration
 
@@ -298,7 +298,7 @@ If asked to regenerate or validate the collection:
 
  1. Load all skill files from `skills/`
  2. Validate each skill against the expected schema
- 3. Assemble the skills array in `collection.json`
+ 3. Assemble the skills array in `skills-collection.json`
  4. Preserve collection-level metadata (name, description, version)
  5. Output a deterministic, reproducible artifact
 

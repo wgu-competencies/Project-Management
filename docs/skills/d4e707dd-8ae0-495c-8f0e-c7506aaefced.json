@@ -14,5 +14,8 @@
       "skillName": "Version Control",
       "id": "https://lightcast.io/open-skills/skills/KS1222C6WKYWRKRXQCR0/version-control"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
   ]
 }

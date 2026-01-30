@@ -42,5 +42,8 @@
       "skillName": "Request For Proposal",
       "id": "https://skills.emsidata.com/skills/KS4402T6094D6F35MTXR"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/procurement-contract-management"
   ]
 }

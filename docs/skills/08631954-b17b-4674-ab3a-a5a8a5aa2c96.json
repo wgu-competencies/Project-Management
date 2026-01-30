@@ -8,5 +8,8 @@
   "skillStatement": "Assess project delivery options to determine the most economical and beneficial solutions for the organization.",
   "categories": [
     "Project Management"
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

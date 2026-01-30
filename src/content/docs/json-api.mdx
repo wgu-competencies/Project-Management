@@ -27,7 +27,7 @@ curl https://wgu-competencies.github.io/Project-Management/skills/0d311109-0ed0-
 ### Get Complete Collection
 
 ```http
-GET /collection.json
+GET /skills-collection.json
 ```
 
 **Returns:** All 101 skills in a single JSON array with collection metadata.
@@ -35,7 +35,7 @@ GET /collection.json
 ```json
 {
   "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
-  "id": "https://wgu-competencies.github.io/Project-Management/collection.json",
+  "id": "https://wgu-competencies.github.io/Project-Management/skills-collection.json",
   "type": "Collection",
   "name": "Project Management Skills",
   "skills": [...]
@@ -85,7 +85,7 @@ import requests
 
 # Fetch entire collection
 response = requests.get(
-    'https://wgu-competencies.github.io/Project-Management/collection.json'
+    'https://wgu-competencies.github.io/Project-Management/skills-collection.json'
 )
 collection = response.json()
 

@@ -19,5 +19,8 @@
       "skillName": "Data-Driven Decision Making",
       "id": "https://skills.emsidata.com/skills/ESF14A354DDD69B5FBD4"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
   ]
 }

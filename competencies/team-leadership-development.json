@@ -1,0 +1,69 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Competency",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development",
+  "ceterms:ctid": "ce-team-leadership-development",
+  "ceterms:name": {
+    "en-US": "Team Leadership & Development"
+  },
+  "ceterms:description": {
+    "en-US": "Lead, motivate, and develop high-performing teams by applying effective leadership principles, coaching strategies, and interpersonal skills to foster collaboration and continuous improvement."
+  },
+  "ceterms:competencyText": {
+    "en-US": "Lead, motivate, and develop high-performing teams by applying effective leadership principles, coaching strategies, and interpersonal skills to foster collaboration and continuous improvement."
+  },
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:competencyCategory": {
+    "en-US": "Project Management"
+  },
+  "ceterms:keywords": {
+    "en-US": [
+      "leadership",
+      "team management",
+      "coaching",
+      "motivation",
+      "servant leadership",
+      "emotional intelligence",
+      "team development"
+    ]
+  },
+  "ceterms:occupationType": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000"
+    ],
+    "minorGroups": [
+      "11-1000",
+      "11-3000",
+      "13-1000"
+    ]
+  },
+  "ceterms:hasPart": [
+    "https://wgu-competencies.github.io/Project-Management/skills/02691b93-7d37-49b5-acff-472dc1d114eb",
+    "https://wgu-competencies.github.io/Project-Management/skills/21527836-3ab3-47cd-9548-ee41515a9b15",
+    "https://wgu-competencies.github.io/Project-Management/skills/2338878f-901a-4829-9286-98c106a91e3e",
+    "https://wgu-competencies.github.io/Project-Management/skills/b67d1516-a6a1-4233-a90e-cd38d43f4fe9",
+    "https://wgu-competencies.github.io/Project-Management/skills/459381e0-6af7-4a8d-9a1e-d3ed65dc097c",
+    "https://wgu-competencies.github.io/Project-Management/skills/ae643d85-fe50-458a-800b-4301229e1285",
+    "https://wgu-competencies.github.io/Project-Management/skills/d2572cee-1dd6-4cc5-a437-511bc2fc4450",
+    "https://wgu-competencies.github.io/Project-Management/skills/d8a97bc2-fd63-4761-b860-23881765d030",
+    "https://wgu-competencies.github.io/Project-Management/skills/9a7e4d0f-d586-4bac-814d-b7b8dad9100c",
+    "https://wgu-competencies.github.io/Project-Management/skills/f4dfb3f1-4daf-4406-94a2-97a6a055591d",
+    "https://wgu-competencies.github.io/Project-Management/skills/497d0be5-d661-4ae1-a65f-62a74bbf38e1",
+    "https://wgu-competencies.github.io/Project-Management/skills/d748b768-4070-43fa-a417-a342059deb2c",
+    "https://wgu-competencies.github.io/Project-Management/skills/a731128d-8735-4eaf-9bcd-5a7ddc8112d8"
+  ],
+  "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+}

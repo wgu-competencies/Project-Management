@@ -66,5 +66,8 @@
       "skillName": "Project Management",
       "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

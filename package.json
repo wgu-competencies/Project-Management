@@ -5,8 +5,11 @@
   "scripts": {
     "compile:write": "node tools/compile-collection.mjs --write",
     "compile:check": "node tools/compile-collection.mjs --check",
+    "compile:competencies:write": "node tools/compile-competencies.mjs --write",
+    "compile:competencies:check": "node tools/compile-competencies.mjs --check",
+    "compile:all": "npm run compile:write && npm run compile:competencies:write",
     "docs:dev": "astro dev",
-    "docs:build": "npm run compile:write && astro build",
+    "docs:build": "npm run compile:all && astro build",
     "docs:preview": "astro preview"
   },
   "devDependencies": {

@@ -22,5 +22,8 @@
       "skillName": "Strategic Decision-Making",
       "id": "https://skills.lightcast.io/skills/ES4E81D4E042F468C897"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
   ]
 }

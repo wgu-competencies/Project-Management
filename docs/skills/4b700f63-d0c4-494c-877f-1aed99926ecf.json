@@ -61,5 +61,8 @@
       "skillName": "Project Planning",
       "id": "https://skills.emsidata.com/skills/KS122W26SKGLZJ2KLF5M"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

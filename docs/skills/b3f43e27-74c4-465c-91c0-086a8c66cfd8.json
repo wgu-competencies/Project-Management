@@ -59,5 +59,8 @@
       "skillName": "Risk Analysis",
       "id": "https://lightcast.io/open-skills/skills/KS4403G6XNX5KJSD906W/risk-analysis"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management"
   ]
 }

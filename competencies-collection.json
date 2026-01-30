@@ -1,0 +1,573 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Collection",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json",
+  "ceterms:name": {
+    "en-US": "Project Management Competencies"
+  },
+  "ceterms:description": {
+    "en-US": "A comprehensive collection of project management competencies based on the CTDL standard, grouping related skills into career-relevant competency domains."
+  },
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "competencies": [
+    {
+      "@context": [
+        "https://purl.org/ctdl/terms/",
+        "https://rsd.openskillsnetwork.org/context-v1.json"
+      ],
+      "@type": "ceterms:Competency",
+      "@id": "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions",
+      "ceterms:ctid": "ce-business-analysis-strategic-decisions",
+      "ceterms:name": {
+        "en-US": "Business Analysis & Strategic Decision-Making"
+      },
+      "ceterms:description": {
+        "en-US": "Analyze business data, identify trends, and make data-driven strategic decisions that create value and align with organizational objectives."
+      },
+      "ceterms:competencyText": {
+        "en-US": "Analyze business data, identify trends, and make data-driven strategic decisions that create value and align with organizational objectives."
+      },
+      "ceterms:inLanguage": [
+        "en-US"
+      ],
+      "ceterms:creator": [
+        "https://www.wgu.edu/"
+      ],
+      "ceterms:publisherName": {
+        "en-US": "Western Governors University"
+      },
+      "ceterms:dateCreated": "2025-01-30",
+      "ceterms:competencyCategory": {
+        "en-US": "Project Management"
+      },
+      "ceterms:keywords": {
+        "en-US": [
+          "business analysis",
+          "data analysis",
+          "KPIs",
+          "business intelligence",
+          "strategic planning",
+          "financial analysis",
+          "decision-making"
+        ]
+      },
+      "ceterms:occupationType": {
+        "majorGroups": [
+          "13-0000",
+          "11-0000"
+        ],
+        "minorGroups": [
+          "13-1000",
+          "13-2000"
+        ],
+        "broadOccupations": [
+          "13-1110",
+          "13-2050"
+        ]
+      },
+      "ceterms:hasPart": [
+        "https://wgu-competencies.github.io/Project-Management/skills/24879a40-158b-45b6-bc94-3bf832c208e5",
+        "https://wgu-competencies.github.io/Project-Management/skills/11bdb202-9149-4f81-917b-d23769e4a228",
+        "https://wgu-competencies.github.io/Project-Management/skills/8d3b5828-128c-4e42-b59b-087efc507ad9",
+        "https://wgu-competencies.github.io/Project-Management/skills/268f680b-b55c-4719-9ecd-1b64621c524c",
+        "https://wgu-competencies.github.io/Project-Management/skills/f9a52f60-9670-4614-9262-ad16c7f8dcc6",
+        "https://wgu-competencies.github.io/Project-Management/skills/29f97d1e-2a3e-4ed4-b493-3ad28d84ec2a",
+        "https://wgu-competencies.github.io/Project-Management/skills/03adb380-bda7-47ad-9313-9cb6b31ef8cc",
+        "https://wgu-competencies.github.io/Project-Management/skills/bfdafba2-abca-42cc-87a9-26839418ad22",
+        "https://wgu-competencies.github.io/Project-Management/skills/ea0fc724-47c0-47da-8634-be3d3cacacc1",
+        "https://wgu-competencies.github.io/Project-Management/skills/901170f6-735a-4bb7-a311-2869fac45c2a"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+    },
+    {
+      "@context": [
+        "https://purl.org/ctdl/terms/",
+        "https://rsd.openskillsnetwork.org/context-v1.json"
+      ],
+      "@type": "ceterms:Competency",
+      "@id": "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency",
+      "ceterms:ctid": "ce-problem-solving-technical-proficiency",
+      "ceterms:name": {
+        "en-US": "Problem Solving & Technical Proficiency"
+      },
+      "ceterms:description": {
+        "en-US": "Apply systematic problem-solving approaches and technical skills to identify, analyze, and resolve complex issues using appropriate tools and methodologies."
+      },
+      "ceterms:competencyText": {
+        "en-US": "Apply systematic problem-solving approaches and technical skills to identify, analyze, and resolve complex issues using appropriate tools and methodologies."
+      },
+      "ceterms:inLanguage": [
+        "en-US"
+      ],
+      "ceterms:creator": [
+        "https://www.wgu.edu/"
+      ],
+      "ceterms:publisherName": {
+        "en-US": "Western Governors University"
+      },
+      "ceterms:dateCreated": "2025-01-30",
+      "ceterms:competencyCategory": {
+        "en-US": "Project Management"
+      },
+      "ceterms:keywords": {
+        "en-US": [
+          "problem solving",
+          "technical skills",
+          "critical thinking",
+          "information systems",
+          "version control",
+          "technical training"
+        ]
+      },
+      "ceterms:occupationType": {
+        "majorGroups": [
+          "13-0000",
+          "15-0000"
+        ],
+        "minorGroups": [
+          "13-1000",
+          "15-1200"
+        ]
+      },
+      "ceterms:hasPart": [
+        "https://wgu-competencies.github.io/Project-Management/skills/0f479ce9-7fe9-400c-b07d-4245792d6264",
+        "https://wgu-competencies.github.io/Project-Management/skills/6d395187-b0dc-4f53-83aa-40da4cfe33b7",
+        "https://wgu-competencies.github.io/Project-Management/skills/972c162b-6e6d-496c-9490-71e3a946585f",
+        "https://wgu-competencies.github.io/Project-Management/skills/2f27b9e4-40f3-4a14-9b71-24af98fe6b26",
+        "https://wgu-competencies.github.io/Project-Management/skills/36a3a374-c0d3-47ee-9895-a0a0c217a5c8",
+        "https://wgu-competencies.github.io/Project-Management/skills/d4e707dd-8ae0-495c-8f0e-c7506aaefced"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+    },
+    {
+      "@context": [
+        "https://purl.org/ctdl/terms/",
+        "https://rsd.openskillsnetwork.org/context-v1.json"
+      ],
+      "@type": "ceterms:Competency",
+      "@id": "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence",
+      "ceterms:ctid": "ce-process-operations-excellence",
+      "ceterms:name": {
+        "en-US": "Process & Operations Excellence"
+      },
+      "ceterms:description": {
+        "en-US": "Design, optimize, and continuously improve business processes and operations to maximize efficiency, minimize costs, and ensure compliance with quality standards."
+      },
+      "ceterms:competencyText": {
+        "en-US": "Design, optimize, and continuously improve business processes and operations to maximize efficiency, minimize costs, and ensure compliance with quality standards."
+      },
+      "ceterms:inLanguage": [
+        "en-US"
+      ],
+      "ceterms:creator": [
+        "https://www.wgu.edu/"
+      ],
+      "ceterms:publisherName": {
+        "en-US": "Western Governors University"
+      },
+      "ceterms:dateCreated": "2025-01-30",
+      "ceterms:competencyCategory": {
+        "en-US": "Project Management"
+      },
+      "ceterms:keywords": {
+        "en-US": [
+          "process improvement",
+          "operations",
+          "efficiency",
+          "quality management",
+          "continuous improvement",
+          "workflow",
+          "optimization"
+        ]
+      },
+      "ceterms:occupationType": {
+        "majorGroups": [
+          "13-0000",
+          "11-0000"
+        ],
+        "minorGroups": [
+          "13-1000",
+          "11-3000"
+        ]
+      },
+      "ceterms:hasPart": [
+        "https://wgu-competencies.github.io/Project-Management/skills/05f5c03b-dee6-480c-9892-118e464e10af",
+        "https://wgu-competencies.github.io/Project-Management/skills/0932acdd-a361-43a8-a10b-07cdb48b586d",
+        "https://wgu-competencies.github.io/Project-Management/skills/0d311109-0ed0-4d53-9c66-94019a4fe2da",
+        "https://wgu-competencies.github.io/Project-Management/skills/bf9144f8-588e-4b37-93c5-803f1e3ac8f6",
+        "https://wgu-competencies.github.io/Project-Management/skills/651d8338-e433-4fab-84fb-45f12e1f337a",
+        "https://wgu-competencies.github.io/Project-Management/skills/76c3fbfb-7301-499d-8c59-8380903cb3cb",
+        "https://wgu-competencies.github.io/Project-Management/skills/13d1eddb-00f1-404a-b7e3-ac3ab267abd3",
+        "https://wgu-competencies.github.io/Project-Management/skills/21b97c31-4168-4561-b4ce-685a2b04df2b",
+        "https://wgu-competencies.github.io/Project-Management/skills/3b1b410f-1576-4c1c-ba03-cb708caf3b3c"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+    },
+    {
+      "@context": [
+        "https://purl.org/ctdl/terms/",
+        "https://rsd.openskillsnetwork.org/context-v1.json"
+      ],
+      "@type": "ceterms:Competency",
+      "@id": "https://wgu-competencies.github.io/Project-Management/competencies/procurement-contract-management",
+      "ceterms:ctid": "ce-procurement-contract-management",
+      "ceterms:name": {
+        "en-US": "Procurement & Contract Management"
+      },
+      "ceterms:description": {
+        "en-US": "Manage procurement processes, evaluate proposals, negotiate contracts, and establish favorable terms with vendors and suppliers to optimize organizational value."
+      },
+      "ceterms:competencyText": {
+        "en-US": "Manage procurement processes, evaluate proposals, negotiate contracts, and establish favorable terms with vendors and suppliers to optimize organizational value."
+      },
+      "ceterms:inLanguage": [
+        "en-US"
+      ],
+      "ceterms:creator": [
+        "https://www.wgu.edu/"
+      ],
+      "ceterms:publisherName": {
+        "en-US": "Western Governors University"
+      },
+      "ceterms:dateCreated": "2025-01-30",
+      "ceterms:competencyCategory": {
+        "en-US": "Project Management"
+      },
+      "ceterms:keywords": {
+        "en-US": [
+          "procurement",
+          "contracts",
+          "RFP",
+          "vendor management",
+          "negotiation",
+          "supplier relationships"
+        ]
+      },
+      "ceterms:occupationType": {
+        "majorGroups": [
+          "13-0000",
+          "11-0000"
+        ],
+        "minorGroups": [
+          "13-1000"
+        ]
+      },
+      "ceterms:hasPart": [
+        "https://wgu-competencies.github.io/Project-Management/skills/34ec0709-56e9-4379-a367-2c5c3e288e5b",
+        "https://wgu-competencies.github.io/Project-Management/skills/6c6c5511-efbd-4f8f-a99c-6fb3e8b409e6",
+        "https://wgu-competencies.github.io/Project-Management/skills/6d3d08a2-5039-4a04-8c13-f951050c7769",
+        "https://wgu-competencies.github.io/Project-Management/skills/d84e0536-8e79-4d86-ba5f-ac9b3cbb2a98"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+    },
+    {
+      "@context": [
+        "https://purl.org/ctdl/terms/",
+        "https://rsd.openskillsnetwork.org/context-v1.json"
+      ],
+      "@type": "ceterms:Competency",
+      "@id": "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management",
+      "ceterms:ctid": "ce-project-lifecycle-management",
+      "ceterms:name": {
+        "en-US": "Project Lifecycle Management"
+      },
+      "ceterms:description": {
+        "en-US": "Plan, execute, monitor, and close projects effectively throughout the entire project lifecycle, applying appropriate methodologies and tools to deliver projects on time, within scope, and budget."
+      },
+      "ceterms:competencyText": {
+        "en-US": "Plan, execute, monitor, and close projects effectively throughout the entire project lifecycle, applying appropriate methodologies and tools to deliver projects on time, within scope, and budget."
+      },
+      "ceterms:inLanguage": [
+        "en-US"
+      ],
+      "ceterms:creator": [
+        "https://www.wgu.edu/"
+      ],
+      "ceterms:publisherName": {
+        "en-US": "Western Governors University"
+      },
+      "ceterms:dateCreated": "2025-01-30",
+      "ceterms:competencyCategory": {
+        "en-US": "Project Management"
+      },
+      "ceterms:keywords": {
+        "en-US": [
+          "project management",
+          "lifecycle",
+          "planning",
+          "scoping",
+          "execution",
+          "monitoring",
+          "closure",
+          "agile",
+          "waterfall"
+        ]
+      },
+      "ceterms:occupationType": {
+        "majorGroups": [
+          "11-0000",
+          "13-0000"
+        ],
+        "minorGroups": [
+          "11-9000",
+          "13-1000"
+        ],
+        "broadOccupations": [
+          "11-9199",
+          "13-1110"
+        ]
+      },
+      "ceterms:hasPart": [
+        "https://wgu-competencies.github.io/Project-Management/skills/08631954-b17b-4674-ab3a-a5a8a5aa2c96",
+        "https://wgu-competencies.github.io/Project-Management/skills/0a553cc4-86f0-429e-87b4-0ed9c1329f9a",
+        "https://wgu-competencies.github.io/Project-Management/skills/10f0db51-a9ac-4fe0-9ea9-ff5a4bece975",
+        "https://wgu-competencies.github.io/Project-Management/skills/180d00cb-abed-4b7f-95cf-8c2564b0ee2e",
+        "https://wgu-competencies.github.io/Project-Management/skills/21c24f59-7465-4feb-80de-3e9ea9f134fb",
+        "https://wgu-competencies.github.io/Project-Management/skills/268aedaf-3c04-4d54-b83e-c8372e18c4cf",
+        "https://wgu-competencies.github.io/Project-Management/skills/2b754cc5-c2b8-4e68-9cfb-76a5356b2dee",
+        "https://wgu-competencies.github.io/Project-Management/skills/2c791df2-fb85-4f86-99c6-eb4e5683f53a",
+        "https://wgu-competencies.github.io/Project-Management/skills/524f6163-ef6e-41d8-9cfb-1903f21a33f5",
+        "https://wgu-competencies.github.io/Project-Management/skills/53d70073-7e4a-441d-9744-f77cc9285bb0",
+        "https://wgu-competencies.github.io/Project-Management/skills/56000744-29ad-44bc-bed3-605fb1bdd6ab",
+        "https://wgu-competencies.github.io/Project-Management/skills/68e668d5-f820-4d08-aa93-66b2a6f2e39c",
+        "https://wgu-competencies.github.io/Project-Management/skills/6f9f9b98-74a2-4999-a866-4a20afb65263",
+        "https://wgu-competencies.github.io/Project-Management/skills/7428b5f2-6dff-4bca-a234-24d0603d4133",
+        "https://wgu-competencies.github.io/Project-Management/skills/7aa8eede-8dd8-44a0-a9ba-0ee6608fbb13",
+        "https://wgu-competencies.github.io/Project-Management/skills/810cb6b4-8922-4709-a835-b799373627e0",
+        "https://wgu-competencies.github.io/Project-Management/skills/92d679dc-4e3a-48ef-b75f-f986ec3d0cb5",
+        "https://wgu-competencies.github.io/Project-Management/skills/a3955033-cb30-407e-8659-0f39f15570ad",
+        "https://wgu-competencies.github.io/Project-Management/skills/a622d59c-55d7-4371-b0d5-79c33ba2b2b7",
+        "https://wgu-competencies.github.io/Project-Management/skills/a6fc89e2-268e-4784-944a-710c4d841a78",
+        "https://wgu-competencies.github.io/Project-Management/skills/aa242493-6d0a-46ee-8dae-79de884fff96",
+        "https://wgu-competencies.github.io/Project-Management/skills/b6e55f75-db06-4cc4-8cba-bd2acc6ae20f",
+        "https://wgu-competencies.github.io/Project-Management/skills/b79e5aa5-13c9-494b-8f3e-7969b1a0507d",
+        "https://wgu-competencies.github.io/Project-Management/skills/c0c49bd1-f218-4739-8e51-fa7facad3a3e",
+        "https://wgu-competencies.github.io/Project-Management/skills/c6f3b02c-7fe1-495f-b6e7-d6815705f61a",
+        "https://wgu-competencies.github.io/Project-Management/skills/cbe3f3bf-9648-4f78-8c1e-207b93fd02ad",
+        "https://wgu-competencies.github.io/Project-Management/skills/d4e13982-2d63-452e-b610-22bdaf8c2eae",
+        "https://wgu-competencies.github.io/Project-Management/skills/d6948e12-9c8a-4d4d-9dcf-eb0d537ecf19",
+        "https://wgu-competencies.github.io/Project-Management/skills/d84f1570-0284-40c8-9b00-1e0be68def79",
+        "https://wgu-competencies.github.io/Project-Management/skills/db8a9adb-cea8-47de-ad77-077de60b01ec",
+        "https://wgu-competencies.github.io/Project-Management/skills/de059be2-b242-43be-828e-4633b72b2c7a",
+        "https://wgu-competencies.github.io/Project-Management/skills/e08761f6-9c02-4e0a-bbf7-f5e16fc22536",
+        "https://wgu-competencies.github.io/Project-Management/skills/e15d05fd-da88-4e1a-96ab-30e39e536e9f",
+        "https://wgu-competencies.github.io/Project-Management/skills/e4a912a4-b2a4-4f4e-a56f-697f03cd995b",
+        "https://wgu-competencies.github.io/Project-Management/skills/f1bde5be-79d0-45fe-9d83-de3a28e4fa9b",
+        "https://wgu-competencies.github.io/Project-Management/skills/fb542350-60c0-4094-917a-1757a9547ffd",
+        "https://wgu-competencies.github.io/Project-Management/skills/fbc16d2b-c571-457a-87f0-0d01c6241687",
+        "https://wgu-competencies.github.io/Project-Management/skills/0f894630-ba66-4eea-851f-e469fb301ae0",
+        "https://wgu-competencies.github.io/Project-Management/skills/0ff6a3d3-8a79-4dc1-8adf-8d63fa642cf7",
+        "https://wgu-competencies.github.io/Project-Management/skills/4b700f63-d0c4-494c-877f-1aed99926ecf",
+        "https://wgu-competencies.github.io/Project-Management/skills/41c23081-d9a2-4e65-b697-51fc71062c35",
+        "https://wgu-competencies.github.io/Project-Management/skills/45714180-3038-4b91-a9b9-f41c7efe6e7b",
+        "https://wgu-competencies.github.io/Project-Management/skills/8e403954-3f07-44b9-abbf-a615456e80e4",
+        "https://wgu-competencies.github.io/Project-Management/skills/f300d22f-27dc-4056-ae13-37280ff23bd6",
+        "https://wgu-competencies.github.io/Project-Management/skills/86799868-f3a5-4e16-af3c-d868ebbf026a"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+    },
+    {
+      "@context": [
+        "https://purl.org/ctdl/terms/",
+        "https://rsd.openskillsnetwork.org/context-v1.json"
+      ],
+      "@type": "ceterms:Competency",
+      "@id": "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management",
+      "ceterms:ctid": "ce-risk-compliance-management",
+      "ceterms:name": {
+        "en-US": "Risk & Compliance Management"
+      },
+      "ceterms:description": {
+        "en-US": "Identify, analyze, and mitigate project and organizational risks while ensuring compliance with regulatory requirements and managing change effectively."
+      },
+      "ceterms:competencyText": {
+        "en-US": "Identify, analyze, and mitigate project and organizational risks while ensuring compliance with regulatory requirements and managing change effectively."
+      },
+      "ceterms:inLanguage": [
+        "en-US"
+      ],
+      "ceterms:creator": [
+        "https://www.wgu.edu/"
+      ],
+      "ceterms:publisherName": {
+        "en-US": "Western Governors University"
+      },
+      "ceterms:dateCreated": "2025-01-30",
+      "ceterms:competencyCategory": {
+        "en-US": "Project Management"
+      },
+      "ceterms:keywords": {
+        "en-US": [
+          "risk management",
+          "risk analysis",
+          "compliance",
+          "regulatory",
+          "change management",
+          "mitigation"
+        ]
+      },
+      "ceterms:occupationType": {
+        "majorGroups": [
+          "13-0000",
+          "11-0000"
+        ],
+        "minorGroups": [
+          "13-1000",
+          "13-2000"
+        ]
+      },
+      "ceterms:hasPart": [
+        "https://wgu-competencies.github.io/Project-Management/skills/5c1e45ab-c6f1-4ae5-9bbc-687345d8d2b8",
+        "https://wgu-competencies.github.io/Project-Management/skills/b3f43e27-74c4-465c-91c0-086a8c66cfd8",
+        "https://wgu-competencies.github.io/Project-Management/skills/d9b0d15f-e481-42e4-b5db-1f16554ecb87",
+        "https://wgu-competencies.github.io/Project-Management/skills/761eef5d-33f4-4418-8b98-b8f1bddd8818",
+        "https://wgu-competencies.github.io/Project-Management/skills/878241b9-8616-4953-9974-5421f290ab16"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+    },
+    {
+      "@context": [
+        "https://purl.org/ctdl/terms/",
+        "https://rsd.openskillsnetwork.org/context-v1.json"
+      ],
+      "@type": "ceterms:Competency",
+      "@id": "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement",
+      "ceterms:ctid": "ce-stakeholder-communication-engagement",
+      "ceterms:name": {
+        "en-US": "Stakeholder Communication & Engagement"
+      },
+      "ceterms:description": {
+        "en-US": "Build and maintain effective relationships with stakeholders through clear communication, active collaboration, and skillful negotiation to achieve project and organizational objectives."
+      },
+      "ceterms:competencyText": {
+        "en-US": "Build and maintain effective relationships with stakeholders through clear communication, active collaboration, and skillful negotiation to achieve project and organizational objectives."
+      },
+      "ceterms:inLanguage": [
+        "en-US"
+      ],
+      "ceterms:creator": [
+        "https://www.wgu.edu/"
+      ],
+      "ceterms:publisherName": {
+        "en-US": "Western Governors University"
+      },
+      "ceterms:dateCreated": "2025-01-30",
+      "ceterms:competencyCategory": {
+        "en-US": "Project Management"
+      },
+      "ceterms:keywords": {
+        "en-US": [
+          "communication",
+          "stakeholder management",
+          "collaboration",
+          "negotiation",
+          "conflict resolution",
+          "relationship building"
+        ]
+      },
+      "ceterms:occupationType": {
+        "majorGroups": [
+          "11-0000",
+          "13-0000"
+        ],
+        "minorGroups": [
+          "11-2000",
+          "13-1000"
+        ]
+      },
+      "ceterms:hasPart": [
+        "https://wgu-competencies.github.io/Project-Management/skills/44141e4b-d629-49b6-b2cd-f30ffd086da4",
+        "https://wgu-competencies.github.io/Project-Management/skills/5a37d400-54e3-432c-93cf-ec74ce393446",
+        "https://wgu-competencies.github.io/Project-Management/skills/6eb6701e-01f1-47eb-8ef0-b63e3fb9b382",
+        "https://wgu-competencies.github.io/Project-Management/skills/ecd6752f-66ab-47b8-86fc-af63ef9665c8",
+        "https://wgu-competencies.github.io/Project-Management/skills/78705aa6-1417-422c-ab48-9adf2c7d1501",
+        "https://wgu-competencies.github.io/Project-Management/skills/5d8b01df-496e-4430-8a60-bc1f81560003",
+        "https://wgu-competencies.github.io/Project-Management/skills/15d2220a-6f61-44ff-9ecd-9bdf14db6e69",
+        "https://wgu-competencies.github.io/Project-Management/skills/b7b96f12-c0f9-4df2-9ffd-e9e8a53b9b22",
+        "https://wgu-competencies.github.io/Project-Management/skills/973c5e04-16a4-402e-99b1-2ee65427fb86"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+    },
+    {
+      "@context": [
+        "https://purl.org/ctdl/terms/",
+        "https://rsd.openskillsnetwork.org/context-v1.json"
+      ],
+      "@type": "ceterms:Competency",
+      "@id": "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development",
+      "ceterms:ctid": "ce-team-leadership-development",
+      "ceterms:name": {
+        "en-US": "Team Leadership & Development"
+      },
+      "ceterms:description": {
+        "en-US": "Lead, motivate, and develop high-performing teams by applying effective leadership principles, coaching strategies, and interpersonal skills to foster collaboration and continuous improvement."
+      },
+      "ceterms:competencyText": {
+        "en-US": "Lead, motivate, and develop high-performing teams by applying effective leadership principles, coaching strategies, and interpersonal skills to foster collaboration and continuous improvement."
+      },
+      "ceterms:inLanguage": [
+        "en-US"
+      ],
+      "ceterms:creator": [
+        "https://www.wgu.edu/"
+      ],
+      "ceterms:publisherName": {
+        "en-US": "Western Governors University"
+      },
+      "ceterms:dateCreated": "2025-01-30",
+      "ceterms:competencyCategory": {
+        "en-US": "Project Management"
+      },
+      "ceterms:keywords": {
+        "en-US": [
+          "leadership",
+          "team management",
+          "coaching",
+          "motivation",
+          "servant leadership",
+          "emotional intelligence",
+          "team development"
+        ]
+      },
+      "ceterms:occupationType": {
+        "majorGroups": [
+          "11-0000",
+          "13-0000"
+        ],
+        "minorGroups": [
+          "11-1000",
+          "11-3000",
+          "13-1000"
+        ]
+      },
+      "ceterms:hasPart": [
+        "https://wgu-competencies.github.io/Project-Management/skills/02691b93-7d37-49b5-acff-472dc1d114eb",
+        "https://wgu-competencies.github.io/Project-Management/skills/21527836-3ab3-47cd-9548-ee41515a9b15",
+        "https://wgu-competencies.github.io/Project-Management/skills/2338878f-901a-4829-9286-98c106a91e3e",
+        "https://wgu-competencies.github.io/Project-Management/skills/b67d1516-a6a1-4233-a90e-cd38d43f4fe9",
+        "https://wgu-competencies.github.io/Project-Management/skills/459381e0-6af7-4a8d-9a1e-d3ed65dc097c",
+        "https://wgu-competencies.github.io/Project-Management/skills/ae643d85-fe50-458a-800b-4301229e1285",
+        "https://wgu-competencies.github.io/Project-Management/skills/d2572cee-1dd6-4cc5-a437-511bc2fc4450",
+        "https://wgu-competencies.github.io/Project-Management/skills/d8a97bc2-fd63-4761-b860-23881765d030",
+        "https://wgu-competencies.github.io/Project-Management/skills/9a7e4d0f-d586-4bac-814d-b7b8dad9100c",
+        "https://wgu-competencies.github.io/Project-Management/skills/f4dfb3f1-4daf-4406-94a2-97a6a055591d",
+        "https://wgu-competencies.github.io/Project-Management/skills/497d0be5-d661-4ae1-a65f-62a74bbf38e1",
+        "https://wgu-competencies.github.io/Project-Management/skills/d748b768-4070-43fa-a417-a342059deb2c",
+        "https://wgu-competencies.github.io/Project-Management/skills/a731128d-8735-4eaf-9bcd-5a7ddc8112d8"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+    }
+  ]
+}

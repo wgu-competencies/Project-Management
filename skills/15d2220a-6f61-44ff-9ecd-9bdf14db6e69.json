@@ -46,5 +46,8 @@
       "skillName": "Negotiation",
       "id": "https://skills.emsidata.com/skills/KS126X663B21NB77ZHSP"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
   ]
 }

@@ -8,5 +8,8 @@
   "skillStatement": "Evaluate organizational culture for areas of improvement.",
   "categories": [
     "Organizational Leadership"
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
   ]
 }

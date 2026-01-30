@@ -1,0 +1,69 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Competency",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions",
+  "ceterms:ctid": "ce-business-analysis-strategic-decisions",
+  "ceterms:name": {
+    "en-US": "Business Analysis & Strategic Decision-Making"
+  },
+  "ceterms:description": {
+    "en-US": "Analyze business data, identify trends, and make data-driven strategic decisions that create value and align with organizational objectives."
+  },
+  "ceterms:competencyText": {
+    "en-US": "Analyze business data, identify trends, and make data-driven strategic decisions that create value and align with organizational objectives."
+  },
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:competencyCategory": {
+    "en-US": "Project Management"
+  },
+  "ceterms:keywords": {
+    "en-US": [
+      "business analysis",
+      "data analysis",
+      "KPIs",
+      "business intelligence",
+      "strategic planning",
+      "financial analysis",
+      "decision-making"
+    ]
+  },
+  "ceterms:occupationType": {
+    "majorGroups": [
+      "13-0000",
+      "11-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ],
+    "broadOccupations": [
+      "13-1110",
+      "13-2050"
+    ]
+  },
+  "ceterms:hasPart": [
+    "https://wgu-competencies.github.io/Project-Management/skills/24879a40-158b-45b6-bc94-3bf832c208e5",
+    "https://wgu-competencies.github.io/Project-Management/skills/11bdb202-9149-4f81-917b-d23769e4a228",
+    "https://wgu-competencies.github.io/Project-Management/skills/8d3b5828-128c-4e42-b59b-087efc507ad9",
+    "https://wgu-competencies.github.io/Project-Management/skills/268f680b-b55c-4719-9ecd-1b64621c524c",
+    "https://wgu-competencies.github.io/Project-Management/skills/f9a52f60-9670-4614-9262-ad16c7f8dcc6",
+    "https://wgu-competencies.github.io/Project-Management/skills/29f97d1e-2a3e-4ed4-b493-3ad28d84ec2a",
+    "https://wgu-competencies.github.io/Project-Management/skills/03adb380-bda7-47ad-9313-9cb6b31ef8cc",
+    "https://wgu-competencies.github.io/Project-Management/skills/bfdafba2-abca-42cc-87a9-26839418ad22",
+    "https://wgu-competencies.github.io/Project-Management/skills/ea0fc724-47c0-47da-8634-be3d3cacacc1",
+    "https://wgu-competencies.github.io/Project-Management/skills/901170f6-735a-4bb7-a311-2869fac45c2a"
+  ],
+  "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+}

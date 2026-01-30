@@ -87,5 +87,8 @@
       "skillName": "Problem Solving",
       "id": "https://skills.emsidata.com/skills/KS125F678LV2KB3Z5XW0"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
   ]
 }

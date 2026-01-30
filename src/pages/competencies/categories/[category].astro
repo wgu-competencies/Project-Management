@@ -1,0 +1,159 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+export async function getStaticPaths() {
+  const __filename = fileURLToPath(import.meta.url);
+  const __dirname = path.dirname(__filename);
+  const projectRoot = path.resolve(__dirname, '../../../..');
+  const collectionPath = path.join(projectRoot, 'competencies-collection.json');
+  const collectionData = JSON.parse(fs.readFileSync(collectionPath, 'utf-8'));
+  
+  // Get all unique categories
+  const categoriesMap = new Map();
+  
+  collectionData.competencies.forEach((competency) => {
+    const category = competency['ceterms:competencyCategory']?.['en-US'];
+    if (category) {
+      if (!categoriesMap.has(category)) {
+        categoriesMap.set(category, []);
+      }
+      categoriesMap.get(category).push(competency);
+    }
+  });
+  
+  // Create a path for each category
+  return Array.from(categoriesMap.entries()).map(([category, competencies]) => ({
+    params: { category: category },
+    props: { 
+      category,
+      competencies: competencies.sort((a, b) => {
+        const aName = a['ceterms:name']?.['en-US'] || '';
+        const bName = b['ceterms:name']?.['en-US'] || '';
+        return aName.localeCompare(bName);
+      })
+    },
+  }));
+}
+
+const { category, competencies } = Astro.props;
+---
+
+<StarlightPage
+  frontmatter={{
+    title: category,
+    description: `Competencies in the ${category} category`,
+    tableOfContents: false,
+  }}
+>
+  <div class="category-page">
+    <div class="category-header">
+      <p class="breadcrumb">
+        <a href="/Project-Management/competencies">All Competencies</a> / {category}
+      </p>
+      <p class="competency-count">{competencies.length} {competencies.length === 1 ? 'competency' : 'competencies'}</p>
+    </div>
+
+    <div class="competencies-list">
+      {competencies.map((competency) => {
+        const ctid = competency['ceterms:ctid'];
+        const name = competency['ceterms:name']?.['en-US'];
+        const description = competency['ceterms:description']?.['en-US'];
+        return (
+        <div class="competency-card">
+          <a href={`/Project-Management/competencies/${ctid}`}>
+            <h3>{name}</h3>
+            <p class="competency-statement">{description}</p>
+          </a>
+        </div>
+      )})}
+    </div>
+  </div>
+
+  <style>
+    .category-page {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .category-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 2px solid var(--sl-color-gray-5);
+    }
+
+    .breadcrumb {
+      font-size: 0.9rem;
+      color: var(--sl-color-gray-3);
+      margin-bottom: 0.5rem;
+    }
+
+    .breadcrumb a {
+      color: var(--sl-color-accent);
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+
+    .competency-count {
+      font-weight: 600;
+      color: var(--sl-color-gray-2);
+      font-size: 1.1rem;
+    }
+
+    .competencies-list {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .competency-card {
+      border: 1px solid var(--sl-color-gray-5);
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: all 0.2s;
+      background: var(--sl-color-bg-nav);
+    }
+
+    .competency-card:hover {
+      border-color: var(--sl-color-accent);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .competency-card a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .competency-card h3 {
+      margin: 0 0 0.75rem 0;
+      color: var(--sl-color-accent);
+      font-size: 1.2rem;
+    }
+
+    .competency-statement {
+      color: var(--sl-color-gray-2);
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+
+    .competency-other-categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+
+    .category-tag {
+      font-size: 0.85rem;
+      padding: 0.25rem 0.75rem;
+      background: var(--sl-color-gray-6);
+      color: var(--sl-color-gray-2);
+      border-radius: 4px;
+    }
+  </style>
+</StarlightPage>

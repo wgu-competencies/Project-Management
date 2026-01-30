@@ -48,7 +48,7 @@ This repository solves those problems by:
 ## Source-of-Truth Rules
 
 1. **Each file in skills/ is canonical** - These are the source of truth
-2. **collection.json is a compiled artifact** - Generated from skills/
+2. **skills-collection.json is a compiled artifact** - Generated from skills/
 3. **Git history is the governance layer** - Diffs represent intentional changes
 
 ## How to Use This Repository
@@ -62,7 +62,7 @@ This repository solves those problems by:
 
 ### You Should Not:
 - Infer skill meaning from filenames alone
-- Modify `collection.json` directly
+- Modify `skills-collection.json` directly
 - Treat this as a course or curriculum
 - Assume pedagogical sequencing
 
@@ -75,7 +75,7 @@ GET https://wgu-competencies.github.io/Project-Management/skills/{uuid}.json
 
 **Complete Collection:**
 ```
-GET https://wgu-competencies.github.io/Project-Management/collection.json
+GET https://wgu-competencies.github.io/Project-Management/skills-collection.json
 ```
 
 **Response Format:** JSON-LD (RSD schema)
@@ -84,7 +84,7 @@ GET https://wgu-competencies.github.io/Project-Management/collection.json
 
 Think of this repository as:
 - `skills/*.json` → **functions**
-- `collection.json` → **compiled distribution**
+- `skills-collection.json` → **compiled distribution**
 - Git → **change-control system**
 - Downstream systems → **API consumers**
 

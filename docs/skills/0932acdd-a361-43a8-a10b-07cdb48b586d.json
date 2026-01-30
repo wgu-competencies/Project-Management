@@ -39,5 +39,8 @@
       "skillName": "Process Design",
       "id": "https://lightcast.io/open-skills/skills/KS1281Z6YSCYDNCG1D8T/process-design"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
   ]
 }

@@ -21,5 +21,8 @@
       "skillName": "Leadership",
       "id": "https://lightcast.io/open-skills/skills/KS124JB619VXG6RQ810C/leadership"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
   ]
 }

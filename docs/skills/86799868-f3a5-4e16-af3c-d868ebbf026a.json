@@ -39,5 +39,8 @@
       "skillName": "Program Management",
       "id": "https://skills.emsidata.com/skills/KS1283V6XDFZSK6YP0HF"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

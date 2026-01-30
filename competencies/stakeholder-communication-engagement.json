@@ -1,0 +1,63 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Competency",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement",
+  "ceterms:ctid": "ce-stakeholder-communication-engagement",
+  "ceterms:name": {
+    "en-US": "Stakeholder Communication & Engagement"
+  },
+  "ceterms:description": {
+    "en-US": "Build and maintain effective relationships with stakeholders through clear communication, active collaboration, and skillful negotiation to achieve project and organizational objectives."
+  },
+  "ceterms:competencyText": {
+    "en-US": "Build and maintain effective relationships with stakeholders through clear communication, active collaboration, and skillful negotiation to achieve project and organizational objectives."
+  },
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:competencyCategory": {
+    "en-US": "Project Management"
+  },
+  "ceterms:keywords": {
+    "en-US": [
+      "communication",
+      "stakeholder management",
+      "collaboration",
+      "negotiation",
+      "conflict resolution",
+      "relationship building"
+    ]
+  },
+  "ceterms:occupationType": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000"
+    ],
+    "minorGroups": [
+      "11-2000",
+      "13-1000"
+    ]
+  },
+  "ceterms:hasPart": [
+    "https://wgu-competencies.github.io/Project-Management/skills/44141e4b-d629-49b6-b2cd-f30ffd086da4",
+    "https://wgu-competencies.github.io/Project-Management/skills/5a37d400-54e3-432c-93cf-ec74ce393446",
+    "https://wgu-competencies.github.io/Project-Management/skills/6eb6701e-01f1-47eb-8ef0-b63e3fb9b382",
+    "https://wgu-competencies.github.io/Project-Management/skills/ecd6752f-66ab-47b8-86fc-af63ef9665c8",
+    "https://wgu-competencies.github.io/Project-Management/skills/78705aa6-1417-422c-ab48-9adf2c7d1501",
+    "https://wgu-competencies.github.io/Project-Management/skills/5d8b01df-496e-4430-8a60-bc1f81560003",
+    "https://wgu-competencies.github.io/Project-Management/skills/15d2220a-6f61-44ff-9ecd-9bdf14db6e69",
+    "https://wgu-competencies.github.io/Project-Management/skills/b7b96f12-c0f9-4df2-9ffd-e9e8a53b9b22",
+    "https://wgu-competencies.github.io/Project-Management/skills/973c5e04-16a4-402e-99b1-2ee65427fb86"
+  ],
+  "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+}

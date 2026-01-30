@@ -1,0 +1,59 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Competency",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management",
+  "ceterms:ctid": "ce-risk-compliance-management",
+  "ceterms:name": {
+    "en-US": "Risk & Compliance Management"
+  },
+  "ceterms:description": {
+    "en-US": "Identify, analyze, and mitigate project and organizational risks while ensuring compliance with regulatory requirements and managing change effectively."
+  },
+  "ceterms:competencyText": {
+    "en-US": "Identify, analyze, and mitigate project and organizational risks while ensuring compliance with regulatory requirements and managing change effectively."
+  },
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:competencyCategory": {
+    "en-US": "Project Management"
+  },
+  "ceterms:keywords": {
+    "en-US": [
+      "risk management",
+      "risk analysis",
+      "compliance",
+      "regulatory",
+      "change management",
+      "mitigation"
+    ]
+  },
+  "ceterms:occupationType": {
+    "majorGroups": [
+      "13-0000",
+      "11-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "13-2000"
+    ]
+  },
+  "ceterms:hasPart": [
+    "https://wgu-competencies.github.io/Project-Management/skills/5c1e45ab-c6f1-4ae5-9bbc-687345d8d2b8",
+    "https://wgu-competencies.github.io/Project-Management/skills/b3f43e27-74c4-465c-91c0-086a8c66cfd8",
+    "https://wgu-competencies.github.io/Project-Management/skills/d9b0d15f-e481-42e4-b5db-1f16554ecb87",
+    "https://wgu-competencies.github.io/Project-Management/skills/761eef5d-33f4-4418-8b98-b8f1bddd8818",
+    "https://wgu-competencies.github.io/Project-Management/skills/878241b9-8616-4953-9974-5421f290ab16"
+  ],
+  "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+}

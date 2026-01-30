@@ -1,0 +1,64 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Competency",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence",
+  "ceterms:ctid": "ce-process-operations-excellence",
+  "ceterms:name": {
+    "en-US": "Process & Operations Excellence"
+  },
+  "ceterms:description": {
+    "en-US": "Design, optimize, and continuously improve business processes and operations to maximize efficiency, minimize costs, and ensure compliance with quality standards."
+  },
+  "ceterms:competencyText": {
+    "en-US": "Design, optimize, and continuously improve business processes and operations to maximize efficiency, minimize costs, and ensure compliance with quality standards."
+  },
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:competencyCategory": {
+    "en-US": "Project Management"
+  },
+  "ceterms:keywords": {
+    "en-US": [
+      "process improvement",
+      "operations",
+      "efficiency",
+      "quality management",
+      "continuous improvement",
+      "workflow",
+      "optimization"
+    ]
+  },
+  "ceterms:occupationType": {
+    "majorGroups": [
+      "13-0000",
+      "11-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "11-3000"
+    ]
+  },
+  "ceterms:hasPart": [
+    "https://wgu-competencies.github.io/Project-Management/skills/05f5c03b-dee6-480c-9892-118e464e10af",
+    "https://wgu-competencies.github.io/Project-Management/skills/0932acdd-a361-43a8-a10b-07cdb48b586d",
+    "https://wgu-competencies.github.io/Project-Management/skills/0d311109-0ed0-4d53-9c66-94019a4fe2da",
+    "https://wgu-competencies.github.io/Project-Management/skills/bf9144f8-588e-4b37-93c5-803f1e3ac8f6",
+    "https://wgu-competencies.github.io/Project-Management/skills/651d8338-e433-4fab-84fb-45f12e1f337a",
+    "https://wgu-competencies.github.io/Project-Management/skills/76c3fbfb-7301-499d-8c59-8380903cb3cb",
+    "https://wgu-competencies.github.io/Project-Management/skills/13d1eddb-00f1-404a-b7e3-ac3ab267abd3",
+    "https://wgu-competencies.github.io/Project-Management/skills/21b97c31-4168-4561-b4ce-685a2b04df2b",
+    "https://wgu-competencies.github.io/Project-Management/skills/3b1b410f-1576-4c1c-ba03-cb708caf3b3c"
+  ],
+  "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+}

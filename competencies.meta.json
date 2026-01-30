@@ -1,0 +1,24 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Collection",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json",
+  "ceterms:name": {
+    "en-US": "Project Management Competencies"
+  },
+  "ceterms:description": {
+    "en-US": "A comprehensive collection of project management competencies based on the CTDL standard, grouping related skills into career-relevant competency domains."
+  },
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:inLanguage": [
+    "en-US"
+  ]
+}

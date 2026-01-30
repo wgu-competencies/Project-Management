@@ -91,5 +91,8 @@
       "skillName": "Stakeholder Management",
       "id": "https://skills.emsidata.com/skills/KS440XG6F9DTD3VG7JTV"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
   ]
 }

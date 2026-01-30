@@ -58,5 +58,8 @@
       "skillName": "Financial Analysis",
       "id": "https://lightcast.io/open-skills/skills/KS123Y66DNRSJ1QGK9NW"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
   ]
 }

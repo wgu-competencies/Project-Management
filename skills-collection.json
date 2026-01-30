@@ -1,6 +1,6 @@
 {
   "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
-  "id": "https://wgu-competencies.github.io/Project-Management/collection.json",
+  "id": "https://wgu-competencies.github.io/Project-Management/skills-collection.json",
   "type": "Collection",
   "name": "Project Management Skills",
   "description": "Program Management skills as structured, versioned rich skill descriptors (RSDs).",
@@ -40,7 +40,10 @@
           "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -100,7 +103,10 @@
           "id": "https://www.netsuite.com/portal/resource/articles/accounting/financial-reporting.shtml"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -141,7 +147,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS683TD6K9QRLNY1PHN1/process-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -154,7 +163,10 @@
       "categories": [
         "Project Management"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -198,7 +210,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1281Z6YSCYDNCG1D8T/process-design"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -259,7 +274,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -329,7 +347,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1218Y74WJ6YV4KH0DM/business-process"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -413,7 +434,10 @@
           "id": "https://skills.emsidata.com/skills/KS125F678LV2KB3Z5XW0"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -486,7 +510,10 @@
           "id": "https://skills.emsidata.com/skills/KS122W26SKGLZJ2KLF5M"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -557,7 +584,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS122W26SKGLZJ2KLF5M/project-planning"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -570,7 +600,10 @@
       "categories": [
         "Project Management"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -622,7 +655,10 @@
           "id": "https://skills.emsidata.com/skills/KS120ZX7019J4V8DHBTM"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -672,7 +708,10 @@
           "id": "https://skills.emsidata.com/skills/KS122C06Z8NDM5G6NYNT"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -723,7 +762,10 @@
           "id": "https://skills.emsidata.com/skills/KS126X663B21NB77ZHSP"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -790,7 +832,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -878,7 +923,10 @@
           "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -933,7 +981,10 @@
           "id": "https://skills.emsidata.com/skills/KS122C06Z8NDM5G6NYNT"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -996,7 +1047,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1066,7 +1120,10 @@
           "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1130,7 +1187,10 @@
           "id": "https://skills.emsidata.com/skills/KS1218C6C8TX2Y1KRN37"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1143,7 +1203,10 @@
       "categories": [
         "Project Management"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1232,7 +1295,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS120GV6C72JMSZKMTD7"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1295,7 +1361,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS123Y66DNRSJ1QGK9NW"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1367,7 +1436,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1426,7 +1498,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1484,7 +1559,10 @@
           "id": "https://skills.emsidata.com/skills/KS4418P67WQQGGD3YBY5"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1531,7 +1609,10 @@
           "id": "https://skills.emsidata.com/skills/KS122626T550SLQ7QZ1C"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/procurement-contract-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1603,7 +1684,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1227D60Q7225FTK55V/information-systems"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1657,7 +1741,10 @@
           "id": "https://skills.emsidata.com/skills/KS1289C6QS0TSSB4PNGG"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1676,7 +1763,10 @@
           "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1765,7 +1855,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS122556LMQ829GZCCRV/communication"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1861,7 +1954,10 @@
           "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1887,7 +1983,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS124JB619VXG6RQ810C/leadership"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -1958,7 +2057,10 @@
           "id": "https://skills.emsidata.com/skills/KS1218W78FGVPVP2KXPX"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2024,7 +2126,10 @@
           "id": "https://skills.emsidata.com/skills/KS122W26SKGLZJ2KLF5M"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2037,7 +2142,10 @@
       "categories": [
         "Project Management"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2106,7 +2214,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2155,7 +2266,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2235,7 +2349,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS122556LMQ829GZCCRV/communication"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2314,7 +2431,10 @@
           "id": "https://skills.emsidata.com/skills/KS4403G6XNX5KJSD906W"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2375,7 +2495,10 @@
           "id": "https://skills.emsidata.com/skills/ES70CD6E89F6DAD8F319"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2428,7 +2551,10 @@
           "id": "https://lightcast.io/open-skills/skills/ES84406857CBEEFACE95/business-operations"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2497,7 +2623,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2544,7 +2673,10 @@
           "id": "https://skills.emsidata.com/skills/KS122626T550SLQ7QZ1C"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/procurement-contract-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2636,7 +2768,10 @@
           "id": "https://skills.emsidata.com/skills/KS125F678LV2KB3Z5XW0"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2685,7 +2820,10 @@
           "id": "https://skills.emsidata.com/skills/KS4402T6094D6F35MTXR"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/procurement-contract-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2746,7 +2884,10 @@
           "id": "https://skills.emsidata.com/skills/KS440XG6F9DTD3VG7JTV"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2812,7 +2953,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2825,7 +2969,10 @@
       "categories": [
         "Project Management"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2884,7 +3031,10 @@
           "id": "https://skills.emsidata.com/skills/KS1226L6XYT1N27WRYJM"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2945,7 +3095,10 @@
           "framework": "Lightcast Open Skills Library"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -2967,7 +3120,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS7AASDV6UOE7VFBGF4D/collaboration"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3016,7 +3172,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3029,7 +3188,10 @@
       "categories": [
         "Project Management"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3073,7 +3235,10 @@
           "id": "https://skills.emsidata.com/skills/KS1283V6XDFZSK6YP0HF"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3147,7 +3312,10 @@
           "id": "https://skills.emsidata.com/skills/KS121T569X502KJPS0F3"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3186,7 +3354,10 @@
           "id": "https://skills.emsidata.com/skills/KS1218C6C8TX2Y1KRN37"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3281,7 +3452,10 @@
           "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3319,7 +3493,10 @@
           "id": "https://skills.emsidata.com/skills/KS1219863VWXPRZL5LG2"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3390,7 +3567,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3484,7 +3664,10 @@
           "id": "https://skills.emsidata.com/skills/KS125F678LV2KB3Z5XW0"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3533,7 +3716,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1228S6YKWXMH4M4DL7/conflict-resolution"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3586,7 +3772,10 @@
           "id": "https://skills.emsidata.com/skills/ESB812BB8B0FCA695F64"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3637,7 +3826,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3688,7 +3880,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3701,7 +3896,10 @@
       "categories": [
         "Project Management"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3787,7 +3985,10 @@
           "id": "https://skills.emsidata.com/skills/KS123HL75PX38KTJXYKJ"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3847,7 +4048,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3890,7 +4094,10 @@
           "id": "https://skills.emsidata.com/skills/KS124JB619VXG6RQ810C"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -3954,7 +4161,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS4403G6XNX5KJSD906W/risk-analysis"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4018,7 +4228,10 @@
           "id": "https://skills.emsidata.com/skills/KS4418462TTGKL3CWJHT"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4098,7 +4311,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4164,7 +4380,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4370,7 +4589,10 @@
           "id": "https://skills.emsidata.com/skills/KS126X663B21NB77ZHSP"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4435,7 +4657,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1218Y74WJ6YV4KH0DM/business-process"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4462,7 +4687,10 @@
           "id": "https://skills.lightcast.io/skills/ES4E81D4E042F468C897"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4540,7 +4768,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4590,7 +4821,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4666,7 +4900,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4713,7 +4950,10 @@
           "id": "https://skills.emsidata.com/skills/KS441846K903WT1RYDKJ"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4726,7 +4966,10 @@
       "categories": [
         "Project Management"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4745,7 +4988,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1222C6WKYWRKRXQCR0/version-control"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4811,7 +5057,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4857,7 +5106,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS122F96DJHT3ZXB8FCZ/training-and-development"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4904,7 +5156,10 @@
           "id": "https://skills.emsidata.com/skills/KS4402T6094D6F35MTXR"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/procurement-contract-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -4953,7 +5208,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5018,7 +5276,10 @@
           "id": "https://skills.emsidata.com/skills/KSKJX44T33B6D4UCC8CB"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5083,7 +5344,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS125ZB6BWF5RY40BH1B/risk-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5151,7 +5415,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5203,7 +5470,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5261,7 +5531,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5360,7 +5633,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5423,7 +5699,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5476,7 +5755,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS121996C1P31W0YZVNF/strategic-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5572,7 +5854,10 @@
           "id": "https://skills.emsidata.com/skills/KS440XG6F9DTD3VG7JTV"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5670,7 +5955,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5750,7 +6038,10 @@
           "id": "https://skills.emsidata.com/skills/KS44175745H9Q0DPBDNT"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5763,7 +6054,10 @@
       "categories": [
         "Organizational Leadership"
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5787,7 +6081,10 @@
           "id": "https://skills.emsidata.com/skills/ESF14A354DDD69B5FBD4"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5868,7 +6165,10 @@
           "id": "https://lightcast.io/open-skills/skills/KS1267F6MSPN366LX7ST/project-management"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     },
     {
       "@context": "https://rsd.openskillsnetwork.org/context-v1.json",
@@ -5916,7 +6216,10 @@
           "id": "https://skills.emsidata.com/skills/KS1267F6MSPN366LX7ST"
         }
       ],
-      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/collection.json"
+      "isPartOf": [
+        "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
+      ],
+      "isMemberOf": "https://wgu-competencies.github.io/Project-Management/skills-collection.json"
     }
   ]
 }

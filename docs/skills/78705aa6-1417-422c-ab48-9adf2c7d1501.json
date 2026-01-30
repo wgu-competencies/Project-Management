@@ -17,5 +17,8 @@
       "skillName": "Collaboration",
       "id": "https://lightcast.io/open-skills/skills/KS7AASDV6UOE7VFBGF4D/collaboration"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
   ]
 }

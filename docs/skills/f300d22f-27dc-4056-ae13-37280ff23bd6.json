@@ -75,5 +75,8 @@
       "skillName": "Time Management",
       "id": "https://skills.emsidata.com/skills/KS44175745H9Q0DPBDNT"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

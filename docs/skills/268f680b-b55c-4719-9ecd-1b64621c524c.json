@@ -84,5 +84,8 @@
       "skillName": "Data Analysis",
       "id": "https://lightcast.io/open-skills/skills/KS120GV6C72JMSZKMTD7"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
   ]
 }

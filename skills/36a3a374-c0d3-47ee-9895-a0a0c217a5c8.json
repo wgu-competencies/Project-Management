@@ -67,5 +67,8 @@
       "skillName": "Information Systems",
       "id": "https://lightcast.io/open-skills/skills/KS1227D60Q7225FTK55V/information-systems"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency"
   ]
 }

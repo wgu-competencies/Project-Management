@@ -48,5 +48,8 @@
       "skillName": "Strategic Management",
       "id": "https://lightcast.io/open-skills/skills/KS121996C1P31W0YZVNF/strategic-management"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
   ]
 }

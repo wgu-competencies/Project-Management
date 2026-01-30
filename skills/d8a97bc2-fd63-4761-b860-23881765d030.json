@@ -60,5 +60,8 @@
       "skillName": "Teamwork",
       "id": "https://skills.emsidata.com/skills/KSKJX44T33B6D4UCC8CB"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/team-leadership-development"
   ]
 }

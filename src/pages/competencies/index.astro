@@ -1,0 +1,281 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+
+// During build, use relative path from project root
+// This works because npm scripts run from project root
+const collectionPath = path.join(process.cwd(), 'competencies-collection.json');
+const collectionData = JSON.parse(fs.readFileSync(collectionPath, 'utf-8'));
+
+// Sort competencies alphabetically by name
+const sortedCompetencies = [...collectionData.competencies].sort((a, b) => {
+  const aName = a['ceterms:name']?.['en-US'] || '';
+  const bName = b['ceterms:name']?.['en-US'] || '';
+  return aName.localeCompare(bName);
+});
+
+// Group competencies by first letter
+const groupedCompetencies = sortedCompetencies.reduce((acc, competency) => {
+  const name = competency['ceterms:name']?.['en-US'] || '';
+  const firstLetter = name[0]?.toUpperCase() || 'Z';
+  if (!acc[firstLetter]) {
+    acc[firstLetter] = [];
+  }
+  acc[firstLetter].push(competency);
+  return acc;
+}, {} as Record<string, typeof sortedCompetencies>);
+
+const letters = Object.keys(groupedCompetencies).sort();
+
+// Get all unique categories with competency counts
+const categoriesMap = new Map();
+collectionData.competencies.forEach((competency) => {
+  const category = competency['ceterms:competencyCategory']?.['en-US'];
+  if (category) {
+    categoriesMap.set(category, (categoriesMap.get(category) || 0) + 1);
+  }
+});
+
+const categories = Array.from(categoriesMap.entries())
+  .sort((a, b) => b[1] - a[1]) // Sort by count descending
+  .map(([name, count]) => ({ name, count }));
+---
+
+<StarlightPage
+  frontmatter={{
+    title: collectionData['ceterms:name']?.['en-US'] || 'Project Management Competencies',
+    description: collectionData['ceterms:description']?.['en-US'] || 'Program Management competencies',
+    tableOfContents: false,
+  }}
+>
+  <div class="collection-page">
+    <div class="collection-header">
+      <div class="collection-info">
+        <p class="description">{collectionData['ceterms:description']?.['en-US']}</p>
+        <p class="author">Author: {collectionData['ceterms:publisherName']?.['en-US']}</p>
+        <p class="competency-count">{sortedCompetencies.length} Competencies</p>
+      </div>
+      
+      <div class="collection-actions">
+        <a href="/Project-Management/skills-collection.json" download class="action-button">
+          💾 Download Collection
+        </a>
+        <button onclick={`navigator.clipboard.writeText(window.location.href)`} class="action-button">
+          📋 Copy URL
+        </button>
+      </div>
+    </div>
+
+    <div class="alphabet-nav">
+      {letters.map((letter) => (
+        <a href={`#letter-${letter}`} class="letter-link">{letter}</a>
+      ))}
+    </div>
+
+    <div class="competencies-list">
+      {letters.map((letter) => (
+        <div class="letter-group" id={`letter-${letter}`}>
+          <h2 class="letter-heading">{letter}</h2>
+          <ul class="competency-items">
+            {groupedCompetencies[letter].map((competency) => {
+              const ctid = competency['ceterms:ctid'];
+              const name = competency['ceterms:name']?.['en-US'];
+              const description = competency['ceterms:description']?.['en-US'];
+              const category = competency['ceterms:competencyCategory']?.['en-US'];
+              return (
+              <li class="competency-item">
+                <a href={`/Project-Management/competencies/${ctid}`}>
+                  <div class="competency-name">{name}</div>
+                  <div class="competency-statement">{description}</div>
+                  {category && (
+                    <div class="competency-categories">
+                      {category}
+                    </div>
+                  )}
+                </a>
+              </li>
+            )})}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  <style>
+    .collection-page {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .collection-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+      border-bottom: 2px solid #eee;
+    }
+
+    .collection-info {
+      flex: 1;
+    }
+
+    .collection-info h1 {
+      margin: 0 0 1rem 0;
+      font-size: 2rem;
+    }
+
+    .description {
+      color: #666;
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+
+    .author {
+      color: #666;
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+
+    .competency-count {
+      font-weight: 600;
+      color: #0066cc;
+      margin-top: 1rem;
+    }
+
+    .collection-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .action-button {
+      padding: 0.75rem 1.5rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      font-size: 0.9rem;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .action-button:hover {
+      background: #f5f5f5;
+    }
+
+    .alphabet-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin: 2rem 0;
+      padding: 1rem;
+      background: #f9f9f9;
+      border-radius: 8px;
+    }
+
+    .letter-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 4px;
+      background: white;
+      border: 1px solid #ddd;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .letter-link:hover {
+      background: #0066cc;
+      color: white;
+      border-color: #0066cc;
+    }
+
+    .competencies-list {
+      margin-top: 2rem;
+    }
+
+    .letter-group {
+      margin-bottom: 3rem;
+    }
+
+    .letter-heading {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #0066cc;
+    }
+
+    .competency-items {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .competency-item {
+      border-bottom: 1px solid #eee;
+    }
+
+    .competency-item:last-child {
+      border-bottom: none;
+    }
+
+    .competency-item a {
+      display: block;
+      padding: 1.25rem 0;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.2s;
+    }
+
+    .competency-item a:hover {
+      background: #f9f9f9;
+      padding-left: 1rem;
+      margin-left: -1rem;
+      margin-right: -1rem;
+      padding-right: 1rem;
+    }
+
+    .competency-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin-bottom: 0.5rem;
+    }
+
+    .competency-statement {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 0.5rem;
+    }
+
+    .competency-categories {
+      font-size: 0.85rem;
+      color: #999;
+    }
+
+    @media (max-width: 768px) {
+      .collection-header {
+        flex-direction: column;
+      }
+
+      .collection-actions {
+        width: 100%;
+      }
+
+      .alphabet-nav {
+        justify-content: center;
+      }
+    }
+  </style>
+</StarlightPage>

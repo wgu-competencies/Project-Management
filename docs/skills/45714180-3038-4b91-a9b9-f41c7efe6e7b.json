@@ -91,5 +91,8 @@
       "skillName": "Project Scoping",
       "id": "https://lightcast.io/open-skills/skills/ES832D5A4A82C0C5C93D/project-scoping"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

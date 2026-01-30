@@ -1,0 +1,106 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Competency",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management",
+  "ceterms:ctid": "ce-project-lifecycle-management",
+  "ceterms:name": {
+    "en-US": "Project Lifecycle Management"
+  },
+  "ceterms:description": {
+    "en-US": "Plan, execute, monitor, and close projects effectively throughout the entire project lifecycle, applying appropriate methodologies and tools to deliver projects on time, within scope, and budget."
+  },
+  "ceterms:competencyText": {
+    "en-US": "Plan, execute, monitor, and close projects effectively throughout the entire project lifecycle, applying appropriate methodologies and tools to deliver projects on time, within scope, and budget."
+  },
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:competencyCategory": {
+    "en-US": "Project Management"
+  },
+  "ceterms:keywords": {
+    "en-US": [
+      "project management",
+      "lifecycle",
+      "planning",
+      "scoping",
+      "execution",
+      "monitoring",
+      "closure",
+      "agile",
+      "waterfall"
+    ]
+  },
+  "ceterms:occupationType": {
+    "majorGroups": [
+      "11-0000",
+      "13-0000"
+    ],
+    "minorGroups": [
+      "11-9000",
+      "13-1000"
+    ],
+    "broadOccupations": [
+      "11-9199",
+      "13-1110"
+    ]
+  },
+  "ceterms:hasPart": [
+    "https://wgu-competencies.github.io/Project-Management/skills/08631954-b17b-4674-ab3a-a5a8a5aa2c96",
+    "https://wgu-competencies.github.io/Project-Management/skills/0a553cc4-86f0-429e-87b4-0ed9c1329f9a",
+    "https://wgu-competencies.github.io/Project-Management/skills/10f0db51-a9ac-4fe0-9ea9-ff5a4bece975",
+    "https://wgu-competencies.github.io/Project-Management/skills/180d00cb-abed-4b7f-95cf-8c2564b0ee2e",
+    "https://wgu-competencies.github.io/Project-Management/skills/21c24f59-7465-4feb-80de-3e9ea9f134fb",
+    "https://wgu-competencies.github.io/Project-Management/skills/268aedaf-3c04-4d54-b83e-c8372e18c4cf",
+    "https://wgu-competencies.github.io/Project-Management/skills/2b754cc5-c2b8-4e68-9cfb-76a5356b2dee",
+    "https://wgu-competencies.github.io/Project-Management/skills/2c791df2-fb85-4f86-99c6-eb4e5683f53a",
+    "https://wgu-competencies.github.io/Project-Management/skills/524f6163-ef6e-41d8-9cfb-1903f21a33f5",
+    "https://wgu-competencies.github.io/Project-Management/skills/53d70073-7e4a-441d-9744-f77cc9285bb0",
+    "https://wgu-competencies.github.io/Project-Management/skills/56000744-29ad-44bc-bed3-605fb1bdd6ab",
+    "https://wgu-competencies.github.io/Project-Management/skills/68e668d5-f820-4d08-aa93-66b2a6f2e39c",
+    "https://wgu-competencies.github.io/Project-Management/skills/6f9f9b98-74a2-4999-a866-4a20afb65263",
+    "https://wgu-competencies.github.io/Project-Management/skills/7428b5f2-6dff-4bca-a234-24d0603d4133",
+    "https://wgu-competencies.github.io/Project-Management/skills/7aa8eede-8dd8-44a0-a9ba-0ee6608fbb13",
+    "https://wgu-competencies.github.io/Project-Management/skills/810cb6b4-8922-4709-a835-b799373627e0",
+    "https://wgu-competencies.github.io/Project-Management/skills/92d679dc-4e3a-48ef-b75f-f986ec3d0cb5",
+    "https://wgu-competencies.github.io/Project-Management/skills/a3955033-cb30-407e-8659-0f39f15570ad",
+    "https://wgu-competencies.github.io/Project-Management/skills/a622d59c-55d7-4371-b0d5-79c33ba2b2b7",
+    "https://wgu-competencies.github.io/Project-Management/skills/a6fc89e2-268e-4784-944a-710c4d841a78",
+    "https://wgu-competencies.github.io/Project-Management/skills/aa242493-6d0a-46ee-8dae-79de884fff96",
+    "https://wgu-competencies.github.io/Project-Management/skills/b6e55f75-db06-4cc4-8cba-bd2acc6ae20f",
+    "https://wgu-competencies.github.io/Project-Management/skills/b79e5aa5-13c9-494b-8f3e-7969b1a0507d",
+    "https://wgu-competencies.github.io/Project-Management/skills/c0c49bd1-f218-4739-8e51-fa7facad3a3e",
+    "https://wgu-competencies.github.io/Project-Management/skills/c6f3b02c-7fe1-495f-b6e7-d6815705f61a",
+    "https://wgu-competencies.github.io/Project-Management/skills/cbe3f3bf-9648-4f78-8c1e-207b93fd02ad",
+    "https://wgu-competencies.github.io/Project-Management/skills/d4e13982-2d63-452e-b610-22bdaf8c2eae",
+    "https://wgu-competencies.github.io/Project-Management/skills/d6948e12-9c8a-4d4d-9dcf-eb0d537ecf19",
+    "https://wgu-competencies.github.io/Project-Management/skills/d84f1570-0284-40c8-9b00-1e0be68def79",
+    "https://wgu-competencies.github.io/Project-Management/skills/db8a9adb-cea8-47de-ad77-077de60b01ec",
+    "https://wgu-competencies.github.io/Project-Management/skills/de059be2-b242-43be-828e-4633b72b2c7a",
+    "https://wgu-competencies.github.io/Project-Management/skills/e08761f6-9c02-4e0a-bbf7-f5e16fc22536",
+    "https://wgu-competencies.github.io/Project-Management/skills/e15d05fd-da88-4e1a-96ab-30e39e536e9f",
+    "https://wgu-competencies.github.io/Project-Management/skills/e4a912a4-b2a4-4f4e-a56f-697f03cd995b",
+    "https://wgu-competencies.github.io/Project-Management/skills/f1bde5be-79d0-45fe-9d83-de3a28e4fa9b",
+    "https://wgu-competencies.github.io/Project-Management/skills/fb542350-60c0-4094-917a-1757a9547ffd",
+    "https://wgu-competencies.github.io/Project-Management/skills/fbc16d2b-c571-457a-87f0-0d01c6241687",
+    "https://wgu-competencies.github.io/Project-Management/skills/0f894630-ba66-4eea-851f-e469fb301ae0",
+    "https://wgu-competencies.github.io/Project-Management/skills/0ff6a3d3-8a79-4dc1-8adf-8d63fa642cf7",
+    "https://wgu-competencies.github.io/Project-Management/skills/4b700f63-d0c4-494c-877f-1aed99926ecf",
+    "https://wgu-competencies.github.io/Project-Management/skills/41c23081-d9a2-4e65-b697-51fc71062c35",
+    "https://wgu-competencies.github.io/Project-Management/skills/45714180-3038-4b91-a9b9-f41c7efe6e7b",
+    "https://wgu-competencies.github.io/Project-Management/skills/8e403954-3f07-44b9-abbf-a615456e80e4",
+    "https://wgu-competencies.github.io/Project-Management/skills/f300d22f-27dc-4056-ae13-37280ff23bd6",
+    "https://wgu-competencies.github.io/Project-Management/skills/86799868-f3a5-4e16-af3c-d868ebbf026a"
+  ],
+  "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+}

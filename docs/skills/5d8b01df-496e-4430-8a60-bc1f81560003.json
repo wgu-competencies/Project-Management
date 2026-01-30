@@ -56,5 +56,8 @@
       "skillName": "Relationship Management",
       "id": "https://skills.emsidata.com/skills/ES70CD6E89F6DAD8F319"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
   ]
 }

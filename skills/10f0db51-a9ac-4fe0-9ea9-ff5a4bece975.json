@@ -8,5 +8,8 @@
   "skillStatement": "Analyze project outcomes to determine their impact on the organization and necessary actions for improvement.",
   "categories": [
     "Project Management"
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/project-lifecycle-management"
   ]
 }

@@ -47,5 +47,8 @@
       "skillName": "Business Intelligence",
       "id": "https://skills.emsidata.com/skills/KS120ZX7019J4V8DHBTM"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
   ]
 }

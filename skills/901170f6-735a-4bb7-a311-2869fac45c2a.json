@@ -33,5 +33,8 @@
       "skillName": "Business Requirements",
       "id": "https://skills.emsidata.com/skills/KS1219863VWXPRZL5LG2"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/business-analysis-strategic-decisions"
   ]
 }

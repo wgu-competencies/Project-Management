@@ -56,5 +56,8 @@
       "id": "https://lightcast.io/open-skills/skills/ES84406857CBEEFACE95/business-operations",
       "framework": "Lightcast Open Skills Library"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
   ]
 }

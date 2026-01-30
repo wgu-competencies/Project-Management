@@ -75,5 +75,8 @@
       "skillName": "Communication",
       "id": "https://lightcast.io/open-skills/skills/KS122556LMQ829GZCCRV/communication"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/stakeholder-communication-engagement"
   ]
 }

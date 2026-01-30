@@ -1,0 +1,60 @@
+{
+  "@context": [
+    "https://purl.org/ctdl/terms/",
+    "https://rsd.openskillsnetwork.org/context-v1.json"
+  ],
+  "@type": "ceterms:Competency",
+  "@id": "https://wgu-competencies.github.io/Project-Management/competencies/problem-solving-technical-proficiency",
+  "ceterms:ctid": "ce-problem-solving-technical-proficiency",
+  "ceterms:name": {
+    "en-US": "Problem Solving & Technical Proficiency"
+  },
+  "ceterms:description": {
+    "en-US": "Apply systematic problem-solving approaches and technical skills to identify, analyze, and resolve complex issues using appropriate tools and methodologies."
+  },
+  "ceterms:competencyText": {
+    "en-US": "Apply systematic problem-solving approaches and technical skills to identify, analyze, and resolve complex issues using appropriate tools and methodologies."
+  },
+  "ceterms:inLanguage": [
+    "en-US"
+  ],
+  "ceterms:creator": [
+    "https://www.wgu.edu/"
+  ],
+  "ceterms:publisherName": {
+    "en-US": "Western Governors University"
+  },
+  "ceterms:dateCreated": "2025-01-30",
+  "ceterms:competencyCategory": {
+    "en-US": "Project Management"
+  },
+  "ceterms:keywords": {
+    "en-US": [
+      "problem solving",
+      "technical skills",
+      "critical thinking",
+      "information systems",
+      "version control",
+      "technical training"
+    ]
+  },
+  "ceterms:occupationType": {
+    "majorGroups": [
+      "13-0000",
+      "15-0000"
+    ],
+    "minorGroups": [
+      "13-1000",
+      "15-1200"
+    ]
+  },
+  "ceterms:hasPart": [
+    "https://wgu-competencies.github.io/Project-Management/skills/0f479ce9-7fe9-400c-b07d-4245792d6264",
+    "https://wgu-competencies.github.io/Project-Management/skills/6d395187-b0dc-4f53-83aa-40da4cfe33b7",
+    "https://wgu-competencies.github.io/Project-Management/skills/972c162b-6e6d-496c-9490-71e3a946585f",
+    "https://wgu-competencies.github.io/Project-Management/skills/2f27b9e4-40f3-4a14-9b71-24af98fe6b26",
+    "https://wgu-competencies.github.io/Project-Management/skills/36a3a374-c0d3-47ee-9895-a0a0c217a5c8",
+    "https://wgu-competencies.github.io/Project-Management/skills/d4e707dd-8ae0-495c-8f0e-c7506aaefced"
+  ],
+  "isMemberOf": "https://wgu-competencies.github.io/Project-Management/competencies-collection.json"
+}

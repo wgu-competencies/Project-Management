@@ -65,5 +65,8 @@
       "skillName": "Business Process",
       "id": "https://lightcast.io/open-skills/skills/KS1218Y74WJ6YV4KH0DM/business-process"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/process-operations-excellence"
   ]
 }

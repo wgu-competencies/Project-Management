@@ -74,5 +74,8 @@
       "skillName": "Risk Analysis",
       "id": "https://skills.emsidata.com/skills/KS4403G6XNX5KJSD906W"
     }
+  ],
+  "isPartOf": [
+    "https://wgu-competencies.github.io/Project-Management/competencies/risk-compliance-management"
   ]
 }

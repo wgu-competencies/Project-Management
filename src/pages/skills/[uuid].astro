@@ -1,0 +1,305 @@
+---
+import { getCollection } from 'astro:content';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+export async function getStaticPaths() {
+  const __dirname = path.dirname(fileURLToPath(import.meta.url));
+  const collectionPath = path.resolve(__dirname, '../../../skills-collection.json');
+  const collectionData = JSON.parse(fs.readFileSync(collectionPath, 'utf-8'));
+  
+  return collectionData.skills.map((skill) => ({
+    params: { uuid: skill.uuid },
+    props: { skill },
+  }));
+}
+
+const { skill } = Astro.props;
+
+// Helper function to create a slug from the skill name
+function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+---
+
+<StarlightPage
+  frontmatter={{
+    title: skill.name,
+    description: skill.skillStatement,
+    tableOfContents: false,
+  }}
+>
+  <div class="skill-page">
+    <div class="skill-header">
+      <span class="skill-badge">RICH SKILL DESCRIPTOR</span>
+
+    <span class="skill-badge">BY {skill.author?.toUpperCase()}</span>
+      {skill.certifications && skill.certifications.length > 0 && (
+        <div class="certification-badge">
+          <span class="icon">✓</span> Certified
+        </div>
+      )}
+    </div>
+
+    <section class="skill-section">
+      <h2>SKILL STATEMENT</h2>
+      <p>{skill.skillStatement}</p>
+    </section>
+
+    {skill.categories && skill.categories.length > 0 && (
+      <section class="skill-section">
+        <h2>CATEGORIES</h2>
+        <ul class="tag-list">
+          {skill.categories.map((cat) => (
+            <li>
+              <a href={`/Project-Management/skills/categories/${cat}`}>
+                {cat}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {skill.keywords && skill.keywords.length > 0 && (
+      <section class="skill-section">
+        <h2>KEYWORDS</h2>
+        <p>{skill.keywords.join(', ')}</p>
+      </section>
+    )}
+
+    {skill.occupations && (
+      <section class="skill-section">
+        <h2>OCCUPATIONS</h2>
+        
+        {skill.occupations.detailedOccupations && skill.occupations.detailedOccupations.length > 0 && (
+          <div class="occupation-group">
+            <h3>DETAILED OCCUPATIONS</h3>
+            <ul>
+              {skill.occupations.detailedOccupations.map((occ) => (
+                <li><strong>{occ.code}</strong> {occ.name}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {skill.occupations.onetJobRoles && skill.occupations.onetJobRoles.length > 0 && (
+          <div class="occupation-group">
+            <h3>O*NET JOB ROLES</h3>
+            <ul>
+              {skill.occupations.onetJobRoles.map((role) => (
+                <li><strong>{role.code}</strong> {role.name}</li>
+              ))}
+            </ul>
+            {skill.occupations.onetJobRoles.length > 5 && (
+              <a href="#" class="view-all">View All Groups</a>
+            )}
+          </div>
+        )}
+      </section>
+    )}
+
+    {skill.alignments && skill.alignments.length > 0 && (
+      <section class="skill-section">
+        <h2>ALIGNMENTS</h2>
+        <ul class="alignment-list">
+          {skill.alignments.map((alignment) => (
+            <li>
+              <a href={alignment.id} target="_blank" rel="noopener noreferrer">
+                {alignment.skillName}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {skill.certifications && skill.certifications.length > 0 && (
+      <section class="skill-section">
+        <h2>CERTIFICATIONS WITH THIS RSD</h2>
+        <ul class="certification-list">
+          {skill.certifications.map((cert) => (
+            <li>
+              <a href={cert.id} target="_blank" rel="noopener noreferrer">
+                {cert.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {skill.standards && skill.standards.length > 0 && (
+      <section class="skill-section">
+        <h2>STANDARDS</h2>
+        <ul class="tag-list">
+          {skill.standards.map((std) => <li>{std}</li>)}
+        </ul>
+      </section>
+    )}
+  </div>
+</StarlightPage>
+
+  <style>
+    .skill-page {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .skill-header {
+      margin-bottom: 2rem;
+    }
+
+    .skill-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #666;
+      background: #f0f0f0;
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+
+    .skill-header h1 {
+      margin: 0.5rem 0;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    .author {
+      color: #666;
+      margin: 0.5rem 0;
+    }
+
+    .certification-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #e8f5e9;
+      color: #2e7d32;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+
+    .certification-badge .icon {
+      font-size: 1.2rem;
+    }
+
+    .skill-section {
+      margin: 2rem 0;
+      padding: 1.5rem 0;
+      border-top: 1px solid #eee;
+    }
+
+    .skill-section h2 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #666;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+    }
+
+    .skill-section h3 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #666;
+      letter-spacing: 0.05em;
+      margin: 1rem 0 0.5rem 0;
+    }
+
+    .tag-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag-list li {
+      background: var(--sl-color-gray-6);
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    .tag-list li a {
+      color: var(--sl-color-accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .tag-list li:hover {
+      background: var(--sl-color-gray-5);
+    }
+
+    .tag-list li a:hover {
+      text-decoration: underline;
+    }
+
+    .occupation-group {
+      margin: 1.5rem 0;
+    }
+
+    .occupation-group ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .occupation-group li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .occupation-group li:last-child {
+      border-bottom: none;
+    }
+
+    .view-all {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #0066cc;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .view-all:hover {
+      text-decoration: underline;
+    }
+
+    .alignment-list,
+    .certification-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .alignment-list li,
+    .certification-list li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .alignment-list li:last-child,
+    .certification-list li:last-child {
+      border-bottom: none;
+    }
+
+    .alignment-list a,
+    .certification-list a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .alignment-list a:hover,
+    .certification-list a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</StarlightPage>

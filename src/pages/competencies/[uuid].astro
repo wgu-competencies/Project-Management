@@ -1,0 +1,297 @@
+---
+import { getCollection } from 'astro:content';
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+export async function getStaticPaths() {
+  const __dirname = path.dirname(fileURLToPath(import.meta.url));
+  const collectionPath = path.resolve(__dirname, '../../../competencies-collection.json');
+  const collectionData = JSON.parse(fs.readFileSync(collectionPath, 'utf-8'));
+  
+  // Load skills collection for skill name lookup
+  const skillsCollectionPath = path.resolve(__dirname, '../../../skills-collection.json');
+  const skillsData = JSON.parse(fs.readFileSync(skillsCollectionPath, 'utf-8'));
+  
+  // Create a map of UUID to skill name
+  const skillMap = new Map();
+  skillsData.skills.forEach((skill) => {
+    skillMap.set(skill.uuid, skill.name);
+  });
+  
+  return collectionData.competencies.map((competency) => ({
+    params: { uuid: competency['ceterms:ctid'] },
+    props: { competency, skillMap },
+  }));
+}
+
+const { competency, skillMap } = Astro.props;
+
+// Helper function to create a slug from the competency name
+function slugify(text: string) {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+---
+
+<StarlightPage
+  frontmatter={{
+    title: competency['ceterms:name']?.['en-US'] || 'Competency',
+    description: competency['ceterms:description']?.['en-US'] || '',
+    tableOfContents: false,
+  }}
+>
+  <div class="competency-page">
+    <div class="competency-header">
+      <span class="competency-badge">CTDL COMPETENCY</span>
+
+    <span class="competency-badge">BY {competency['ceterms:publisherName']?.['en-US']?.toUpperCase()}</span>
+    </div>
+
+    <section class="competency-section">
+      <h2>COMPETENCY STATEMENT</h2>
+      <p>{competency['ceterms:competencyText']?.['en-US']}</p>
+    </section>
+
+    {competency['ceterms:competencyCategory'] && (
+      <section class="competency-section">
+        <h2>CATEGORY</h2>
+        <ul class="tag-list">
+          <li>
+            <a href={`/Project-Management/competencies/categories/${competency['ceterms:competencyCategory']['en-US']}`}>
+              {competency['ceterms:competencyCategory']['en-US']}
+            </a>
+          </li>
+        </ul>
+      </section>
+    )}
+
+    {competency['ceterms:keywords']?.['en-US'] && competency['ceterms:keywords']['en-US'].length > 0 && (
+      <section class="competency-section">
+        <h2>KEYWORDS</h2>
+        <p>{competency['ceterms:keywords']['en-US'].join(', ')}</p>
+      </section>
+    )}
+
+    {competency['ceterms:occupationType'] && (
+      <section class="competency-section">
+        <h2>OCCUPATION TYPES</h2>
+        
+        {competency['ceterms:occupationType'].majorGroups && competency['ceterms:occupationType'].majorGroups.length > 0 && (
+          <div class="occupation-group">
+            <h3>MAJOR GROUPS</h3>
+            <ul>
+              {competency['ceterms:occupationType'].majorGroups.map((code) => (
+                <li><strong>{code}</strong></li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {competency['ceterms:occupationType'].minorGroups && competency['ceterms:occupationType'].minorGroups.length > 0 && (
+          <div class="occupation-group">
+            <h3>MINOR GROUPS</h3>
+            <ul>
+              {competency['ceterms:occupationType'].minorGroups.map((code) => (
+                <li><strong>{code}</strong></li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {competency['ceterms:occupationType'].broadOccupations && competency['ceterms:occupationType'].broadOccupations.length > 0 && (
+          <div class="occupation-group">
+            <h3>BROAD OCCUPATIONS</h3>
+            <ul>
+              {competency['ceterms:occupationType'].broadOccupations.map((code) => (
+                <li><strong>{code}</strong></li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </section>
+    )}
+
+    {competency['ceterms:hasPart'] && competency['ceterms:hasPart'].length > 0 && (
+      <section class="competency-section">
+        <h2>RELATED SKILLS</h2>
+        <p class="related-count">{competency['ceterms:hasPart'].length} skills included in this competency</p>
+        <ul class="alignment-list">
+          {competency['ceterms:hasPart'].map((skillUrl) => {
+            const uuid = skillUrl.split('/').pop();
+            const skillName = skillMap.get(uuid) || uuid;
+            return (
+            <li>
+              <a href={`/Project-Management/skills/${uuid}`}>
+                {skillName}
+              </a>
+            </li>
+          )})}
+        </ul>
+      </section>
+    )}
+
+  </div>
+</StarlightPage>
+
+  <style>
+    .competency-page {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .competency-header {
+      margin-bottom: 2rem;
+    }
+
+    .competency-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #666;
+      background: #f0f0f0;
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+
+    .competency-header h1 {
+      margin: 0.5rem 0;
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    .author {
+      color: #666;
+      margin: 0.5rem 0;
+    }
+
+    .certification-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #e8f5e9;
+      color: #2e7d32;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+
+    .certification-badge .icon {
+      font-size: 1.2rem;
+    }
+
+    .competency-section {
+      margin: 2rem 0;
+      padding: 1.5rem 0;
+      border-top: 1px solid #eee;
+    }
+
+    .competency-section h2 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #666;
+      letter-spacing: 0.05em;
+      margin-bottom: 1rem;
+    }
+
+    .competency-section h3 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #666;
+      letter-spacing: 0.05em;
+      margin: 1rem 0 0.5rem 0;
+    }
+
+    .tag-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag-list li {
+      background: var(--sl-color-gray-6);
+      padding: 0.25rem 0.75rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    .tag-list li a {
+      color: var(--sl-color-accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .tag-list li:hover {
+      background: var(--sl-color-gray-5);
+    }
+
+    .tag-list li a:hover {
+      text-decoration: underline;
+    }
+
+    .occupation-group {
+      margin: 1.5rem 0;
+    }
+
+    .occupation-group ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .occupation-group li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .occupation-group li:last-child {
+      border-bottom: none;
+    }
+
+    .view-all {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #0066cc;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .view-all:hover {
+      text-decoration: underline;
+    }
+
+    .alignment-list,
+    .certification-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .alignment-list li,
+    .certification-list li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .alignment-list li:last-child,
+    .certification-list li:last-child {
+      border-bottom: none;
+    }
+
+    .alignment-list a,
+    .certification-list a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .alignment-list a:hover,
+    .certification-list a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</StarlightPage>
